@@ -1,6 +1,1 @@
-ALL 3 just basically capital allocation
-CAPITAL INVESTMENT
-
-CAPITAL FINANCING
-
-CAPITAL RETURN
+waddaw
