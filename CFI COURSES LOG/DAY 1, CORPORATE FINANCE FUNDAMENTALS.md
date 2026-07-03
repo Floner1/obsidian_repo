@@ -20,4 +20,11 @@ Corporate finance goal: maximize values of businesses through planning and imple
 - Follow on offer: issue more shares to public
 - private placement: issue shares only to select group of shareholders
 m&a: look for other companies to invest in 
-leveraged buyout: p.e firm looking to take large majority in a company or completely 
+leveraged buyout: p.e firm looking to take large majority in a company or completely taking over company
+divestiture: put company up for sale and look for other companies who are interested in purchasing company for sale.
+
+# Capital investment:
+**Capital investment:**
+understand how best project is selected to make sure create shareholder value
+earn highest possible risk adjusted return
+
