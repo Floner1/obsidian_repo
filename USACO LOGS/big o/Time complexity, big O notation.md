@@ -16,3 +16,7 @@ CALCULATE nest loop time complexity:  multiply only when the inner loop performs
 If an algorithm contains multiple blocks, then its time complexity is the worst time complexity out of any block.
 
 a block is just a group of statements that are treated as 1
+
+if 2 or more blocks run sequentially, u take the time complexity of each and add it to find total big o
+
+if 2 or more blocks run parallel, u just take the max big O of all of the blocks that ran parallel
