@@ -1,4 +1,4 @@
-Capital investment
+**Capital investment**:
 understand how best project is selected to make sure create shareholder value
 earn highest possible risk adjusted return
 
@@ -7,7 +7,7 @@ how debt and equity mix is selected to finance invesmtent, optimize capital stru
 
 Capital returns
 ways to return capital to shareholders if no investment projects
-
+how and when to return capital to shareholders
 
 ![[learning objectives of cff.png]]
 
