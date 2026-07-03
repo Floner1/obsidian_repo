@@ -12,7 +12,7 @@ to sort desc, sort first then do reverse
 .clear() to clear all elements in collection
 .index(element in list) return index of element in list, otherwise error
 .count(element) count how many times smth is in a collection
-.pop(element) removes either 
+.pop(element) removes and returns last item in list
 
 SETS:
 .sort(sort ascending)
