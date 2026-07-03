@@ -14,3 +14,4 @@ vip_type. Included as optional, no decision made on whether you'll actually use 
 
 That's seven open items. None of them block Jul 6. All of them are either waiting on real scraped data to make the call, or waiting on the maisonoffice Stretch scope to activate.
 ![[listing table schema plan pt1.png]]
+![[listing table schema plan pt2.png]]
