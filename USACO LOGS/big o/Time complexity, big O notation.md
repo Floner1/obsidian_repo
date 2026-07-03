@@ -20,3 +20,6 @@ a block is just a group of statements that are treated as 1
 if 2 or more blocks run sequentially, u take the time complexity of each and add it to find total big o
 
 if 2 or more blocks run parallel, u just take the max big O of all of the blocks that ran parallel
+
+**CONSTANT FACTOR:**
+different operations with same complexity take different amount of ti
