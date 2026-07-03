@@ -40,3 +40,6 @@ ui-ux-pro-max-skill: design intelligence for Claude Code, color palettes, layout
 npx -y skills add nextlevelbuilder/ui-ux-pro-max-skill --agent claude-code
 
 This one's dormant until you're actually building the dashboard, install it now if you want it out of the way, or wait, either is fine since it costs nothing sitting there.
+
+https://github.com/pbakaus/impeccable\
+https://github.com/safishamsi/graphify
