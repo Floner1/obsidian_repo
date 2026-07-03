@@ -28,3 +28,9 @@ divestiture: put company up for sale and look for other companies who are intere
 understand how best project is selected to make sure create shareholder value
 earn highest possible risk adjusted return
 
+**m&a:** buying, selling or combining companies
+benefits of m&a:
+- cost savings
+- revenue enhancements
+- increase market share
+
