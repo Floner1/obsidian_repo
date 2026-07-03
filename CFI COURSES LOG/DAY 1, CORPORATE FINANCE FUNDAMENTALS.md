@@ -17,5 +17,7 @@ Corporate finance goal: maximize values of businesses through planning and imple
 # Types of transactions:
 **Company seeking forms of financing:**
 - Initial public offering: IPO, issues shares to shareholders for first time, public
-Follow on offer: issue more shares to public
-private placement: issue shares only to select group of shareholders
+- Follow on offer: issue more shares to public
+- private placement: issue shares only to select group of shareholders
+m&a: look for other companies to invest in 
+leveraged buyout: p.e firm looking to take large majority in a company or completely 
