@@ -22,4 +22,5 @@ if 2 or more blocks run sequentially, u take the time complexity of each and add
 if 2 or more blocks run parallel, u just take the max big O of all of the blocks that ran parallel
 
 **CONSTANT FACTOR:**
-different operations with same complexity take different amount of ti
+different operations with same complexity take different amounts of time to run
+usually ignored by big o, unless u receive a time limt exceeded warning
