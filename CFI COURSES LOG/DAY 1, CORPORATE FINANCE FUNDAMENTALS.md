@@ -33,4 +33,9 @@ benefits of m&a:
 - cost savings
 - revenue enhancements
 - increase market share
+- enhance financial resources
+drawbacks m&a:
+- overpay
+- large expenses with investment
+- negative reaction, depressed share price
 
