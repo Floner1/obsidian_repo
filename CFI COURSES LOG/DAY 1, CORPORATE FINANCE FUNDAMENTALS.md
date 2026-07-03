@@ -6,3 +6,4 @@ how debt and equity mix is selected to finance invesmtent, optimal capital struc
 
 Capital returns
 ways to return capital to shareholders if no investment projects
+![[Pasted image 20260703122438.png]]
