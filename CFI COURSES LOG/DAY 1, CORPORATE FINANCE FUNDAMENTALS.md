@@ -15,4 +15,7 @@ how and when to return capital to shareholders
 Corporate finance goal: maximize values of businesses through planning and implementing management resources while balancing risk and profitability
 
 # Types of transactions:
-Initial public offering: IPO, issues equity to shareholders for
+**Company seeking forms of financing:**
+- Initial public offering: IPO, issues shares to shareholders for first time, public
+Follow on offer: issue more shares to public
+private placement: issue shares only to select group of shareholders
