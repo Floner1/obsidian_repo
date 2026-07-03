@@ -6,4 +6,6 @@ how debt and equity mix is selected to finance invesmtent, optimal capital struc
 
 Capital returns
 ways to return capital to shareholders if no investment projects
-![[Pasted image 20260703122438.png]]
+![[learning objectives of cff.png]]
+
+Corporate finance goal: maximize values of businesses through planning an
