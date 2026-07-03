@@ -3,5 +3,5 @@
 O(n): n tells u how much input, O tells u how much the amount of work scales
 
 ![[big o example.png]]
-
-
+![[different n relative to big o.png]]
+# LOOPS:
