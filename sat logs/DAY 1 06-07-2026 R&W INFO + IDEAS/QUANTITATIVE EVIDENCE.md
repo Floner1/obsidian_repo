@@ -1,0 +1,2 @@
+- provide graph present info abt unfamiliar topic and give some context
+- ask to complete sentecn
