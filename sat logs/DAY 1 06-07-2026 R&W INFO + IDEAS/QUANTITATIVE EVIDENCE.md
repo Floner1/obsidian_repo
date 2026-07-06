@@ -1,2 +1,2 @@
 - provide graph present info abt unfamiliar topic and give some context
-- ask to complete sentecn
+- question ask to complete sentence using provided data
