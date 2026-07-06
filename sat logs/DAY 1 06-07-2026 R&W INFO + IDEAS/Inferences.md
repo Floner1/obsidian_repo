@@ -24,4 +24,5 @@ Main goal: identify what is missing from argument, and fill it.
 2. **Examine argument:**
 	- consider all info, then consider how they fit together
 	- Inferences = mystery, all clues provided, just need to connect dots
-	- 
+3. **Explore Choices:**
+	- Look at all available 
