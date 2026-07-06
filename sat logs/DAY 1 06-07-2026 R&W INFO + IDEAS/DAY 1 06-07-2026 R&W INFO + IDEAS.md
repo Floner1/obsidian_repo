@@ -11,7 +11,7 @@
 - need ability to evaluate whether the content of each quotation= evidence for argument in question
 
 **APPROACH:**
-- identify argument
+- 1. identify argument
 - EXAMPLE:
 - QUESTION: 
 -![[Textual evidence example q.png]]
