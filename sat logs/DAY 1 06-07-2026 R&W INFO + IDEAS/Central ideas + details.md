@@ -23,8 +23,11 @@ Answer is b
 - question contains words, phrases, or ideas that direct us to appropriate part of the text
 
 # How to attack the question:
-1. Summarize text in own words:
+1. **Summarize text in own words:**
 	- read closely, try to summarize ideas you encounter in own words
 	- should have strong idea abt info in passage after reading
-2. Determine task
-	- does it ask abt main i
+2. **Determine task:**
+	- does it ask abt main idea, or asking abt specific piece of info
+3. **Revisit text:**
+	- if question abt main idea, revisit to find overarching theme
+	- if question abt info, search passage to fi
