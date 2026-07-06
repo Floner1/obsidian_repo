@@ -26,3 +26,7 @@ Main goal: identify what is missing from argument, and fill it.
 	- Inferences = mystery, all clues provided, just need to connect dots
 3. **Explore Choices:**
 	- Look at all available choices, compare them and see which one fits best.
+
+# Top Tips:
+1. **Learn transitions:**
+	- Can help understand relationship, whether support or challenge
