@@ -16,11 +16,15 @@
 		- look at argument and choice, see if match
 
 # How to attack the question:
-1. **skim through graph**
+1. **skim through graph:**
 	- familiarize with info provided, labels, units, title, legends,etc.
-2. **Read context pragraph**:
+2. **Read context paragraph:**
 	 - sometimes text will directly direct u to what u needa look for, specific piece of info
 	 - other times, text will just be argument, need to select data to support (or challenge?) argument
 		 - potentially multiple pieces of info that u need
 		 - rephrase argument into own words, then compare against choices
-3. 
+3. **Eliminate and validate choices:**
+	- any wrong looking ones, kill
+	- correct looking ones, move onto 
+4. **Find best evidence:**
+	- 
