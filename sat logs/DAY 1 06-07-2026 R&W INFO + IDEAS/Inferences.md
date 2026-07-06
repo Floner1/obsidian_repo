@@ -17,3 +17,8 @@ Answer is: B
 Main goal: identify what is missing from argument, and fill it.
 
 # How to attack question:
+1. **Separate text into bps:**
+	- use what is in passage to answer question
+	- need good understanding of text
+	- turn passage into bps to help find main ideas
+2. 
