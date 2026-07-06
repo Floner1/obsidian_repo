@@ -5,4 +5,8 @@
 Answer is b
 
 # How to think of the question:
-- 
+- Mostly abt comprehension
+- need to read question carefully
+- identify main idea
+- **Main idea should:**
+	- focus only on 1 d
