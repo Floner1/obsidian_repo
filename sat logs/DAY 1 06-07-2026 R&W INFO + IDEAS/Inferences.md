@@ -10,4 +10,10 @@ Answer is: B
 - Arguments = 2 parts:
 	- Premises: facts that argument is based on, connected = strong evidence
 	- Conclusion: overall claim that argument tries to support
-- 
+
+**Method 2: Clues**
+- Think of points and info in text as clues
+
+Main goal: identify what is missing from argument, and fill it.
+
+# How to attack question:
