@@ -17,3 +17,5 @@
 -![[Textual evidence example q.png]]
 - ARGUMENT:
 	- the sail-like structure running down the back of the dinosaur Spinosaurus aegyptiacus improved the animal’s success in underwater pursuits of prey species capable of making quick, evasive movements
+- 2. Rephrase argument in simplest form: Sail on back = quicker underwater movement
+- 3. test choices given
