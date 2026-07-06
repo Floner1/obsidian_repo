@@ -1,0 +1,2 @@
+- Given passage from a work of literature or scholarly essay
+- asked to identify main idea of author

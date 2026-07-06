@@ -16,7 +16,7 @@
 		- look at argument and choice, see if match
 
 Example question:
-![[Pasted image 20260706122646.png]]
+![[quantitative evidence example.png]]
 
 # How to attack the question:
 1. **skim through graph:**
