@@ -9,4 +9,7 @@
 - read data accurately off the table/graph or whatever they give u
 - will always be given more data than needed, sift through to see what u actually need
 **Evaluate choices:**
-- 
+- two types of incorrect choices will be provided:
+	- incorrect completely: just not correct
+	- correct but not relevant: correct based on graph, but not correct for question we're answering
+
