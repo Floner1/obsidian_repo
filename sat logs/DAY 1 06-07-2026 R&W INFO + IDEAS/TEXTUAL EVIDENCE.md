@@ -27,3 +27,6 @@
 	- Stay focused on what is in the passage. if choice has smth not in passage, eliminate. check for slight nuances
 - **Read question!**
 	- some question might ask to challenge/undermine, not support. 
+- Process of elimination!
+	- Look at the ones that just seem out of scope for question and remove
+	- no penalty for guessing once uve 
