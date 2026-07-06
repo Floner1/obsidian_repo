@@ -32,5 +32,7 @@
 	- no penalty for guessing once uve narrowed down to atleast 2
 - **Abbreviate jargon!**
 	- any industry specific terms, basically eliminate or abbreviate them, will never be asked abt
-- Don't hang up on unfamiliar words:
-		- try to guess meaning based off texc
+- **Don't hang up on unfamiliar words:**
+	- try to guess meaning based off text, focus on big picture
+- **Ditch details!**
+	- summarize text down to bare bones, details just noise
