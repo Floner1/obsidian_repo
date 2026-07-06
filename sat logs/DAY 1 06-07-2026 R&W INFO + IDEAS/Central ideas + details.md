@@ -9,4 +9,9 @@ Answer is b
 - need to read question carefully
 - identify main idea
 - **Main idea should:**
-	- focus only on 1 d
+	- cover majority of detail discussed in text
+	- mention particular point of emphasis in text
+- Main idea should not:
+	- focus too intently on just one small detail
+	- introduce new details
+	- contradict info from text
