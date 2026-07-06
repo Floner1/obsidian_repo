@@ -2,4 +2,4 @@
 - based on provided info, complete passage using choices.
 **EXAMPLE QUESTION:**
 ![[inferences example.png]]
-Answer is: 
+Answer is: B
