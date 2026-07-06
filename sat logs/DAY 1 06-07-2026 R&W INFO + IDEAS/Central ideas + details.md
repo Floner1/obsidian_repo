@@ -26,4 +26,5 @@ Answer is b
 1. Summarize text in own words:
 	- read closely, try to summarize ideas you encounter in own words
 	- should have strong idea abt info in passage after reading
-	- 
+2. Determine task
+	- does it ask abt main i
