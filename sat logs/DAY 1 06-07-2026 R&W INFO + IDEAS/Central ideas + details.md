@@ -30,4 +30,6 @@ Answer is b
 	- does it ask abt main idea, or asking abt specific piece of info
 3. **Revisit text:**
 	- if question abt main idea, revisit to find overarching theme
-	- if question abt info, search passage to fi
+	- if question abt info, search passage to find info
+4. Predict + eliminate:
+	- just look at the answer choices and eliminate the ones that seem bs and just click the correct one based of ur reading.
