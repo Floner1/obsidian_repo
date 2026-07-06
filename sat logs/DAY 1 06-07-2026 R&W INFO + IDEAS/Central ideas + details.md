@@ -34,4 +34,9 @@ Answer is b
 4. Predict + eliminate:
 	- just look at the answer choices and eliminate the ones that seem bs and just click the correct one based of ur reading.
 
-# Top tips
+# Top tips:
+1. **Stay specific!**
+	- Stay focused on what is in the passage. if choice has smth not in passage, eliminate. check for slight nuances
+2. **Keep predictions short:**
+	- if ur key ideas are as long as text, then it not key idea. keep simplifying and compare
+3. 
