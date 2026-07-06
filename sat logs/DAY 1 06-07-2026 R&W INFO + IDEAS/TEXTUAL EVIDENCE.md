@@ -22,4 +22,6 @@
 
 # TIPS:
 - **Be strict!**
-	- If a choice almost or kind of feels like evidence, eliminate it. If you need to connect too many dots to make the evidence match the argument, then it’s probably not strong evidence
+	- If a choice almost or kind of feels like evidence, eliminate it. need connect many dots, not strong evidence. 
+- **Stay specific!**
+Don't stray beyond the focus of the passage. Eliminate choices that broaden or blur the ideas discussed in the text. And look out for small twists and turns that make a choice seem relevant when it actually expresses something unsupported by the passage.
