@@ -25,4 +25,4 @@ Main goal: identify what is missing from argument, and fill it.
 	- consider all info, then consider how they fit together
 	- Inferences = mystery, all clues provided, just need to connect dots
 3. **Explore Choices:**
-	- Look at all available 
+	- Look at all available choices, compare them and see which one fits best.
