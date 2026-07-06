@@ -17,5 +17,7 @@
 
 # How to attack the question:
 1. **skim through graph**
-	- familiarize with info provided
-2. 
+	- familiarize with info provided, labels, units, title, legends,etc.
+2. **Read context pragraph**:
+	 - sometimes text will directly direct u to what u needa look for, specific piece of info
+	 - othertimes, 
