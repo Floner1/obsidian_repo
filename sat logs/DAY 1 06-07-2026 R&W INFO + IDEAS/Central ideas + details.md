@@ -24,4 +24,6 @@ Answer is b
 
 # How to attack the question:
 1. Summarize text in own words:
-	- read closely, try to summarize ideas you encounter on your own
+	- read closely, try to summarize ideas you encounter in own words
+	- should have strong idea abt info in passage after reading
+	- 
