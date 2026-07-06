@@ -11,8 +11,7 @@
 
 # **APPROACH:**
 - 1. identify argument
-- EXAMPLE:
-- QUESTION: 
+- EXAMPLE QUESTION:
 -![[Textual evidence example q.png]]
 - ARGUMENT:
 	- the sail-like structure running down the back of the dinosaur Spinosaurus aegyptiacus improved the animal’s success in underwater pursuits of prey species capable of making quick, evasive movements

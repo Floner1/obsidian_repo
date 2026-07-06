@@ -27,4 +27,5 @@
 	- any wrong looking ones, kill
 	- correct looking ones, move onto 
 4. **Find best evidence:**
-	- 
+	- just check with the argument
+	
