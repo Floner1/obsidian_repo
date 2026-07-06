@@ -15,4 +15,7 @@
 	- correct but not relevant: correct based on graph, but not correct for question we're answering
 		- look at argument and choice, see if match
 
-# How to attack the que
+# How to attack the question:
+1. **skim through graph**
+	- familiarize with info provided
+2. 
