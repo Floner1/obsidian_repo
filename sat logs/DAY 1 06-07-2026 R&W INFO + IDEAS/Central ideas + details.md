@@ -5,6 +5,7 @@
 Answer is b
 
 # How to think of the question:
+**Central Idea questions:**
 - Mostly abt comprehension
 - need to read question carefully
 - identify main idea
@@ -15,3 +16,8 @@ Answer is b
 	- focus too intently on just one small detail
 	- introduce new details
 	- contradict info from text
+
+**Details questions:**
+- ask specific question abt an idea in text
+- answered using text
+- question contains
