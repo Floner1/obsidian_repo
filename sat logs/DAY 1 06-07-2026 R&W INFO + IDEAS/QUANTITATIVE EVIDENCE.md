@@ -30,4 +30,7 @@
 	- just check with the argument
 
 # Top tips:
-- Place finger/cursor on	
+- **Use cursor/finger:**
+	- Place finger/cursor on info that u looking for to avoid drifting and reading wrong thing
+- Ignore irrelevant data:
+	- Tables/graphs will contain random shi, just look at the context and question to
