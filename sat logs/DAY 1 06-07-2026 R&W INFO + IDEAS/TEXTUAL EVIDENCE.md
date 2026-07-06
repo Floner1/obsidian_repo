@@ -29,4 +29,6 @@
 	- some question might ask to challenge/undermine, not support. 
 - Process of elimination!
 	- Look at the ones that just seem out of scope for question and remove
-	- no penalty for guessing once uve 
+	- no penalty for guessing once uve narrowed down to atleast 2
+- Abbreviate jargon!
+	- any industry specific terms, basically eliminate or abbreviate them, will never be asked abt
