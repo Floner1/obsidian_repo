@@ -6,4 +6,7 @@
 - know what to look for, more data than needed will always be provided
 - read context provided, will outline argument that quantitative evidence must support
 **Read data:**
-- read data accurately of t
+- read data accurately off the table/graph or whatever they give u
+- will always be given more data than needed, sift through to see what u actually need
+**Evaluate choices:**
+- 
