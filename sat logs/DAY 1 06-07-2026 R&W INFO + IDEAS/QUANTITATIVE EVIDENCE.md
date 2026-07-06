@@ -11,5 +11,8 @@
 **Evaluate choices:**
 - two types of incorrect choices will be provided:
 	- incorrect completely: just not correct
+		- easy to eliminate, just compare against graph and see if agree or not
 	- correct but not relevant: correct based on graph, but not correct for question we're answering
+		- look at argument and choice, see if match
 
+# How to attack the que
