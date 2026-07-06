@@ -33,3 +33,5 @@ Answer is b
 	- if question abt info, search passage to find info
 4. Predict + eliminate:
 	- just look at the answer choices and eliminate the ones that seem bs and just click the correct one based of ur reading.
+
+# Top tips
