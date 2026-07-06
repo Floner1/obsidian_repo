@@ -20,5 +20,8 @@ Main goal: identify what is missing from argument, and fill it.
 1. **Separate text into bps:**
 	- use what is in passage to answer question
 	- need good understanding of text
-	- turn passage into bps to help find main ideas
-2. 
+	- turn passage into bps to help find main ideas + step by step progression of argument
+2. **Examine argument:**
+	- consider all info, then consider how they fit together
+	- Inferences = mystery, all clues provided, just need to connect dots
+	- 
