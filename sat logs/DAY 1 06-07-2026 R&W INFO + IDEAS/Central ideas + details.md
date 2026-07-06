@@ -20,4 +20,8 @@ Answer is b
 **Details questions:**
 - ask specific question abt an idea in text
 - answered using text
-- question contains
+- question contains words, phrases, or ideas that direct us to appropriate part of the text
+
+# How to attack the question:
+1. Summarize text in own words:
+	- read closely, try to summarize ideas you encounter on your own
