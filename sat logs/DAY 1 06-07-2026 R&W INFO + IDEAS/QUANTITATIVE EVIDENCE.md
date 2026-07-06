@@ -33,4 +33,13 @@
 - **Use cursor/finger:**
 	- Place finger/cursor on info that u looking for to avoid drifting and reading wrong thing
 - Ignore irrelevant data:
-	- Tables/graphs will contain random shi, just look at the context and question to
+	- Tables/graphs will contain random shi, just look at the context and question to determine what u need
+- **Process of elimination!**
+	- Look at the ones that just seem out of scope for question and remove
+	- no penalty for guessing once uve narrowed down to atleast 2
+- **Abbreviate jargon!**
+	- any industry specific terms, basically eliminate or abbreviate them, will never be asked abt
+- **Don't hang up on unfamiliar words:**
+	- try to guess meaning based off text, focus on big picture
+- **Ditch details!**
+	- summarize text down to bare bones, details just noise
