@@ -12,3 +12,6 @@
 
 **APPROACH:**
 - identify argument
+- EXAMPLE:
+- QUESTION: 
+- ![[Pasted image 20260706090012.png]]
