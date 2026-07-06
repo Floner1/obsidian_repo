@@ -24,4 +24,6 @@
 - **Be strict!**
 	- If a choice almost or kind of feels like evidence, eliminate it. need connect many dots, not strong evidence. 
 - **Stay specific!**
-Don't stray beyond the focus of the passage. Eliminate choices that broaden or blur the ideas discussed in the text. And look out for small twists and turns that make a choice seem relevant when it actually expresses something unsupported by the passage.
+	- Stay focused on what is in the passage. if choice has smth not in passage, eliminate. check for slight nuances
+- **Read question!**
+	- some question might ask t
