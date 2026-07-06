@@ -27,8 +27,10 @@
 	- Stay focused on what is in the passage. if choice has smth not in passage, eliminate. check for slight nuances
 - **Read question!**
 	- some question might ask to challenge/undermine, not support. 
-- Process of elimination!
+- **Process of elimination!**
 	- Look at the ones that just seem out of scope for question and remove
 	- no penalty for guessing once uve narrowed down to atleast 2
-- Abbreviate jargon!
+- **Abbreviate jargon!**
 	- any industry specific terms, basically eliminate or abbreviate them, will never be asked abt
+- Don't hang up on unfamiliar words:
+		- try to guess meaning based off texc
