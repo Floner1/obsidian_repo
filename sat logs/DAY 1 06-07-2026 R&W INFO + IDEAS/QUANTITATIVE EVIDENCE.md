@@ -15,6 +15,9 @@
 	- correct but not relevant: correct based on graph, but not correct for question we're answering
 		- look at argument and choice, see if match
 
+Example question:
+![[Pasted image 20260706122646.png]]
+
 # How to attack the question:
 1. **skim through graph:**
 	- familiarize with info provided, labels, units, title, legends,etc.
