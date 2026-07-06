@@ -39,4 +39,5 @@ Answer is b
 	- Stay focused on what is in the passage. if choice has smth not in passage, eliminate. check for slight nuances
 2. **Keep predictions short:**
 	- if ur key ideas are as long as text, then it not key idea. keep simplifying and compare
-3. 
+3. **Use keywords as map for details questions:**
+	- if it a detail question, the question will often reference words from text, there you go.
