@@ -20,4 +20,7 @@
 	- familiarize with info provided, labels, units, title, legends,etc.
 2. **Read context pragraph**:
 	 - sometimes text will directly direct u to what u needa look for, specific piece of info
-	 - othertimes, 
+	 - other times, text will just be argument, need to select data to support (or challenge?) argument
+		 - potentially multiple pieces of info that u need
+		 - rephrase argument into own words, then compare against choices
+3. 
