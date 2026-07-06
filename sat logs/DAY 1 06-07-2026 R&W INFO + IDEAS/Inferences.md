@@ -29,4 +29,5 @@ Main goal: identify what is missing from argument, and fill it.
 
 # Top Tips:
 1. **Learn transitions:**
-	- Can help understand relationship, whether support or challenge
+	- Can help understand relationship, whether support or challenge or whatever
+		![[transitions sat.png]]
