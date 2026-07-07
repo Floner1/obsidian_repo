@@ -43,3 +43,6 @@ Bugs hit and root cause, worth keeping in your log so you don't repeat them
 
 1. Missing packages twice, decouple and psycopg2. Root cause was not an interpreter mismatch, it was simply not having run the install command yet inside this specific venv at the time settings.py was written. Confirmed after the fact that terminal and interpreter were correctly aligned the whole time.
 2. Push rejected. Root cause was a remote commit that predated your session, likely an earlier edit made directly through GitHub's web interface. Fixed with a rebase, not a merge, keeping your commit history linear.
+
+INSTALLED CLAUDE CODE SKILLS:
+impeccable, graphify, karpathy's plugin, ponytail
