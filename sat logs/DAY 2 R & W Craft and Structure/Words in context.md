@@ -28,3 +28,6 @@ Answer: C
 	- label the text pos or negative, and find word with same tone
 2. **Reduce, reuse,recycle**
 	- look for words in text that may share meaning as word in blank
+	- if can reuse smth from text for blank, then look for the choice that gives a synonym or close match
+	- you may also notice words or phrases that seem to have the opposite meaning as the missing word—in that case, look for an antonym in the choices.
+3. 
