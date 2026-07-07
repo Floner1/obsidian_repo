@@ -26,3 +26,5 @@ Answer: C
 # Top tips:
 1. **Charge it**
 	- label the text pos or negative, and find word with same tone
+2. **Reduce, reuse,recycle**
+	- look for words in text that may share meaning as word in blank
