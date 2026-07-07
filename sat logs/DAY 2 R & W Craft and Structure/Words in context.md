@@ -10,4 +10,8 @@ Answer: C
 	- read provided context carefully
 	- match the word we're looking for with the equivalent idea in the other statement.
 2. Connotations:
-	- Associations we 
+	- Associations we have with words, eg red = anger
+	- is sentence pos? find pos choice, and vice versa
+
+# How to attack
+1. Summarize text in own words
