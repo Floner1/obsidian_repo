@@ -14,11 +14,15 @@ Answer: C
 	- is sentence pos? find pos choice, and vice versa
 
 # How to attack
-1. Summarize text in own words
+1. **Summarize text in own words**
 	- rephrase main idea in own words
 	- prompt will make claim, then expand or restate in different words
-2. Identify key word, phrase,idea
+2. **Identify key word, phrase,idea**
 	- text provides all needed info
 	- correct idea reinforce info
 	- often 1 word or phrase in text that has same meaning as answer
-3. Select word that matches.
+3. **Select word that matches.**
+
+# Top tips:
+1. **Charge it**
+	- label the text pos or negative, and find word with same tone
