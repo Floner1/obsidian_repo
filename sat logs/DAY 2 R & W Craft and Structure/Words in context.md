@@ -15,3 +15,5 @@ Answer: C
 
 # How to attack
 1. Summarize text in own words
+	- rephrase main idea in own words
+	- prompt will make claim, the
