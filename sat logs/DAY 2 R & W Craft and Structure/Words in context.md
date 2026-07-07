@@ -8,3 +8,6 @@ Answer: C
 - reading comprehension important
 1. Context
 	- read provided context carefully
+	- match the word we're looking for with the equivalent idea in the other statement.
+2. Connotations:
+	- Associations we 
