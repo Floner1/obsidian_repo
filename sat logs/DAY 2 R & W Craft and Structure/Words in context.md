@@ -5,4 +5,6 @@ Answer: C
 
 # How to determine most precise word:
 - reinforce text meaning
-- 
+- reading comprehension important
+1. Context
+	- read provided context carefully
