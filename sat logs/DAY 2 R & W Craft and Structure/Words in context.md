@@ -21,3 +21,4 @@ Answer: C
 	- text provides all needed info
 	- correct idea reinforce info
 	- often 1 word or phrase in text that has same meaning as answer
+3. Select word that matches.
