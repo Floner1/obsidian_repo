@@ -31,4 +31,8 @@ Answer: C
 	- if can reuse smth from text for blank, then look for the choice that gives a synonym or close match
 	- you may also notice words or phrases that seem to have the opposite meaning as the missing word—in that case, look for an antonym in the choices.
 3. **Don't just pick unfamiliar words**
-		- 
+	-   These students think that the words they know better must be “traps”, because they might “seem too easy”. This strategy can often backfire.
+	- - Eliminate what you can from the words you _do_ know
+	- Select an option from what remains
+4. **Colons**
+	- if colon b4 blank, then blank needs to be extra info
