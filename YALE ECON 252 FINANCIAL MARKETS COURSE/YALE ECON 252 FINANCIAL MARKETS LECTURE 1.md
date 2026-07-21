@@ -24,4 +24,4 @@
 - course is not too vocational, doesnt only prepare for smth specific
 - yale is liberal arts and sciences school
 - finance = engineering with ppl?
-- 
+- **textbook chosen:** Foundations of financial markets and institutions 4th ed
