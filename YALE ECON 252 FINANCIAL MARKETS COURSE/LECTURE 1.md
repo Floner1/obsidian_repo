@@ -60,4 +60,4 @@
 	- swensen known as an investment genius, constantly turning down wall street offers
 
 - maurice hank greenberg
-- 
+- ceo of american insurance group aig from 1962 to 2005, from failing to 
