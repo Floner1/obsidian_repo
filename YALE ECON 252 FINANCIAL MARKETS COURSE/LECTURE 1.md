@@ -33,3 +33,5 @@
 - we live in capitalist world, era of financial capitalism
 - modern financial techniques help countries grow faster and bigger
 - more jobs in finance compared to other fields
+- ![[finance among occupuations, thousands of people, us bureau of labour statistics.png]]
+- 
