@@ -25,3 +25,4 @@
 - yale is liberal arts and sciences school
 - finance = engineering with ppl?
 - **textbook chosen:** Foundations of financial markets and institutions 4th ed
+- off topic: when u write a book, u can never be too sure of what the title will be bc someone else might alr have that title
