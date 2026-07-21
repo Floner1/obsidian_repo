@@ -65,4 +65,5 @@
 
 
 - Laura Cha, non official member of executive council of hk
-- china gov member, vice ministerial, first non chinese of ppl's
+- china gov member, vice ministerial, first non chinese delegate of national ppl's congress repping hk
+- 
