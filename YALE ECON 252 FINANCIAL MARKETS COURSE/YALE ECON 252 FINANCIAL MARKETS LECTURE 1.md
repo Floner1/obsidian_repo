@@ -21,5 +21,7 @@
 	- but everyone should know finance, so fundamental to everyday life, unavoidable
 	- not everyone's purpose in finance is to make money, have other purposes in life
 	- finance should be considered a technology for doing things and how to make things happen
-- course is not vocational, doesnt only prepare for smth specific
+- course is not too vocational, doesnt only prepare for smth specific
 - yale is liberal arts and sciences school
+- finance = engineering with ppl?
+- 
