@@ -68,3 +68,5 @@
 - china gov member, vice ministerial, first non chinese delegate of national ppl's congress repping hk
 
 - behavioural finance, finance combined with pysc sociology and other social sciences
+- owners of some companies are pushed by competitive pressures into offering products that are a lil manipulative
+- all is not well in the financial orld
