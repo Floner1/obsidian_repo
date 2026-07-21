@@ -32,4 +32,4 @@
 - prof wants career to be moral and purposeful
 - we live in capitalist world, era of financial capitalism
 - modern financial techniques help countries grow faster and bigger
-- more jobs in finance compared to other fieldsfff
+- more jobs in finance compared to other fields
