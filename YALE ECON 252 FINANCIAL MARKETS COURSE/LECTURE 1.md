@@ -55,11 +55,14 @@
 - basically, make money, but dont be selfish with it
 
 # Outside speakers + teaching assistants
-- David swensen, chief investment officer for yale, most successful uni endowment manager in usa
+- David Swensen, chief investment officer for yale, most successful uni endowment manager in usa
 - Endowments: pool of invested assets. spends portion of the return from those investments to fund operations or specific programs, and original principal is kept in perpetuity to ensure long term financial stability  
-	- swensen known as an investment genius, constantly turning down wall street offers
+	- Swensen known as an investment genius, constantly turning down wall street offers
 
-- maurice hank greenberg
+- Maurice hank Greenberg
 - ceo of american insurance group aig from 1962 to 2005, from failing to largest insurance company itw
 - got bailed out by usa gov in 2008, hundreds of billions
-- 
+
+
+- Laura Cha, non official member of executive council of hk
+- china gov member, vice ministerial, first non chinese of ppl's
