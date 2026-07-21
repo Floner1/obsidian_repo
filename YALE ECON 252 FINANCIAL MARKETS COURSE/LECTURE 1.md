@@ -31,4 +31,5 @@
 - ppl not happy wit finance bc finance ppl get rich in expense of others
 - prof wants career to be moral and purposeful
 - we live in capitalist world, era of financial capitalism
-- big
+- modern financial techniques help countries grow faster and bigger
+- 
