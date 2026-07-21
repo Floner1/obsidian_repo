@@ -47,4 +47,6 @@
 - but then the money u make is meaningless, unless u give it away
 - andrew carnigie essay gospel of wealth
 - when u get into mid ages and you have lot of money, then should go into philanthropy
-- ppl who are good with affairs, make good money, should
+- ppl who are good with affairs, make good money, should give it away before they die
+- ur children might not be like you so give it away
+- 
