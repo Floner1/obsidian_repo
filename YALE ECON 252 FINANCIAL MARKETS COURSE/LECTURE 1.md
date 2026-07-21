@@ -23,6 +23,7 @@
 	- finance should be considered a technology for doing things and how to make things happen
 - course is not too vocational, doesnt only prepare for smth specific
 - yale is liberal arts and sciences school
+# Finance as a career
 - finance = engineering with ppl?
 - **textbook chosen:** Foundations of financial markets and institutions 4th ed
 - off topic: when u write a book, u can never be too sure of what the title will be bc someone else might alr have that title
@@ -37,3 +38,5 @@
 - on the forbes 400, everyone has some sort of financial knowledge
 - finance is also abt getting resources in a massive scale to make things happen
 - ppl on forbes 400 arent flashy, they do the unsexy work
+
+# Wealth for a purpose
