@@ -43,4 +43,4 @@
 - ppl dont like other ppl showing off their wealth
 - sumptuous law/locrian code: laws stopping ppl from conspicuous consumption
 - some countries have laws like this to stop ppl from making wealth as objective of your life
-- 
+- you can bui 
