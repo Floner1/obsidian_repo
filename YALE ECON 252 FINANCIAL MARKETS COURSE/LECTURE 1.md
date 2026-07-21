@@ -39,7 +39,8 @@
 - finance is also abt getting resources in a massive scale to make things happen
 - ppl on forbes 400 arent flashy, they do the unsexy work
 
-# Wealth for a purpose
+# Using wealth for a purpose
 - ppl dont like other ppl showing off their wealth
-- sumptuous law/locrian cod: laws stopping ppl from conspicuous consumption
-- some countries have laws like this to stop
+- sumptuous law/locrian code: laws stopping ppl from conspicuous consumption
+- some countries have laws like this to stop ppl from making wealth as objective of your life
+- 
