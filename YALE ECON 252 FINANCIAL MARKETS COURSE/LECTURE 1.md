@@ -71,4 +71,25 @@
 - owners of some companies are pushed by competitive pressures into offering products that are a lil manipulative
 - all is not well in the financial world, not socially conscious things happen all the time in finance
 - thats why we need regulators, ppl who make laws
-- independent risks, risks that are not reliant on ot
+- independent risks, risks that are not reliant on other things
+- law of big numbers suggest that if u have a portfolio of these independent risks, they'll average out the risk
+
+# Lecture content
+Lecture 2: risk and probability basics, financial crises  
+Lecture 3: finance as a technology (like engineering), his 2003 book The New Financial Order  
+Lecture 4: portfolio diversification, brief intro to CAPM  
+Lecture 5: insurance, uses Haiti vs. San Francisco earthquakes to show what insurance-driven building codes prevent  
+Lecture 6: efficient markets theory, he's skeptical, cites David Swensen as a counterexample  
+Lecture 7: debt markets, mortgages, Fed open market operations  
+Lecture 8: stock market as a coordination tool for people building companies together  
+Lecture 9: real estate, the Case-Shiller index, the 2006 housing bubble  
+Lecture 10: behavioral finance  
+Lecture 12: banking, the money multiplier, Basel III  
+Lecture 13: forwards and futures, his own work on a Case-Shiller futures market at the CME  
+Lecture 14: options  
+Lecture 15: monetary policy, central banks  
+Lecture 16: investment banking, Dodd-Frank  
+Lecture 17: institutional money managers as stewards, not just profit-seekers  
+Lecture 18: exchanges, brokers, electronic trading  
+Lecture 19: public and nonprofit finance, municipal bonds  
+Lecture 20: "Finding Your Purpose in Finance," his closing argument that finance isn't about personal wealth
