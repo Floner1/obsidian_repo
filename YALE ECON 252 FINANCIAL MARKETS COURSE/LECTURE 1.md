@@ -45,8 +45,10 @@
 - some countries have laws like this to stop ppl from making wealth as objective of your life
 - you can become big and powerful if u build a business and use financial techniques that are successful for other ppl
 - but then the money u make is meaningless, unless u give it away
-- andrew carnigie essay gospel of wealth
+- andrew carnegie essay gospel of wealth
 - when u get into mid ages and you have lot of money, then should go into philanthropy
 - ppl who are good with affairs, make good money, should give it away before they die
 - ur children might not be like you so give it away
+- not all ppl are good with affairs, so those who are good should do smth good for society
+- andrew carnegie founded carnigie mellon btw
 - 
