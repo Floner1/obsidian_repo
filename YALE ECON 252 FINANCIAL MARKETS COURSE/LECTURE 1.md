@@ -34,4 +34,4 @@
 - modern financial techniques help countries grow faster and bigger
 - more jobs in finance compared to other fields
 - ![[finance among occupuations, thousands of people, us bureau of labour statistics.png]]
-- 
+- on the forbes 400, everyone has some sort of financial knowledge
