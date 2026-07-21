@@ -29,3 +29,4 @@
 - **Robert Shiller's book:** finance and the good society
 - worst financial crisis since great depression, 2008
 - ppl not happy wit finance bc finance ppl get rich in expense of others
+- prof wants career to be moral and purposeful
