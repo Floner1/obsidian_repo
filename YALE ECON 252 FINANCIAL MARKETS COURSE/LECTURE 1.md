@@ -52,4 +52,7 @@
 - not all ppl are good with affairs, so those who are good should do smth good for society
 - andrew carnegie founded carnigie mellon btw
 - basically andrew carnegie gave away a lot of stuff
-- 
+- basically, make money, but dont be selfish with it
+
+# Outside speakers + teaching assistants
+- David swensenm cghu
