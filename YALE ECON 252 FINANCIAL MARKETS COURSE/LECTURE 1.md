@@ -71,3 +71,4 @@
 - owners of some companies are pushed by competitive pressures into offering products that are a lil manipulative
 - all is not well in the financial world, not socially conscious things happen all the time in finance
 - thats why we need regulators, ppl who make laws
+- independent risks, risks that are not reliant on ot
