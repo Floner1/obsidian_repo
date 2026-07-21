@@ -1,0 +1,25 @@
+# Course intro
+- finance is abt what we do with our lives/society
+- finance is pillar of civilized society
+- structure through which we do things on a large scale
+- allocate resources through space and time, limited resources
+- incentivize ppl to do productive things
+- sponsoring ventures that bring ppl together, ppl fairly treated and contribute constructively and get a return
+- managing risk in life, nothing is certain
+
+- philosophical underpinning but focused on details
+
+- talk abt banking, insurance, securities, futures, derivatives, financial crises, 
+- the future, where we are going
+- course is usa bias, but also world perspective
+
+# Context of course
+- econ 252 more practical rather than theoretical compared to econ 251
+- can't avoid maths in finance/econ
+- What does it mean to go into finance?
+	- maybe it means getting listed as someone who is very focused on finance
+	- but everyone should know finance, so fundamental to everyday life, unavoidable
+	- not everyone's purpose in finance is to make money, have other purposes in life
+	- finance should be considered a technology for doing things and how to make things happen
+- course is not vocational, doesnt only prepare for smth specific
+- yale is liberal arts and sciences school
