@@ -55,4 +55,4 @@
 - basically, make money, but dont be selfish with it
 
 # Outside speakers + teaching assistants
-- David swensenm cghu
+- David swensen, chief investment officer for yale
