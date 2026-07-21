@@ -58,3 +58,6 @@
 - David swensen, chief investment officer for yale, most successful uni endowment manager in usa
 - Endowments: pool of invested assets. spends portion of the return from those investments to fund operations or specific programs, and original principal is kept in perpetuity to ensure long term financial stability  
 	- swensen known as an investment genius, constantly turning down wall street offers
+
+- maurice hank greenberg
+- 
