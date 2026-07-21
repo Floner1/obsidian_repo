@@ -66,4 +66,5 @@
 
 - Laura Cha, non official member of executive council of hk
 - china gov member, vice ministerial, first non chinese delegate of national ppl's congress repping hk
-- 
+
+- behavioural finance, finance combined with pysc sociology and other social sciences
