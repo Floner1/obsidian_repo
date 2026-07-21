@@ -43,4 +43,6 @@
 - ppl dont like other ppl showing off their wealth
 - sumptuous law/locrian code: laws stopping ppl from conspicuous consumption
 - some countries have laws like this to stop ppl from making wealth as objective of your life
-- you can bui 
+- you can become big and powerful if u build a business and use financial techniques that are successful for other ppl
+- but then the money u make is meaningless, unless u give it away
+- v  
