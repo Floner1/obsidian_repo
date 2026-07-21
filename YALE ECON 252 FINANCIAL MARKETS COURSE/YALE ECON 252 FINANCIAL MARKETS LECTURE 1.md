@@ -26,4 +26,6 @@
 - finance = engineering with ppl?
 - **textbook chosen:** Foundations of financial markets and institutions 4th ed
 - off topic: when u write a book, u can never be too sure of what the title will be bc someone else might alr have that title
-- **robert shiller's book:** finance and the good society
+- **Robert Shiller's book:** finance and the good society
+- worst financial crisis since great depression, 2008
+- ppl not happy wit finance bc finance ppl get rich in expense of others
