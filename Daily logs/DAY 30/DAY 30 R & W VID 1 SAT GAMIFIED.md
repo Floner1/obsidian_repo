@@ -73,7 +73,6 @@
  5. ![[Pasted image 20260729094807.png]]
  ![[Pasted image 20260729094936.png]]
  LIST OF TRANSITIONS
- ![[Pasted image 20260729094955.png]]
- **STUDENT NOTES:**
-
- 
+ ![[Pasted image 20260729094955.png]] **STUDENT NOTES:**
+- read question
+- go straight for choices that best match question
