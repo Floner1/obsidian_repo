@@ -84,4 +84,7 @@ similar to transitions
 - read question
 - read passage and summarize each question
 - make prediction
-- try to eliminate rather than find best
+- try to eliminate rather than find best![[Pasted image 20260729095737.png]]
+  **COMMAND OF EVIDENCE**
+	- read question
+	- read passage and summarize
