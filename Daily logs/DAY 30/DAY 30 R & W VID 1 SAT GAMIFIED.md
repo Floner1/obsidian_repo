@@ -88,3 +88,6 @@ similar to transitions
   **COMMAND OF EVIDENCE**
 	- read question
 	- read passage and summarize
+	- make prediction
+	- go for choices
+	- only go to chart to check choices
