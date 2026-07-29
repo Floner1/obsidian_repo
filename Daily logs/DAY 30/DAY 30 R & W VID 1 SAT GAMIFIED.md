@@ -84,3 +84,4 @@ similar to transitions
 - read question
 - read passage and summarize each question
 - make prediction
+- try to eliminate rather than find best
