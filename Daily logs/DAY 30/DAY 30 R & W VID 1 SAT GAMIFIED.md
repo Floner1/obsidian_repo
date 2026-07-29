@@ -76,3 +76,9 @@
  ![[Pasted image 20260729094955.png]] **STUDENT NOTES:**
 - read question
 - go straight for choices that best match question
+- only read passage if need to decipher answer choice
+![[Pasted image 20260729095244.png]]
+
+**PASSAGE READING:**
+similar to transitions
+- read question
