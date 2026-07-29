@@ -55,3 +55,7 @@
 - it has to be like immediately before and after, not a couple words
 - ![[Pasted image 20260729094210.png]]
 - ![[Pasted image 20260729094229.png]]
+- ![[Pasted image 20260729094305.png]]
+- ![[Pasted image 20260729094330.png]]
+- types of pronouns
+- 
