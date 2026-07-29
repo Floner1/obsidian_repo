@@ -82,3 +82,5 @@
 **PASSAGE READING:**
 similar to transitions
 - read question
+- read passage and summarize each question
+- make prediction
