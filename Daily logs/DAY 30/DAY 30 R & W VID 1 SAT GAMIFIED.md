@@ -52,4 +52,6 @@
 - ![[Pasted image 20260729094001.png]]
 - ![[Pasted image 20260729094050.png]]
 - thing on both side of comma has to match and make sense
-- 
+- it has to be like immediately before and after, not a couple words
+- ![[Pasted image 20260729094210.png]]
+- ![[Pasted image 20260729094229.png]]
