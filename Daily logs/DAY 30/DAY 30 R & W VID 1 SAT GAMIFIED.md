@@ -68,4 +68,8 @@
  **TRANSITIONS:**
  1. read question
  2. read passage and summarize in own words
- 3. 
+ 3. predict answer
+ 4. succeed
+ 5. ![[Pasted image 20260729094807.png]]
+ 6. 
+ 
