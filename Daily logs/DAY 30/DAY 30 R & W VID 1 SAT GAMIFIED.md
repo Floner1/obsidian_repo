@@ -71,5 +71,9 @@
  3. predict answer
  4. succeed
  5. ![[Pasted image 20260729094807.png]]
- 6. 
+ ![[Pasted image 20260729094936.png]]
+ LIST OF TRANSITIONS
+ ![[Pasted image 20260729094955.png]]
+ **STUDENT NOTES:**
+
  
