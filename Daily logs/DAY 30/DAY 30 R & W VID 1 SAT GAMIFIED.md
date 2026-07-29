@@ -59,4 +59,8 @@
 - ![[Pasted image 20260729094330.png]]
 - types of pronouns
 - ![[Pasted image 20260729094458.png]]
-- **POS**
+- **POSSESSIVE:**
+	- 's is singlar
+	- s' is plural
+	- if word/name ends with s, then s's
+	- ![[Pasted image 20260729094620.png]]
