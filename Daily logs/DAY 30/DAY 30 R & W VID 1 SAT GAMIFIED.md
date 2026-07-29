@@ -64,3 +64,8 @@
 	- s' is plural
 	- if word/name ends with s, then s's
 	- ![[Pasted image 20260729094620.png]]
+	- ![[Pasted image 20260729094646.png]]
+ **TRANSITIONS:**
+ 1. read question
+ 2. read passage and summarize in own words
+ 3. 
