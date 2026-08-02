@@ -55,3 +55,5 @@
 - 0 means no tendency for them to move tgt at all
 - if 2 independent variables then correlation should be 0
 - ![[sum of variance finance.png]]
+- lecture is very focused on probability and independence
+- independence very important
