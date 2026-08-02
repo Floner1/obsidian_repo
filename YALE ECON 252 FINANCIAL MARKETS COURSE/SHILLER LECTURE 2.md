@@ -51,3 +51,6 @@
 - if cov is 0 then nothing to do with each other.
 - ![[correlation finance.png]]
 - correlation of 2 things is cov of those 2 / product of their 2 standard deviations
+- +1 means move exactly tgt, and vice versa
+- 0 means no tendency for them to move tgt at all
+- if 2 independent variables then coor
