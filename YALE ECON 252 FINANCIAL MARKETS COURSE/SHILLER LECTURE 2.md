@@ -35,3 +35,6 @@
 ![[return formulas finance.png|529]]
 - capital gain + dividend over original price
 - in llc economy, you can't lose more money than u put in, assumption
+- return is -100% and +infinity
+- gross return always pos, 0 and infinity
+- 
