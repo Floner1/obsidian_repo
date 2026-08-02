@@ -45,3 +45,5 @@
 - ![[variance + SD finance.png]]
 - the var(x) is the expected squared deviation of the value from the mean 
 - s^x is sample mean
+- ![[covariance finance.png]]
+- how 2 diff variables move together
