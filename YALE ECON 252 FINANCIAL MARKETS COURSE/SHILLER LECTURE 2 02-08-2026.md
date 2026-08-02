@@ -83,4 +83,6 @@
 	- sd of mean = sd of 1 of x / sqrt n
 	- n goes large, sd of mean goes to 0
 - NEW CONCEPT: COVAR
+- change value at risk to recognise that portfolios co vary more than we thought
+- covar is alternative to var
 - 
