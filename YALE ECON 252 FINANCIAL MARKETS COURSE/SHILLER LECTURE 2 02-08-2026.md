@@ -87,3 +87,4 @@
 - covar is alternative to var
 - ![[Pasted image 20260802144753.png]]
 - s and p 500 is the same curve abv 
+- apple
