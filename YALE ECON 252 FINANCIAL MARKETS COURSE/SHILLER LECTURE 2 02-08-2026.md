@@ -85,4 +85,5 @@
 - NEW CONCEPT: COVAR
 - change value at risk to recognise that portfolios co vary more than we thought
 - covar is alternative to var
-- 
+- ![[Pasted image 20260802144753.png]]
+- s and p 500 is the same curve abv 
