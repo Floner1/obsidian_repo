@@ -67,3 +67,6 @@
 - make implicit assumptions abt independence/relative independence
 - companies making these var calcs too optimistic 
 - estimate very small numbers relative to what actually happened
+- **LAW OF LARGE NUMBERS:**
+	- if i have a lot of independent shocks and avg them out, not a lot of uncertainty
+	- 
