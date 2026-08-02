@@ -71,4 +71,5 @@
 	- if i have a lot of independent shocks and avg them out, not a lot of uncertainty
 	- if i flip a coin, heads $1 and tails $1, then sd for that is 1
 	- if u flip coin 100 times then avg of result wont be too much risk 
-	- variance of average n random variables thaht are all independent and identically distributed goes to 0 
+	- variance of average n random variables thaht are all independent and identically distributed goes to 0 as number of element in average goes to infinity
+	- uncertainty in sm
