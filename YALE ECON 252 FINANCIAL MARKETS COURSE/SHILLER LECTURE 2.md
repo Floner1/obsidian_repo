@@ -9,4 +9,8 @@
 - housing then stock, then institutional collapses
 - home mortage investment companies dead in 2007
 - bank run in uk northern rock
+- bank failures in usa
+- gov around the world bail out banks + companies
+- disasters averted
+- crisis is accumulation of a lot of little events
 - 
