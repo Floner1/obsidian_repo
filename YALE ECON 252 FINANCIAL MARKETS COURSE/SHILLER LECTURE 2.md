@@ -42,4 +42,5 @@
 - g(x) more accurate bc for example if u have a guy who got u 50% return and 30% return for 2 years and then he gives u a -100% return then avg will be 0, so ur fucked
 - more "accurate" than normal average if u care more abt the investment
 - all formulas is the measure of central tendency, what is the central result, typical value
+- ![[variance + SD finance.png]]
 - 
