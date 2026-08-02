@@ -38,3 +38,5 @@
 - return is -100% and +infinity
 - gross return always pos, 0 and infinity
 - ![[expected value, mean and average shiller lecture.png]]
+- geometric average is the g(x) and the x is the normal average.
+- g(x) more accurate bc for example if u have a guy who got u 50% return and 30% return for 2 years and then he gives u a -100% return the
