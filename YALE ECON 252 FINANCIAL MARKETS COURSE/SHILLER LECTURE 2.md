@@ -1,0 +1,1 @@
+-focus on one way of viewing 20
