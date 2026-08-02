@@ -61,3 +61,5 @@
 - not a smooth ride
 - are shocks that affect market independent or somehow related
 - stock market crash 1987
+- companies start to compute risk to their company, aka value at risk, var
+- risk of their activities, smth like 5% 
