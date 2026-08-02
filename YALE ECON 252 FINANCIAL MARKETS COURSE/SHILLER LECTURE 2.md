@@ -23,4 +23,8 @@
 # PROBABILITY THEORY
 - invented by mathematicians
 - finance theorists think that the world is very complicated, outcome made up of a million lil things
-- deal with sh
+- deal with shocks in life in mathematical way
+- mathematical laws to deal with this, build mathematical models of outcomes
+- weather forecast example
+	- computer models built on fluid dynamics
+	- 
