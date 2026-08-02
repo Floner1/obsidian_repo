@@ -1,6 +1,7 @@
 - focus on one way of viewing 2008 financial crisis, probability model
 - not necessarily the only way
 
+# INTRO
 - ppl talk abt crises in terms of financial crisis
 - crisis begins with bubbles, stock housing commodities market
 - ppl get very excited abt smth, price go high, price go boom and collapses
@@ -14,4 +15,9 @@
 - disasters averted
 - crisis is accumulation of a lot of little events
 - understand underlying probabilities of events + collapse
-- probability, variance, covariance, correlation, regression, idiosynta
+- probability, variance, covariance, correlation, regression, idiosyncratic and systematic risk
+- breakdown of most popular assumptions in financial theory
+- failure of independence
+- fat tailed distribution
+
+#
