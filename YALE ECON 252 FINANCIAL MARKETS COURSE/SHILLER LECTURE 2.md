@@ -13,4 +13,5 @@
 - gov around the world bail out banks + companies
 - disasters averted
 - crisis is accumulation of a lot of little events
-- 
+- understand underlying probabilities of events + collapse
+- probability, variance, covariance, correlation, regression, idiosynta
