@@ -76,4 +76,8 @@
 	- insurance relies on this concept of probability
 	- insurance relies on independence
 	- independent breaks down at times like these crises
-	- 
+	- ![[Pasted image 20260802141147.png]]
+	- if all have same variance, then sum of n of them is n times their variance
+	- sd = sqrt of variance
+	- sd = sqrt of n * standard deviation of 1 of them
+	- sd of mean = sd of 1 of x
