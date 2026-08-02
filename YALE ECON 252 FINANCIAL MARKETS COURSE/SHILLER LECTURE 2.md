@@ -39,4 +39,7 @@
 - gross return always pos, 0 and infinity
 - ![[expected value, mean and average shiller lecture.png]]
 - geometric average is the g(x) and the x is the normal average.
-- g(x) more accurate bc for example if u have a guy who got u 50% return and 30% return for 2 years and then he gives u a -100% return the
+- g(x) more accurate bc for example if u have a guy who got u 50% return and 30% return for 2 years and then he gives u a -100% return then avg will be 0, so ur fucked
+- more "accurate" than normal average if u care more abt the investment
+- all formulas is the measure of central tendency, what is the central result, typical value
+- 
