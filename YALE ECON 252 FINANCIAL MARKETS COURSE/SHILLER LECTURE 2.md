@@ -2,4 +2,7 @@
 - not necessarily the only way
 
 - ppl talk abt crises in terms of financial crisis
+- crisis begins with bubbles, stock housing commodities market
+- ppl get very excited abt smth, price go high, price go boom and collapses
+- stock market collapsed 2000, prob .com bubble, but back in 2003
 - 
