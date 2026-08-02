@@ -22,4 +22,5 @@
 
 # PROBABILITY THEORY
 - invented by mathematicians
-- 
+- finance theorists think that the world is very complicated, outcome made up of a million lil things
+- deal with sh
