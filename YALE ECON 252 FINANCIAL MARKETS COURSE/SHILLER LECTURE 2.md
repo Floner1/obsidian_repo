@@ -48,3 +48,5 @@
 - ![[covariance finance.png]]
 - how 2 diff variables move together
 - x with a line ontop is the deviation of x from the mean of x and same with y
+- if cov is 0 then nothing to do with each other.
+- 
