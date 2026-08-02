@@ -80,4 +80,5 @@
 	- if all have same variance, then sum of n of them is n times their variance
 	- sd = sqrt of variance
 	- sd = sqrt of n * standard deviation of 1 of them
-	- sd of mean = sd of 1 of x
+	- sd of mean = sd of 1 of x / sqrt n
+	- n goes large, sd of mean goes to 0
