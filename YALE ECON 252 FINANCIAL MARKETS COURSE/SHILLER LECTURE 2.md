@@ -33,4 +33,5 @@
 - only a certain time horizon where things can be forecasted
 - this view is very mathematical and probability orientated
 ![[return formulas finance.png|529]]
-capital gain + divident
+- capital gain + dividend over original price
+- in llc economy, you can't lose more money than u put in, assumption
