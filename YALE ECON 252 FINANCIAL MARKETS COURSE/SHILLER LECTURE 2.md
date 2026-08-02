@@ -64,4 +64,6 @@
 - companies start to compute risk to their company, aka value at risk, var
 - risk of their activities, smth like 5% that lose 10 mil
 - they do this and tell investors that they cant do too badly, bc only 5% that lose 10mil, 95% that dont lose 10 mil
-- make implicit 
+- make implicit assumptions abt independence/relative independence
+- companies making these var calcs too optimistic 
+- estimate very small numbers relative to what actually happened
