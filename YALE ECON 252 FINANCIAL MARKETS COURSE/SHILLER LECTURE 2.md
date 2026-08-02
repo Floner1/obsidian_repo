@@ -62,4 +62,6 @@
 - are shocks that affect market independent or somehow related
 - stock market crash 1987
 - companies start to compute risk to their company, aka value at risk, var
-- risk of their activities, smth like 5% 
+- risk of their activities, smth like 5% that lose 10 mil
+- they do this and tell investors that they cant do too badly, bc only 5% that lose 10mil, 95% that dont lose 10 mil
+- make implicit 
