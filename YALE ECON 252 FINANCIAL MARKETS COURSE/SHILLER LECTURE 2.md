@@ -32,4 +32,4 @@
 - only a limit to how far out can be forecasted
 - only a certain time horizon where things can be forecasted
 - this view is very mathematical and probability orientated
-- 
+- ![[return formulas finance.png]]
