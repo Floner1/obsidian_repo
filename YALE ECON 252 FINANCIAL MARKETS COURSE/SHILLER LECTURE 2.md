@@ -59,3 +59,5 @@
 - independence very important
 - ![[Pasted image 20260802135543.png]]
 - not a smooth ride
+- are shocks that affect market independent or somehow related
+- stock market crash 1987
