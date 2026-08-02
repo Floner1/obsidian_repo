@@ -20,4 +20,6 @@
 - failure of independence
 - fat tailed distribution
 
-#
+# PROBABILITY THEORY
+- invented by mathematicians
+- 
