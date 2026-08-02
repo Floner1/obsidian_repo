@@ -43,4 +43,5 @@
 - more "accurate" than normal average if u care more abt the investment
 - all formulas is the measure of central tendency, what is the central result, typical value
 - ![[variance + SD finance.png]]
-- the s^x is the expected squared deviation of the value from the mean 
+- the var(x) is the expected squared deviation of the value from the mean 
+- s^x is sample mean
