@@ -5,4 +5,8 @@
 - crisis begins with bubbles, stock housing commodities market
 - ppl get very excited abt smth, price go high, price go boom and collapses
 - stock market collapsed 2000, prob .com bubble, but back in 2003
+- roller coaster ride, boom in 2003 and drop again 2008
+- housing then stock, then institutional collapses
+- home mortage investment companies dead in 2007
+- bank run in uk northern rock
 - 
