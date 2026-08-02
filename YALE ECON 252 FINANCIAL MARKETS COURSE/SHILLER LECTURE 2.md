@@ -57,3 +57,5 @@
 - ![[sum of variance finance.png]]
 - lecture is very focused on probability and independence
 - independence very important
+- ![[Pasted image 20260802135543.png]]
+- not a smooth ride
