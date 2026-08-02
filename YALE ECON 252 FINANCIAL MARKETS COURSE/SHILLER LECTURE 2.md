@@ -27,4 +27,6 @@
 - mathematical laws to deal with this, build mathematical models of outcomes
 - weather forecast example
 	- computer models built on fluid dynamics
-	- 
+- weather forecast similar to finance forecast in methodology
+- finance has statistical models
+- only a limit to how far out can be forecasted
