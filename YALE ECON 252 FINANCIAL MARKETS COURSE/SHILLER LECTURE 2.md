@@ -37,4 +37,4 @@
 - in llc economy, you can't lose more money than u put in, assumption
 - return is -100% and +infinity
 - gross return always pos, 0 and infinity
-- 
+- ![[expected value, mean and average shiller lecture.png]]
