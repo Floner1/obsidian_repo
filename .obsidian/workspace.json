@@ -109,10 +109,14 @@
             "id": "1a28bac2539d8da2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Daily logs/DAY 40 08-08-2026.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DAY 40 08-08-2026"
             }
           }
         ],
@@ -278,8 +282,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6982ed715a3b53b3",
+  "active": "1a28bac2539d8da2",
   "lastOpenFiles": [
+    "obsidian_repo/Daily logs/DAY 39 07 08 2026 1.md",
     "README.md",
     "YALE ECON 252 FINANCIAL MARKETS COURSE/variance + SD finance.png",
     "YALE ECON 252 FINANCIAL MARKETS COURSE/SHILLER LECTURE 1.md",
@@ -325,7 +330,6 @@
     "Python logs/DAY 4 11-06-26 COLLECTIONS.md",
     "Python logs/DAY 14 29-06-26 PROPERTY, DECORATORS,EXCEPTIONS,FILE HANDLING, DATETIME",
     "Python logs/DAY 11 22-06-26 PASS,CONTINUE,STRING MODULE, AND PROJECTS.md",
-    "Python logs/DAY 12 23-06-26 OOP, CLASS, OBJECTS, INHERITANCE.md",
     "Untitled.canvas"
   ]
 }
