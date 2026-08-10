@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily logs/DAY 41 09-08-2026.md",
+                "file": "Day 42 10-08-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAY 41 09-08-2026"
+              "title": "Day 42 10-08-2026"
             }
           }
         ],
@@ -341,7 +341,9 @@
   },
   "active": "d99a63b6e533191d",
   "lastOpenFiles": [
-    "Untitled.md",
+    "README.md",
+    "Day 42 10-08-2026.md",
+    "Daily logs/DAY 41 09-08-2026.md",
     "sat logs/DAY 2 R & W Craft and Structure/Words in context.md",
     "sat logs/DAY 2 R & W Craft and Structure/words in context example q.png",
     "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/transitions sat.png",
@@ -384,9 +386,7 @@
     "SaiPrice Logs/planning phase/DAY 0 DATABASE INSTALL + CONNECT + CLAUDE CODE SKILLS INSTALL.md",
     "SaiPrice Logs/planning phase/DAY 0 FULL ARCHITECHTURE.md",
     "SaiPrice Logs/planning phase",
-    "README.md",
     "Python logs/Day 15 30-06-26 MULTITHREADING,API, TRUTHINESS,PYQT5 LABELS, IMAGES, LAYOUT MANAGERS/Day 15 30-06-26 MULTITHREADING,API, TRUTHINESS,PYQT5 LABELS, IMAGES, LAYOUT MANAGERS.md",
-    "Python logs/DAY 14 29-06-26 PROPERTY, DECORATORS,EXCEPTIONS,FILE HANDLING, DATETIME/DAY 14 PROPERTY, DECORATORS,EXCEPTIONS,FILE HANDLING, DATETIME.md",
     "Untitled.canvas"
   ]
 }
