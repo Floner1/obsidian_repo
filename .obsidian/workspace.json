@@ -118,23 +118,9 @@
               "icon": "lucide-file",
               "title": "DAY 40 08-08-2026"
             }
-          },
-          {
-            "id": "67054fa347bce926",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAY 41 09-08-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DAY 41 09-08-2026"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -296,10 +282,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67054fa347bce926",
+  "active": "1a28bac2539d8da2",
   "lastOpenFiles": [
-    "Daily logs/DAY 40 08-08-2026.md",
     "DAY 41 09-08-2026.md",
+    "Daily logs/DAY 41 09-08-2026.md",
+    "Daily logs/DAY 40 08-08-2026.md",
     "obsidian_repo/Daily logs/DAY 39 07 08 2026 1.md",
     "README.md",
     "YALE ECON 252 FINANCIAL MARKETS COURSE/variance + SD finance.png",
@@ -342,7 +329,6 @@
     "Python logs/DAY 5 12-06-26 RANDOM.md",
     "Python logs/Day 15 30-06-26 MULTITHREADING,API, TRUTHINESS,PYQT5 LABELS, IMAGES, LAYOUT MANAGERS",
     "Python logs/DAY 3 10-06-26 FORMAT SPECIFIERS, TIME, COLLECTIONS.md",
-    "Python logs/DAY 2 09-06-26 STRING METHODS, SRING INDEX.md",
     "Python logs/DAY 14 29-06-26 PROPERTY, DECORATORS,EXCEPTIONS,FILE HANDLING, DATETIME",
     "Untitled.canvas"
   ]
