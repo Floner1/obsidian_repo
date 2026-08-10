@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp -a '/c/Users/Admin/Documents/Obsidian Vault' '/c/Users/Admin/Documents/Obsidian Vault Backup __TRACKED_VAR__')",
+      "Read(//c/Users/Admin/Documents/**)",
+      "Bash(cd \"/c/Users/Admin/Documents/Obsidian Vault\" && echo \"=== current vault root ===\" && ls -la && echo \"=== verify backup git dir present ===\" && ls -la \"/c/Users/Admin/Documents/Obsidian Vault Backup 20260810_143209/obsidian_repo/.git\" | head -5 && echo \"=== file counts ===\" && find . -not -path \"*/\\\\.git/*\" -type f | wc -l && find \"/c/Users/Admin/Documents/Obsidian Vault Backup 20260810_143209\" -not -path \"*/\\\\.git/*\" -type f | wc -l)"
+    ]
+  }
+}

@@ -1,84 +1,154 @@
 {
   "main": {
-    "id": "ee693ef45fc8f862",
+    "id": "76b61b349a12aa95",
     "type": "split",
     "children": [
       {
-        "id": "76b2e05e450b8fe7",
+        "id": "fd49d44903207f50",
         "type": "tabs",
         "children": [
           {
-            "id": "91871ea71bfc3df6",
+            "id": "b2e100975705d80d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian_repo/Daily logs/DAY 30/DAY 30 R & W VID 1 SAT GAMIFIED ALL OF SAT R AND W.md",
+                "file": "obsidian_repo/Python logs/DAY 4 11-06-26 COLLECTIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAY 30 R & W VID 1 SAT GAMIFIED ALL OF SAT R AND W"
+              "title": "DAY 4 11-06-26 COLLECTIONS"
             }
           },
           {
-            "id": "c7a8212579de3460",
+            "id": "bb8800637b31b5a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian_repo/Daily logs/DAY 30/DAY 30 R & W VID 1 PENGUIN TEST PREP VOCAB.md",
+                "file": "obsidian_repo/sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/TEXTUAL EVIDENCE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAY 30 R & W VID 1 PENGUIN TEST PREP VOCAB"
+              "title": "TEXTUAL EVIDENCE"
             }
           },
           {
-            "id": "5e47f773f28ac15b",
+            "id": "ab65091487371eca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAY 30 29-07-2026 JAMES LU.md",
+                "file": "obsidian_repo/sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/QUANTITATIVE EVIDENCE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAY 30 29-07-2026 JAMES LU"
+              "title": "QUANTITATIVE EVIDENCE"
             }
           },
           {
-            "id": "f9e6d3b2a9ec319f",
+            "id": "a4ef3b659c431577",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian_repo/Daily logs/DAY 36 04-08-2026.md",
+                "file": "obsidian_repo/sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/Central ideas + details.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAY 36 04-08-2026"
+              "title": "Central ideas + details"
             }
           },
           {
-            "id": "56c6ddc0fc32632c",
+            "id": "870585454431f3d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian_repo/Daily logs/DAY 37 05 08 2026.md",
+                "file": "obsidian_repo/sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/Inferences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAY 37 05 08 2026"
+              "title": "Inferences"
             }
           },
           {
-            "id": "1c77255ef38dcf02",
+            "id": "4a264284be36daca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian_repo/Daily logs/DAY 23 22-07-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY 23 22-07-2026"
+            }
+          },
+          {
+            "id": "c9d6d0c82edf0f3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian_repo/Daily logs/DAY 30 29-07-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY 30 29-07-2026"
+            }
+          },
+          {
+            "id": "6b894e27f9aed05b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian_repo/YALE ECON 252 FINANCIAL MARKETS COURSE/SHILLER LECTURE 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SHILLER LECTURE 1"
+            }
+          },
+          {
+            "id": "692a9a25535de354",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian_repo/Daily logs/DAY 32 31-07-2026 PRE TRIP + DA NANG TRIP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAY 32 31-07-2026 PRE TRIP + DA NANG TRIP"
+            }
+          },
+          {
+            "id": "60316a3378f5549d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian_repo/YALE ECON 252 FINANCIAL MARKETS COURSE/SHILLER LECTURE 2 02-08-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SHILLER LECTURE 2 02-08-2026"
+            }
+          },
+          {
+            "id": "6d3b4216068c77f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,49 +162,35 @@
             }
           },
           {
-            "id": "d7ab696958c5c235",
+            "id": "d99a63b6e533191d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
-            "id": "1a28bac2539d8da2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily logs/DAY 40 08-08-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DAY 40 08-08-2026"
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "bd3f8bffdb4ebef1",
+    "id": "bd4792502fddc210",
     "type": "split",
     "children": [
       {
-        "id": "eb9d8e3f01932fb9",
+        "id": "133bc4f368e320d9",
         "type": "tabs",
         "children": [
           {
-            "id": "6982ed715a3b53b3",
+            "id": "201385061775a01f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -149,12 +205,12 @@
             }
           },
           {
-            "id": "d29f677770e1d302",
+            "id": "eaedc7a50a976a18",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#opening",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +222,7 @@
             }
           },
           {
-            "id": "535e3d69de52b2ec",
+            "id": "579e856968bfd101",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -179,18 +235,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5
+    "width": 415.01258087158203
   },
   "right": {
-    "id": "78780775e5ad0705",
+    "id": "050e485c756a4749",
     "type": "split",
     "children": [
       {
-        "id": "16a42ac10f9b78cd",
+        "id": "81a94d200d1caa79",
         "type": "tabs",
         "children": [
           {
-            "id": "683dbacefe6dd2ba",
+            "id": "4f20cd761d12c408",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -208,7 +264,7 @@
             }
           },
           {
-            "id": "f81f9942ed360982",
+            "id": "621900ebd1bb033a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -221,7 +277,7 @@
             }
           },
           {
-            "id": "67eff8b0be8cfbe3",
+            "id": "7a8a380be37e9ef4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -236,7 +292,7 @@
             }
           },
           {
-            "id": "7a087f7e15ab33bd",
+            "id": "6662652ec3aac594",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -250,17 +306,18 @@
             }
           },
           {
-            "id": "4a4ca1d8719793a9",
+            "id": "a9bb53dcfe6ae372",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "2026-05-19.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2026-05-19"
             }
           }
         ]
@@ -282,54 +339,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a28bac2539d8da2",
+  "active": "d99a63b6e533191d",
   "lastOpenFiles": [
-    "DAY 41 09-08-2026.md",
-    "Daily logs/DAY 41 09-08-2026.md",
-    "Daily logs/DAY 40 08-08-2026.md",
-    "obsidian_repo/Daily logs/DAY 39 07 08 2026 1.md",
-    "README.md",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/variance + SD finance.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/SHILLER LECTURE 1.md",
+    "sat logs/DAY 2 R & W Craft and Structure/Words in context.md",
+    "sat logs/DAY 2 R & W Craft and Structure/words in context example q.png",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/transitions sat.png",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/TEXTUAL EVIDENCE.md",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/Textual evidence example q.png",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/QUANTITATIVE EVIDENCE.md",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/quantitative evidence example.png",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/Inferences.md",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/inferences example.png",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/Central ideas + details.md",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/central ideas + details question.png",
+    "sat logs/DAY 2 R & W Craft and Structure",
+    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS",
+    "sat logs",
+    "git+github course logs/reset --hard error msg.png",
+    "git+github course logs/merge conflict.png",
+    "git+github course logs/git tracking flow.png",
+    "git+github course logs/DAY 1 01-07-2026.md",
+    "git+github course logs/git and github workflow.png",
+    "git+github course logs",
+    "cre reading/CRE READING 21-07-2026 IRR.md",
+    "cre reading/CRE READING YIELD.md",
+    "cre reading/CRE READING 21 07 2026 NOI.md",
+    "cre reading/CRE READING 21 07 2026 CAP RATE.md",
+    "cre reading",
+    "ay logs/18-06-26 DAY 4.md",
+    "ay logs/19-06-26 DAY 5.md",
+    "ay logs/17-06-26 DAY 3.md",
+    "ay logs/16-06-26 DAY 2.md",
+    "ay logs/15-06-26 DAY 1.md",
+    "ay logs",
     "YALE ECON 252 FINANCIAL MARKETS COURSE/SHILLER LECTURE 2 02-08-2026.md",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/sum of variance finance.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/return formulas finance.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/Pasted image 20260802144753.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/Pasted image 20260802135543.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/expected value, mean and average shiller lecture.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/Pasted image 20260802141147.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/covariance finance.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/finance among occupuations, thousands of people, us bureau of labour statistics.png",
-    "YALE ECON 252 FINANCIAL MARKETS COURSE/correlation finance.png",
+    "YALE ECON 252 FINANCIAL MARKETS COURSE/SHILLER LECTURE 1.md",
     "YALE ECON 252 FINANCIAL MARKETS COURSE",
     "USACO LOGS/big o/Time complexity, big O notation.md",
     "USACO LOGS/data structures.md",
     "USACO LOGS/big o",
     "USACO LOGS",
-    "sat logs/DAY 2 R & W Craft and Structure/Words in context.md",
-    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/TEXTUAL EVIDENCE.md",
-    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/QUANTITATIVE EVIDENCE.md",
-    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/Inferences.md",
-    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS/Central ideas + details.md",
-    "sat logs/DAY 2 R & W Craft and Structure",
-    "sat logs/DAY 1 06-07-2026 R&W INFO + IDEAS",
-    "sat logs",
-    "SaiPrice Logs/planning phase/DAY 0 DATABASE INSTALL + CONNECT + CLAUDE CODE SKILLS INSTALL.md",
     "SaiPrice Logs/planning phase/DAY 0 SCHEMA PLANNING.md",
+    "SaiPrice Logs/planning phase/DAY 0 DATABASE INSTALL + CONNECT + CLAUDE CODE SKILLS INSTALL.md",
     "SaiPrice Logs/planning phase/DAY 0 FULL ARCHITECHTURE.md",
     "SaiPrice Logs/planning phase",
-    "SaiPrice Logs",
+    "README.md",
     "Python logs/Day 15 30-06-26 MULTITHREADING,API, TRUTHINESS,PYQT5 LABELS, IMAGES, LAYOUT MANAGERS/Day 15 30-06-26 MULTITHREADING,API, TRUTHINESS,PYQT5 LABELS, IMAGES, LAYOUT MANAGERS.md",
     "Python logs/DAY 14 29-06-26 PROPERTY, DECORATORS,EXCEPTIONS,FILE HANDLING, DATETIME/DAY 14 PROPERTY, DECORATORS,EXCEPTIONS,FILE HANDLING, DATETIME.md",
     "Python logs/DAY 13 27-06-26 MULTIPLE + MULTILEVEL INHERITANCE/Class methods.md",
-    "Python logs/DAY 9 19-06-26 LIST COMPREHENSION + MATCH CASE.md",
-    "Python logs/DAY 8 18-06-26 ITERABLES  + MEMBERSHIP OPS.md",
-    "Python logs/DAY 6 14-06-26 DEFAULT ARGS.md",
-    "Python logs/DAY 7 16-06-26 KEYWORD + ARBITARY ARGS.md",
-    "Python logs/DAY 5 12-06-26 RANDOM.md",
-    "Python logs/Day 15 30-06-26 MULTITHREADING,API, TRUTHINESS,PYQT5 LABELS, IMAGES, LAYOUT MANAGERS",
-    "Python logs/DAY 3 10-06-26 FORMAT SPECIFIERS, TIME, COLLECTIONS.md",
-    "Python logs/DAY 14 29-06-26 PROPERTY, DECORATORS,EXCEPTIONS,FILE HANDLING, DATETIME",
     "Untitled.canvas"
   ]
 }

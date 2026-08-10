@@ -1,5 +1,8 @@
 {
   "cssTheme": "AnuPpuccin",
-  "theme": "moonstone",
-  "accentColor": "#7c0068"
+  "theme": "obsidian",
+  "interfaceFontFamily": "Charter",
+  "baseFontSizeAction": false,
+  "textFontFamily": "Charter",
+  "monospaceFontFamily": "Charter"
 }
