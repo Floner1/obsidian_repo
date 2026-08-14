@@ -1,0 +1,4 @@
+# Local device state, differs on every machine, should never be synced or diffed.
+# This is the recurring cause of Obsidian Git merge conflicts.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
