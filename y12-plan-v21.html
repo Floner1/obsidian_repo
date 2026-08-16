@@ -1,0 +1,1798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peter's Y12 Plan v21 — Aug 2026 – Jan 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f5f2ea;
+    --paper-card: #fbf9f3;
+    --ink: #18170f;
+    --muted: #6f6a5c;
+    --faint: #a8a294;
+    --line: #e2ddd0;
+    --green: #1f5138;
+    --green-soft: #e7efe6;
+    --clay: #b5552f;
+    --clay-soft: #f6e7df;
+    --amber: #92620a;
+    --amber-soft: #fdf3e1;
+    --night: #1a1410;
+    --night-soft: #f0ece0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "IBM Plex Sans", sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.55;
+    background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.018) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+  .wrap { max-width: 800px; margin: 0 auto; padding: 40px 20px 100px; }
+
+  header { margin-bottom: 34px; }
+  .kicker {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--clay);
+    font-weight: 500;
+  }
+  h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: clamp(28px, 6vw, 42px);
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+    margin: 6px 0 4px;
+  }
+  .dates {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  .progress-wrap {
+    margin-top: 22px;
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .ring { flex-shrink: 0; }
+  .ring text {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 15px;
+    fill: var(--green);
+  }
+  .progress-meta { flex: 1; }
+  .progress-meta .count {
+    font-family: "Fraunces", serif;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .progress-meta .label { font-size: 13px; color: var(--muted); }
+  .reset {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    padding: 7px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .reset:hover { border-color: var(--clay); color: var(--clay); }
+
+  .legend {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+  .legend-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot-morning { background: var(--green); }
+  .dot-evening { background: var(--amber); }
+  .dot-filming { background: var(--clay); }
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin: 44px 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--ink);
+  }
+  .section-head h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 23px;
+  }
+  .section-head .range {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    color: var(--muted);
+    margin-left: auto;
+  }
+  .section-goal {
+    font-size: 13px;
+    color: var(--muted);
+    margin: -10px 0 16px;
+    line-height: 1.5;
+    padding: 10px 14px;
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+  .section-goal strong { color: var(--amber); }
+  .section-goal ul { list-style: disc; padding-left: 18px; margin: 4px 0; }
+  .section-goal li { margin-bottom: 4px; }
+  .section-goal li:last-child { margin-bottom: 0; }
+  .section-goal .goal-label {
+    display: block;
+    margin: 10px 0 4px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--clay);
+  }
+  .section-goal .goal-label:first-child { margin-top: 0; }
+
+  .card {
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    opacity: 0;
+    transform: translateY(8px);
+    animation: rise 0.5s ease forwards;
+  }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+  .card.today { border-color: var(--green); box-shadow: 0 0 0 3px var(--green-soft); }
+  .card.habit-only { padding: 14px 20px; }
+  .card.habit-only .day-focus { color: var(--muted); font-style: italic; font-size: 12.5px; }
+
+  .day-top { display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+  .day-date {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--clay);
+    font-weight: 500;
+  }
+  .today-tag {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--green);
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 5px;
+  }
+  .day-tag {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .day-focus {
+    font-family: "Fraunces", serif;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  /* Block labels */
+  .block-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 14px 0 7px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .block-label::before {
+    content: '';
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .bl-morning { color: var(--green); }
+  .bl-morning::before { background: var(--green); }
+  .bl-evening { color: var(--amber); }
+  .bl-evening::before { background: var(--amber); }
+  .bl-filming { color: var(--clay); }
+  .bl-filming::before { background: var(--clay); }
+  .bl-routine { color: var(--faint); }
+  .bl-routine::before { background: var(--faint); }
+  .bl-rehab { color: #1a4a7a; }
+  .bl-rehab::before { background: #1a4a7a; }
+  .bl-stretch { color: #1f7d6e; }
+  .bl-stretch::before { background: #1f7d6e; }
+
+  .morning-block { background: var(--green-soft); border-radius: 10px; padding: 10px 12px; margin-bottom: 4px; }
+  .evening-block { background: var(--amber-soft); border-radius: 10px; padding: 10px 12px; margin-bottom: 4px; }
+  .filming-block { background: var(--clay-soft); border-radius: 10px; padding: 10px 12px; margin-bottom: 4px; }
+  .routine-block { background: var(--night-soft); border-radius: 10px; padding: 10px 12px; margin-bottom: 4px; }
+  .rehab-block { background: #e8f0f8; border-radius: 10px; padding: 10px 12px; margin-bottom: 4px; }
+  .stretch-block { background: #e3f3ef; border-radius: 10px; padding: 10px 12px; margin-bottom: 4px; }
+  .task.rehab input:checked + .box { background: #1a4a7a; border-color: #1a4a7a; }
+  .task.stretch input:checked + .box { background: #1f7d6e; border-color: #1f7d6e; }
+
+  .task {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 7px 2px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .task input { position: absolute; opacity: 0; width: 0; height: 0; }
+  .box {
+    flex-shrink: 0;
+    width: 20px; height: 20px;
+    border: 1.8px solid var(--faint);
+    border-radius: 6px;
+    margin-top: 1px;
+    display: grid;
+    place-items: center;
+    transition: all 0.15s ease;
+    background: #fff;
+  }
+  .box svg { width: 12px; height: 12px; stroke: #fff; stroke-width: 3.5; fill: none; opacity: 0; transition: opacity 0.12s; stroke-dasharray: 20; stroke-dashoffset: 20; }
+  .task input:checked + .box { background: var(--green); border-color: var(--green); }
+  .task input:checked + .box svg { opacity: 1; stroke-dashoffset: 0; transition: stroke-dashoffset 0.25s ease 0.02s, opacity 0.1s; }
+  .task-text { font-size: 14.5px; transition: color 0.15s ease; }
+  .task input:checked ~ .task-text { color: var(--faint); text-decoration: line-through; }
+
+  /* Evening-style checkbox */
+  .task.evening input:checked + .box { background: var(--amber); border-color: var(--amber); }
+  .task.filming input:checked + .box { background: var(--clay); border-color: var(--clay); }
+
+  .term-def {
+    font-size: 13px;
+    color: var(--muted);
+    margin: 2px 0 0 31px;
+    padding-bottom: 2px;
+  }
+
+  .note-wrap { margin-top: 14px; }
+  .note-wrap label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--faint);
+    display: block;
+    margin-bottom: 6px;
+  }
+  textarea {
+    width: 100%;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 10px 12px;
+    resize: vertical;
+    min-height: 64px;
+    line-height: 1.5;
+  }
+  textarea:focus { outline: none; border-color: var(--green); }
+  textarea::placeholder { color: var(--faint); }
+
+  .intro {
+    background: var(--clay-soft);
+    border: 1px solid #ecd6c9;
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #5a3220;
+  }
+  .intro strong { color: var(--clay); }
+
+  .ay-brief {
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 28px;
+  }
+  .ay-brief-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .ay-brief-title {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: 500;
+  }
+  .ay-brief-toggle {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    color: var(--faint);
+  }
+  .ay-brief-body { display: block; }
+  .ay-brief-body.collapsed { display: none; }
+  .ay-section-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 500;
+    margin: 16px 0 8px;
+  }
+  .ay-section-label:first-child { margin-top: 0; }
+  .ay-stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 20px;
+    margin-bottom: 4px;
+  }
+  .ay-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 13px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--line);
+    gap: 12px;
+  }
+  .ay-stat:last-child { border-bottom: none; }
+  .ay-stat-label { color: var(--muted); flex-shrink: 0; }
+  .ay-stat-value { font-weight: 500; color: var(--ink); text-align: right; font-family: "IBM Plex Mono", monospace; font-size: 12px; }
+  .ay-tag-up { font-size: 10px; color: #1f5138; background: var(--green-soft); padding: 1px 5px; border-radius: 4px; margin-left: 5px; font-family: "IBM Plex Sans", sans-serif; }
+  .ay-tag-dn { font-size: 10px; color: #8a3515; background: var(--clay-soft); padding: 1px 5px; border-radius: 4px; margin-left: 5px; font-family: "IBM Plex Sans", sans-serif; }
+  .ay-tag-fl { font-size: 10px; color: var(--amber); background: var(--amber-soft); padding: 1px 5px; border-radius: 4px; margin-left: 5px; font-family: "IBM Plex Sans", sans-serif; }
+  .ay-quote {
+    background: var(--green-soft);
+    border-left: 3px solid var(--green);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 14px;
+    margin-top: 14px;
+    font-size: 13px;
+    color: #1a3d2b;
+    line-height: 1.55;
+  }
+  .ay-quote .quote-attr {
+    margin-top: 7px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    color: var(--green);
+    opacity: 0.8;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    color: var(--faint);
+    text-align: center;
+  }
+  .saved-flash {
+    position: fixed;
+    bottom: 20px; left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--ink);
+    color: var(--paper);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding: 8px 16px;
+    border-radius: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease;
+  }
+  .saved-flash.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+  .task-text a { color: var(--green); text-underline-offset: 2px; }
+  .task-text a:hover { color: var(--clay); }
+
+  /* Connection message card */
+  .connect-card {
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 28px;
+  }
+  .connect-card-header {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  .connect-person {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line);
+    gap: 16px;
+  }
+  .connect-person:last-child { border-bottom: none; }
+  .connect-name {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--ink);
+    min-width: 140px;
+  }
+  .connect-role {
+    font-size: 12px;
+    color: var(--muted);
+    flex: 1;
+  }
+  .connect-link {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    color: var(--clay);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .connect-link:hover { text-decoration: underline; }
+  .connect-msg-box {
+    margin-top: 16px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .connect-msg-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-bottom: 8px;
+  }
+  .connect-msg-text {
+    font-size: 13px;
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .connect-msg-note {
+    font-size: 11.5px;
+    color: var(--muted);
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* Debrief section */
+  .debrief-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--night);
+    color: var(--paper);
+    border: none;
+    border-radius: 12px;
+    padding: 14px 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 6px;
+    transition: background 0.15s;
+  }
+  .debrief-toggle:hover { background: #2d2925; }
+  .debrief-toggle .dt-arrow { margin-left: auto; transition: transform 0.2s; font-size: 14px; }
+  .debrief-toggle.open .dt-arrow { transform: rotate(90deg); }
+  .debrief-panel {
+    display: none;
+    background: var(--night);
+    color: #d4cfc5;
+    border-radius: 0 0 12px 12px;
+    padding: 24px 24px 28px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .debrief-panel.open { display: block; }
+  .debrief-panel h3 {
+    font-family: "Fraunces", serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #f5f2ea;
+    margin: 20px 0 8px;
+  }
+  .debrief-panel h3:first-child { margin-top: 0; }
+  .debrief-panel p { margin-bottom: 12px; }
+  .debrief-panel .chain-list {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 12px;
+    counter-reset: chain;
+  }
+  .debrief-panel .chain-list li {
+    counter-increment: chain;
+    padding: 6px 0 6px 32px;
+    position: relative;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .debrief-panel .chain-list li:last-child { border-bottom: none; }
+  .debrief-panel .chain-list li::before {
+    content: counter(chain);
+    position: absolute;
+    left: 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    color: var(--clay);
+    background: rgba(181,85,47,0.15);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 7px;
+  }
+  .debrief-panel .kicker-sm {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--clay);
+    margin-bottom: 4px;
+  }
+  .debrief-panel .nonneg {
+    background: rgba(181,85,47,0.12);
+    border: 1px solid rgba(181,85,47,0.25);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    color: #f5f2ea;
+    font-size: 13.5px;
+  }
+  .debrief-panel .nonneg strong { color: #f0b186; }
+
+  /* AY capture reminder — placement week days */
+  .ay-capture-reminder {
+    margin-top: 14px;
+    background: var(--amber-soft);
+    border: 1px solid #e8d5a8;
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+  .ay-capture-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .ay-capture-intro {
+    font-size: 12.5px;
+    color: var(--muted);
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  .ay-capture-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 8px;
+  }
+  .ay-capture-list li {
+    font-size: 13px;
+    color: var(--ink);
+    line-height: 1.55;
+    padding: 5px 0 5px 18px;
+    position: relative;
+    border-bottom: 1px solid #e8d5a8;
+  }
+  .ay-capture-list li:last-child { border-bottom: none; }
+  .ay-capture-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--amber);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+  }
+  .ay-capture-list li strong { color: var(--amber); font-weight: 600; }
+  .ay-capture-footer {
+    font-size: 11.5px;
+    color: var(--amber);
+    font-family: "IBM Plex Mono", monospace;
+    letter-spacing: 0.04em;
+    margin-top: 4px;
+  }
+
+  /* Project purpose reminder */
+  .purpose-card {
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 28px;
+  }
+  .purpose-card-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 0;
+  }
+  .purpose-card-title {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--amber);
+    font-weight: 500;
+  }
+  .purpose-card-toggle {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    color: var(--faint);
+  }
+  .purpose-card-body { display: block; margin-top: 16px; }
+  .purpose-card-body.collapsed { display: none; }
+
+  .vh { display: grid; gap: 9px; }
+  .vh-era {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--clay);
+    margin: 14px 0 2px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--line);
+  }
+  .vh-era:first-child { margin-top: 0; }
+  .vh-row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 13.5px;
+    line-height: 1.5;
+  }
+  .vh-tag {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--green);
+    background: var(--green-soft);
+    border-radius: 6px;
+    padding: 3px 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    min-width: 72px;
+    text-align: center;
+  }
+  .vh-gap .vh-tag { color: var(--muted); background: var(--night-soft); }
+  .purpose-block {
+    margin-bottom: 16px;
+  }
+  .purpose-block:last-child { margin-bottom: 0; }
+  .purpose-block-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .purpose-block-text {
+    font-size: 13.5px;
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .purpose-block-text strong { color: var(--amber); }
+  .purpose-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 6px 0 0;
+  }
+  .purpose-bullets li {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.6;
+    padding: 4px 0 4px 18px;
+    position: relative;
+    border-bottom: 1px solid var(--line);
+  }
+  .purpose-bullets li:last-child { border-bottom: none; }
+  .purpose-bullets li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--amber);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+  }
+  .purpose-divider {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 14px 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Peter's Full Plan · HCMC 2026-27</div>
+    <h1>Y12 — The Groundwork Year</h1>
+    <div class="dates">Y12 Plan v1: Aug 17, 2026 – Jan 21, 2027 &nbsp;·&nbsp; Split from Summer 2026 Archive (v70) on Aug 3, 2026</div>
+    <div class="progress-wrap">
+      <svg class="ring" width="56" height="56" viewBox="0 0 56 56">
+        <circle cx="28" cy="28" r="24" fill="none" stroke="#e2ddd0" stroke-width="5"/>
+        <circle id="ringFill" cx="28" cy="28" r="24" fill="none" stroke="#1f5138" stroke-width="5" stroke-linecap="round" stroke-dasharray="150.8" stroke-dashoffset="150.8" transform="rotate(-90 28 28)" style="transition: stroke-dashoffset 0.4s ease"/>
+        <text id="ringPct" x="28" y="33" text-anchor="middle">0%</text>
+      </svg>
+      <div class="progress-meta">
+        <div class="count"><span id="doneCount">0</span> of <span id="totalCount">0</span> done</div>
+        <div class="label">Progress saves automatically in this browser, separately from the Summer Archive file.</div>
+      </div>
+      <button class="reset" id="resetBtn">Reset</button>
+    </div>
+    <div class="legend">
+      <div class="legend-item"><span class="legend-dot dot-evening"></span>Tasks for that milestone</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#1a4a7a"></span>Afternoon — Knee & ankle (rehab retired Aug 11, replaced with a new maintenance program — Session A)</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#1f7d6e"></span>Afternoon — Mobility, hips/shoulders/spine (Session B, alternates with Knee & ankle by date)</div>
+    </div>
+  </header>
+
+  <!-- SPLIT NOTE -->
+  <div class="purpose-card">
+    <div class="purpose-card-header" onclick="toggleSplitNote()">
+      <span class="purpose-card-title">Why this is a separate file now</span>
+      <span class="purpose-card-toggle" id="splitToggleLabel">expand ▼</span>
+    </div>
+    <div class="purpose-card-body collapsed" id="splitCardBody">
+      <div class="purpose-block-text">
+        Summer 2026 (Jun 8 – Aug 16) is frozen exactly as it ran, full version history intact, in <strong>combined-plan-2026-v81.html</strong> — the Summer 2026 Archive. Schedule/content in that file held frozen through Aug 11 (v77), then was reopened four times on Aug 12: to move a SAT block between Aug 12/13 (v78), to record the SaiPrice Standard fallback decision (v79), to move the deployment-adjacent August tasks into the Oct fallback slice below (v80), and for a coherence-check fix covering a checkbox key bug, a Stretch/Standard rule conflict, and stale fixed-date claims (v81, this file's own v17 is the matching half) — see that file's own version history for the detail. This file starts fresh at Aug 17, Y12's first day, and carries forward only what's still live: SaiPrice Stretch, the SAT (taper already in progress, Sep 12 sitting, Nov 7 retake in reserve), a daily knee/ankle and mobility program (structured rehab itself retired Aug 11, see v8 below), and the identity chain (family real estate → Avison Young → SaiPrice) that everything else hangs off. Everything summer-specific — the AY placement week detail, the SAT drilling method, the Aug 10 deploy sprint — stays in the archive. This file doesn't re-explain those decisions, it just links back to them.
+        <span style="display:block;margin-top:8px;color:var(--muted)">This file uses its own separate save data (a different key in this browser), so checking things off here has no effect on the archive file, and vice versa. Run from an LLM council session on Aug 2: agreed the split was right, agreed to freeze the archive exactly as-is, agreed not to redesign the day-card format for v1 — ship it in the same shape as the archive's Y12 Autumn section, sparse cards on real dates rather than one card per day. Full council transcript and report saved separately as council-report-20260803-011123.html and council-transcript-20260803-011123.md.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTROL PANEL — THE WHOLE PLAN ON ONE SCREEN -->
+  <section style="margin:20px 0 8px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--paper-card)">
+
+    <div style="background:var(--night);color:#f3efe4;padding:18px 20px">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#bcae8f">Start here · read when it's too much</div>
+      <div style="font-size:20px;font-weight:700;margin-top:4px">The whole plan, on one screen</div>
+      <div style="color:#cfc8b6;font-size:13.5px;margin-top:6px">Y12's rhythm is different from summer's. There's no daily build sprint — it's a handful of real external deadlines spread across five months. Three matter most. Everything else is support.</div>
+    </div>
+
+    <div style="padding:18px 20px 8px">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:10px">The 5 things that matter</div>
+      <div style="display:grid;gap:10px">
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:#f2eefc">
+          <div style="font-weight:700;color:#7c3aed;font-family:'IBM Plex Mono',monospace;font-size:13px;white-space:nowrap;min-width:64px">SEP 11</div>
+          <div><strong>Wharton Investment Competition — registration closes.</strong> Advisor-led, not something you submit yourself. Real job here isn't registering, it's making sure your advisor actually did, well before this closes. 5pm ET converts to ~4am Sep 12 HCMC time, hours before the SAT — nothing to be sorting out that morning.</div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--green-soft)">
+          <div style="font-weight:700;color:var(--green);font-family:'IBM Plex Mono',monospace;font-size:13px;white-space:nowrap;min-width:64px">SEP 12</div>
+          <div><strong>SAT — sitting it, treating it as the first real data point.</strong> Not mandatory, chosen anyway, since the whole taper is already built around it. Registration deadline Aug 28, 2026 — confirmed, don't let this slip past. Nov 7 is the reserve retake if it lands under 1500. Don't lose ground on this to anything else below.</div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:#e0f2f1">
+          <div style="font-weight:700;color:#0d9488;font-family:'IBM Plex Mono',monospace;font-size:13px;white-space:nowrap;min-width:64px">OCT 17</div>
+          <div><strong>SaiPrice Stretch — office listings, then price/sqm, both shipped.</strong> Internal deadline, not an external one like the other three — but it's what makes RSI's "shipped since" line and Diamond Challenge's narrative real instead of aspirational. Map view stays out of this file on purpose, pushed to Y12 Spring, not squeezed in here.</div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--amber-soft)">
+          <div style="font-weight:700;color:var(--amber);font-family:'IBM Plex Mono',monospace;font-size:13px;white-space:nowrap;min-width:64px">DEC 10</div>
+          <div><strong>RSI application (est. deadline, unconfirmed for the 2027 cycle).</strong> Free, MIT-run, the single most respected line on this whole list. Built from SaiPrice/Stretch. Start in September, not November — this date may land inside your mid-year exam window, so the real target is "done well before Nov 30," not "done by Dec 10."</div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--night-soft)">
+          <div style="font-weight:700;color:var(--ink);font-family:'IBM Plex Mono',monospace;font-size:13px;white-space:nowrap;min-width:64px">JAN 14</div>
+          <div><strong>Diamond Challenge submission.</strong> SaiPrice is the concept, not a new idea. Team of 4 roughly in place, advisor in mind. This is what replaces Investment Club, not a lesser version of it.</div>
+        </div>
+      </div>
+      <div style="font-size:13px;color:var(--muted);margin-top:10px">Mid-year exams (4 A-levels, placeholder Nov 30 – Dec 11, confirm real dates with school) get their own full-stop window below — everything on this list pauses for those two weeks, no exceptions, the same way SAT taper protected Sep 12.</div>
+    </div>
+  </section>
+
+  <!-- DAILY HABITS — REHAB + STRETCHING -->
+  <div class="purpose-card">
+    <div class="purpose-card-header" onclick="toggleHabits()">
+      <span class="purpose-card-title">Daily habits — knee/ankle & mobility (rehab retired Aug 11)</span>
+      <span class="purpose-card-toggle" id="habitsToggleLabel">expand ▼</span>
+    </div>
+    <div class="purpose-card-body collapsed" id="habitsCardBody">
+      <div class="purpose-block-text">
+        Changed Aug 11 (v8). Structured knee rehab is done — the injury is resolved and physio has cleared moving off it, confirmed directly by Peter. In its place: a new mobility and injury-prevention program built by Claude for basketball (guard), soccer (goalkeeper), and karting, with knee and ankle work kept as a standing priority given the injury history. It alternates two sessions by date rather than running one list every day — Session A (ankle, knee, hamstrings, ~25min, under the relabeled "Knee & ankle" block) and Session B (hips, shoulders, spine, balance, ~30min, under "Mobility"). SAT test days and Sundays get a short 4-exercise floor instead of a full session. Full exercise list, evidence, and reasoning are in the chat that built this — not repeated here.
+        <span style="display:block;margin-top:8px;color:var(--muted)">Closed Aug 14 (v21), per Peter's direct request: every day from Aug 17 to Jan 21 now gets its own checkbox for this, not just the days that already have a real task card. On days with nothing else scheduled, a lightweight card renders with just the date, tag, and the mobility checklist — muted styling, tagged HABIT, so it reads at a glance as "nothing else today, just this." Exam-window days (Nov 24 – Dec 11, extended back from the exam section's own Nov 30 start to match the last Autumn card's "everything pauses starting the exam card below" line) are tagged EXAM instead, so they correctly fall under the existing floor-only rule alongside the two real exam cards rather than running full sessions through revision. Full generation logic is in the script, in the block right after PLAN closes — nothing here needed hand-typing 117 new cards.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SAIPRICE STRETCH SCOPE — CARRIED FROM ARCHIVE -->
+  <div class="purpose-card">
+    <div class="purpose-card-header" onclick="toggleStretch()">
+      <span class="purpose-card-title">SaiPrice Stretch Scope — What's In, What's Not</span>
+      <span class="purpose-card-toggle" id="stretchToggleLabel">expand ▼</span>
+    </div>
+    <div class="purpose-card-body collapsed" id="stretchCardBody">
+
+      <div class="purpose-block">
+        <div class="purpose-block-label">In Stretch — this is the Y12 build</div>
+        <div class="purpose-block-text">
+          <ul class="purpose-bullets" style="margin-top:8px">
+            <li>District trend charts over time</li>
+            <li>Price per sqm comparisons across districts</li>
+            <li>Map view — the full PropTech dashboard for the Y13 application</li>
+            <li><strong>Office listings</strong> — same scraping pattern as residential, ties directly to the office rent benchmarking done at Avison Young. The property_type field needed for this was already added to the schema before Standard shipped.</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="purpose-divider">
+
+      <div class="purpose-block">
+        <div class="purpose-block-label">Resolved Aug 4 — build order and cadence</div>
+        <div class="purpose-block-text">Office listings first. Same scraping pattern as residential, and the property_type field is already in the schema from before Standard shipped — lowest-effort feature on the list, and it ties straight to the actual Avison Young office rent work, not just the model in the abstract. Price/sqm comparisons second — a computed view on data already in hand, no new scraping. District trend charts: don't build the display yet, but start logging snapshots now regardless — trend charts need real time-series depth, and depth only comes from starting early. Map view — the flagship "full PropTech dashboard for the Y13 application" — is deliberately not a fall build. It's pushed to Y12 Spring, built with real runway instead of squeezed into a two-hour Saturday between RSI writing and Diamond Challenge drafts.
+        <span style="display:block;margin-top:8px;color:var(--muted)">Cadence: Saturdays, 2hr, real feature work, Sep 19 – Oct 24 (six sessions, stops before mid-year exam revision needs the weekends too). Two shorter weekday check-ins a week, ~30-45min, Sep 15 – Oct 1 only (the one open window before OHSC/BIWS fill weekday evenings Oct 5-23) — data logging, reviewing the prior Saturday's work, small fixes, not new feature builds. Full stop Nov 30 – Dec 11 with everything else. Dec 14 – Jan 21 is bug-fixes-only, not new feature time — RSI's tail end and Diamond Challenge's final stretch own those weeks.</span>
+        <span style="display:block;margin-top:8px;color:var(--muted)">Target: office listings shipped by Oct 3 — well ahead of RSI's real need date (substantially done before Nov 30), giving buffer instead of cutting it close. Price/sqm runs Oct 10-17. Oct 24 is a built-in buffer/RSI-ready check, not a third feature slot.</span></div>
+      </div>
+
+      <hr class="purpose-divider">
+
+      <div class="purpose-block">
+        <div class="purpose-block-label">Standard — fallback active, resolved Aug 12</div>
+        <div class="purpose-block-text">The Aug 10 checkpoint fired two days late — Standard wasn't actually reviewed against it until Aug 12, and deployment was still at zero (no render.yaml, no Procfile, no build.sh), per a Claude Code status report Peter consulted on that day. Real open bugs sat alongside the missing deploy: a scheduled-task crash with no confirmed root cause, an error_count field permanently masked by a page-overrun bug, category coverage at 1 of 8 real estate segments. Peter's own reasons for not shipping — security not yet worked, UI/UX not yet worked — checked out as real against that report. Decision: activate the named Oct 5-23 fallback rather than push a rushed ship five days before the Aug 17 taper. One more resolved same day (v16): the archive's own "rule regardless" card technically blocks any Stretch build time until Standard has shipped, which would have meant delaying office listings past this file's Sep 19 start, since it otherwise ships Oct 3, before Standard's own Oct 13 deploy step. Carved out in the archive, combined-plan-2026-v81.html -- the rule exists to stop Stretch from becoming an excuse to dodge Standard, not to block it once Standard has a real, dated plan of its own, which it now does, on evenings that never touch Stretch's Saturdays anyway. Stretch's Sep 19 start stands unchanged.
+        <span style="display:block;margin-top:8px;color:var(--muted)">Scope, precisely: the fallback closes out this plan's original locked Standard definition only — scraper, SQL DB, Django backend + API, frontend dashboard, ML price model, Render deploy, research writeup, set at account-setup time back in the archive. It does not include homedy as a second source, full 8-segment category coverage (currently 1 of 8), security hardening beyond Django's already-solid settings defaults, or UI/UX design — all real items on Peter's own later-added list, all genuinely broader than what this plan ever locked Standard to. Those are his call on if and when, not folded into the fallback slice by default.</span>
+        <span style="display:block;margin-top:8px;color:var(--muted)">Stacks on top of OHSC/BIWS/M&amp;I, doesn't compete with them. OHSC has the one real deadline this window (Oct 23 cert), and BIWS/M&amp;I is free skill review with no credential riding on it — neither should get diluted to make room. Instead: extra evenings stacked across all three OHSC/BIWS weeks, mostly Tue/Wed/Thu, running those evenings up to ~90min combined while the rest of the window stays at the lighter 45min OHSC/BIWS-only level. Week 1 (Oct 6-8): commit the four changes already tested and sitting local, then the scheduled-task crash if time allows. Week 2 (Oct 13-15): the actual Render deploy, then smoke-test the live URL, then the README/demo video work that couldn't happen in August without a live product to point at. Week 3 (Oct 20-22): publish, send the David Jackson email that's been drafted and waiting since Aug 9, then the LinkedIn announcement and distribution research that Aug 13 had originally carried. Full day-by-day breakdown in each week's Monday card below. Closes by Oct 22, a day ahead of OHSC's own Oct 23 finish and well ahead of RSI's real need date. Everything in this slice that used to sit in the archive's Aug 10-15 cards, deploy, publish, the David Jackson email, README/demo video, LinkedIn drafting, distribution research, moved here in full rather than half-staying in August reworded to not need a live URL — Peter's call (Aug 12), on the reasoning that all of it was genuinely reliant on a product that didn't exist yet, not just deploy itself.</span></div>
+      </div>
+
+      <hr class="purpose-divider">
+
+      <div class="purpose-block">
+        <div class="purpose-block-label">Frontend — htmx now, React only if earned</div>
+        <div class="purpose-block-text">Unchanged from the archive: htmx for any live filtering/sorting, React only if the dashboard grows real client-side state that htmx can't cover. Wanting React for a resume line is legitimate but should be named as that, not dressed up as a technical requirement.</div>
+      </div>
+
+      <hr class="purpose-divider">
+
+      <div class="purpose-block">
+        <div class="purpose-block-label">Not in Stretch — parked, unscheduled</div>
+        <div class="purpose-block-text"><strong>Hotels.</strong> Dynamic pricing means it needs a headless browser, not a simple scraper — a structurally different problem from residential or office. Recorded as an idea, not a commitment. Full reasoning in the archive's Jul 1 council session.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <button class="debrief-toggle" id="debriefToggle" onclick="toggleDebrief()">
+    <span>The Identity Chain — What Y12 Adds</span>
+    <span class="dt-arrow">▶</span>
+  </button>
+  <div class="debrief-panel" id="debriefPanel">
+    <div class="kicker-sm">Where the chain picks up</div>
+    <p>Summer built the chain: AY placement, SaiPrice, published research piece, David Jackson follow-up. Y12 doesn't start a new story, it extends the same one. Every new thread below only earns its place if it's another link, not a separate activity competing for attention.</p>
+
+    <h3>The chain, extended</h3>
+    <ol class="chain-list">
+      <li><strong>AY placement (Jun 2026, archive)</strong> — primary research, seeded the pipeline, produced the David Jackson contact.</li>
+      <li><strong>SaiPrice Standard (archive, closes out here)</strong> — built and running since the archive; deploy and publish slipped past Aug 10, closes out via the Oct 5-22 fallback below instead (see the Stretch Scope card above).</li>
+      <li><strong>SaiPrice Stretch (this file)</strong> — district trends, price/sqm, map view, office listings. The Y13-application version of the dashboard.</li>
+      <li><strong>Diamond Challenge (Jan 14)</strong> — SaiPrice submitted as a funded pitch competition entry, not a new idea invented for the occasion. Advisor sign-off, ideally from the AY side, is the newest and most direct extension of the David Jackson relationship.</li>
+      <li><strong>RSI application (~Dec 10, est.)</strong> — SaiPrice/Stretch's ML work formalized into a real research proposal. The most prestigious, and free, credential on this list.</li>
+      <li><strong>Second research piece</strong> — once a Stretch feature ships, a second published piece on the same project 12+ months after the first is a stronger story than one piece alone.</li>
+    </ol>
+
+    <h3>Still true from the archive</h3>
+    <div class="nonneg"><strong>The trilingual data moat.</strong> Vietnamese-language listings no English-only competitor can read. States explicitly in the research piece methodology and the college essay.</div>
+    <div class="nonneg"><strong>The family hotel line.</strong> Hotel internship → Django hotel management system → family business → AY placement → SaiPrice → Diamond Challenge. One identity, not a list of activities.</div>
+    <div class="nonneg"><strong>The small-market network effect.</strong> HCMC's CRE advisory market is small. One real relationship inside it, handled well, is a network most applicants never get near.</div>
+
+    <h3>Ten things carried from summer into Y12</h3>
+    <ol class="chain-list">
+      <li>The SAT isn't part of the strategy, it's the precondition for the strategy mattering. Sep 12 first, Nov 7 in reserve. Nothing below outranks it.</li>
+      <li>SaiPrice's value was always in shipping. Stretch is no different — a feature that's live beats three that are half-built.</li>
+      <li>David Jackson is not a checkbox. Diamond Challenge's advisor ask is the next real interaction with him, not a form to fill out.</li>
+      <li>Investment Club is dead and stays dead. Diamond Challenge and the Wharton Investment Competition solve the same problem it was meant to solve, without needing a school-approved club structure.</li>
+      <li>USACO is scaled back on purpose (Aug 3): light, optional practice only, no contest this cycle. The mid-year exam collision made that call, not a loss of interest.</li>
+      <li>Mid-year exams get the same protection SAT taper got. Four A-levels, real grades, a real transcript. Nothing else is more important during that window.</li>
+      <li>RSI, if it happens, happens because the proposal got written in September and October, not because of a deadline in December. Prep work now, not urgency later.</li>
+      <li>OHSC is the one certificate goal this term. CFI and NYIF stay dropped — real money for credentials this application doesn't need.</li>
+      <li>By Y13 applications, this term is 12+ months in the past. What matters then is what kept building, not what got planned once and left alone.</li>
+      <li>This file has no slack built in the way summer's SAT/deploy/publish trio didn't either. SAT, RSI, and Diamond Challenge are the three non-negotiables here. Everything else — Stretch features, EFL, NYU, scholarships research — is real, but it flexes first.</li>
+    </ol>
+  </div>
+
+  <!-- VERSION HISTORY -->
+  <div class="purpose-card">
+    <div class="purpose-card-header" onclick="toggleHistory()">
+      <span class="purpose-card-title">Version History — This File</span>
+      <span class="purpose-card-toggle" id="historyToggleLabel">expand ▼</span>
+    </div>
+    <div class="purpose-card-body collapsed" id="historyCardBody">
+      <div class="purpose-block-text" style="margin-bottom:16px;color:var(--muted)">
+        This file's own history starts here. For everything before Aug 17, 2026 — 81 versions of the summer plan, every council session, every dropped course and dead ECA — see combined-plan-2026-v81.html, the Summer 2026 Archive. This file doesn't repeat that history, only links to it.
+      </div>
+      <div class="vh">
+        <div class="vh-era">Y12 Plan v1</div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v21</span><span>Aug 14, 2026, Peter's direct request, closing the gap the v8 "Daily habits" note had flagged as open since this file's split from the archive: rehab/mobility only rendered as checkboxes on days that already had a real task card, since this file's card format is sparse by design (real dates with real deadlines, not one card per day). Now genuinely daily — 117 lightweight filler cards generated at load and inserted into the right section, one for every remaining date from Aug 17 to Jan 21, each carrying just date/tag/focus and whichever mobility block the existing HEAVY_TAGS/Sunday/alternating-session logic (all unchanged) assigns it. Exam-window filler (Nov 24 – Dec 11, extended 6 days back from the section's stated Nov 30 start since that gap wasn't claimed by either section's own range text — see the generation block's own comment for the reasoning) is tagged EXAM so it gets the same floor-only session the two real exam cards already get, not a full session through revision. Everything else is tagged HABIT, a new muted tag added to TAG_COLORS, and gets a new compact/muted card style (habit-only CSS class) so an empty day reads at a glance as "nothing else today, just this" rather than looking like a real task card. Total checkbox count rises substantially since 117 new days each carry a full mobility block — expected, not a bug, if the progress ring jumps. No existing day, checkbox key, or task touched — the backfill only fills genuinely empty dates, real cards render exactly as before. KEY unchanged. Filename and title bumped — y12-plan-v20.html → y12-plan-v21.html.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v20</span><span>Aug 13, 2026, Peter's direct request: cut Tibia-foot coupling drill from DAY_A entirely — no replacement. DAY_A goes from 9 exercises to 8. Only occurrence in the file; DAY_B and MOBILITY_FLOOR untouched. Since v14's slugify() keys checkboxes by exercise name, its checkbox key simply stops being generated going forward, no risk to any other exercise's key. No live impact: plan starts Aug 17, nothing checked yet under any key. No dates moved, no other checkboxes lost, KEY unchanged. Filename and title bumped — y12-plan-v19.html → y12-plan-v20.html.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v19</span><span>Aug 13, 2026, Peter's direct request: renamed "Ankle dorsiflexion squat" to "Squatted heel raise" everywhere it appears — both instances, DAY_A and MOBILITY_FLOOR. Description text unchanged, only the label. Since the v14 slugify() fix keys checkboxes by exercise name, this changes the checkbox key for this exercise on every date DAY_A or MOBILITY_FLOOR renders. No live impact today: the plan starts Aug 17, still four days out, so nothing under the old key has been checked. Filename and title bumped — y12-plan-v18.html → y12-plan-v19.html.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v18</span><span>Aug 13, 2026, Peter's direct request: reorder every exercise in DAY_A, DAY_B, and MOBILITY_FLOOR into a defensible sequence — nothing added, cut, or reworded, only array order changed. Safe to do without data loss since the v14 slugify() fix keys checkboxes by exercise name, not array position. Sequencing logic, standard sports-science session structure (general dynamic warm-up → active/loaded joint-specific work while fresh → static/passive holds last, since acute static stretching immediately before loaded or explosive work on the same muscle can blunt force output): DAY_A now runs World's Greatest Stretch and 90-90 hip switches (shared dynamic warm-up) into the three active ankle/knee drills — ankle dorsiflexion squat, tibia-foot coupling drill, tibialis posterior banded inversion — then closes with the four static holds (banded supine hamstring stretch, two-position wall calf stretch, tibialis anterior hold, kneeling heel-sit hold). The hamstring stretch is placed before the other static holds, not last, on purpose: NORDIC_CURL is appended after DAY_A programmatically (Monday only) regardless of array order, and a static hamstring stretch sitting immediately before a loaded eccentric hamstring exercise is the one sequencing mistake worth avoiding here — ending on calf/shin/knee holds instead keeps Nordic curl following non-hamstring static work. DAY_B runs the same warm-up into loaded/coordination hip work (band-resisted curtsy lunge, Cossack squat, Hip Airplane, the last of which is single-leg balance and belongs while still fresh and focused) then Prone press-up as the one dynamic spinal movement, then static holds grouped by region — hip (couch stretch, 90/90 leans), spine/torso (QL side-lying reach, supine spinal twist), shoulder (cross-body stretch, doorway chest stretch) — closing on Child's pose as the natural finisher. MOBILITY_FLOOR (the 3-exercise SAT/Sunday floor) reordered the same way: ankle dorsiflexion squat and the banded ankle drill (both active) before the calf stretch (static, closes it out). Full reasoning and sourcing in the chat that made this call, not repeated here. No dates moved, no checkboxes lost, KEY unchanged. Filename and title bumped — y12-plan-v17.html → y12-plan-v18.html.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v17</span><span>Aug 12, 2026, same-day follow-up to v16, folding in the other half of a coherence-check fix made in the archive file (combined-plan-2026-v81.html's own v81 entry). That file's "rule regardless" card technically blocked all Stretch build time until Standard shipped, which read literally would have pushed this file's Sep 19 office-listings start past Standard's own Oct 22 fallback close-out. Carved out there, not here — the only change on this side is a note added to the SaiPrice Stretch Scope card's "fallback active" block confirming the resolution and why Sep 19 doesn't move. No dates moved, no checkboxes lost, KEY unchanged. Filename and title bumped — y12-plan-v16.html → y12-plan-v17.html.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v16</span><span>Aug 12, 2026, same-day follow-up to v15, per Peter's direct request, folding in the other half of a decision made the same day in the archive file (combined-plan-2026-v81.html's own v80 entry). v15 built the Oct fallback slice narrow, three tasks, commit/deploy/publish, and left everything deployment-adjacent (testing the live URL, README expansion, demo video, the LinkedIn draft, distribution-account research, the David Jackson email) sitting in the archive's Aug 10-15 cards on the assumption those could get reworded to run without a live URL. Peter's call: they can't, genuinely, README screenshots and a demo video and a LinkedIn post linking to "the live tool" all need the live tool to exist, and pretending otherwise in August would just mean building throwaway content. All of it moves here instead. Real changes: (1) Oct 13/15's block split into three actual evenings (Tue/Wed/Thu) instead of two, deploy Tue, live-URL smoke test Wed, README + demo video Thu, since cramming the smoke test and README/demo into the same one or two evenings the v15 estimate assumed wasn't realistic once the full scope of what moved here became clear. (2) Oct 20/22's block split into three evenings the same way, publish + David Jackson email Tue, LinkedIn share + distribution research Wed, the actual announcement post + link verification Thu — the full bundle that used to be spread across Aug 10, 11, 13, and 15, now landing where the live product it depends on will actually exist. (3) Oct 6/8 gained a Wed buffer note, no new task, just slack if either evening runs long. (4) The Stretch Scope card's schedule summary rewritten to match, and to name directly why the fuller version replaced the narrower one. Time realism check run explicitly since this session's whole point was catching a plan that assumed things that weren't true: original August time estimates (Aug 11's 3.25hr live-URL test, Aug 12's 2hr README+demo, Aug 13's 3.25hr LinkedIn+distribution) don't fit inside 45min evening caps as literally stated, and were compressed here on the reasoning that most of that August time was testing/verifying work already largely done locally, not first-time build time — flagged as a real compression, not a free lunch, in case Oct runs long and any of these evenings need their own overflow. No dates moved outside Oct 6-8/13-15/20-22 as listed, no checkboxes lost, KEY unchanged. Filename and title bumped — y12-plan-v15.html → y12-plan-v16.html.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v15</span><span>Aug 12, 2026, Peter's direct request, folding in the fallback decision made the same day in the archive file (combined-plan-2026-v81.html's own v79 entry, same reasoning, other half of the same edit). Standard's Aug 10 checkpoint fired two days late — deployment was still at zero (no render.yaml, no Procfile, no build.sh) per a Claude Code status report Peter consulted on, and his stated reasons for not shipping (security not yet worked, UI/UX not yet worked) checked out as real against that report, not excuses. Decision: activate the named Oct 5-23 fallback. Real content changes, not just a status flip: (1) the "Standard — spillover, not yet resolved" block on the SaiPrice Stretch Scope card rewritten in full with the actual outcome and, per Peter's specific ask, a real answer to the stacks-vs-competes question this file had carried as unresolved since v1/v2 — stacks on top of OHSC/BIWS/M&I, doesn't compete with them, since OHSC has the one real deadline this window (Oct 23) and BIWS/M&I shouldn't get diluted either. (2) A scope distinction drawn that wasn't explicit anywhere before: the fallback closes out this plan's own original locked Standard definition only (scraper, DB, backend+API, dashboard, ML model, deploy, research writeup) — the Claude Code report's broader "missing against §15" list (homedy, full 8-segment category coverage, security hardening beyond Django's defaults, UI/UX design) is scope Peter added for himself later and stays his own call, not defaulted into the fallback slice. (3) Three real day-card additions, not just a goal-box note: Tue/Thu of each of the three OHSC/BIWS weeks (Oct 6 &amp; 8, Oct 13 &amp; 15, Oct 20 &amp; 22) each get one new stacked-on task line, ~30-45min, specifying exactly what ships that evening — committing the four already-tested changes first, then the actual Render deploy, then publishing the research piece, closing a day ahead of OHSC's own Oct 23 finish. No existing OHSC or BIWS/M&I task touched or shortened anywhere in this window. (4) The Y12 Autumn goal box's "Still open" bullet on SaiPrice Standard resolved and reworded to match. (5) The identity-chain debrief panel's "SaiPrice Standard (archive) — shipped, deployed, published research piece" line was flatly wrong as of today and corrected to name the real state and point at the Oct fallback instead. Live cross-references to the archive file updated to v79 (split-note card, version-history intro blurb) since that file bumped twice today (v78 for the Aug 12/13 SAT R&W swap, v79 for this same fallback decision). Filename and title bumped to keep pace, per the standing instruction from the v9 rename not to let this drift — y12-plan-v14.html → y12-plan-v15.html. No dates moved outside Oct 6/8/13/15/20/22 as listed above, no checkboxes lost, KEY unchanged.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v14</span><span>Aug 12, 2026, Peter's direct request, fixing the checkbox-key issue flagged during the v13 coherence check. Rehab and stretch tasks (the ones sourced from DAY_A, DAY_B, and MOBILITY_FLOOR) were keyed by array position — `${day.id}-rh0`, `-rh1`, etc. — so trimming or reordering an exercise mid-list silently shifted every checkbox after it onto the wrong exercise for any day already checked off. Added a slugify() helper that keys each task by its exercise name instead (`${day.id}-rh-cossack-squat`, for example), confirmed unique across DAY_A, DAY_B, MOBILITY_FLOOR, and the Monday-only Nordic curl addition, so a checked box now stays attached to that exercise regardless of what else in the list changes. No live data was affected by this fix — the plan starts Aug 17 and today's Aug 12, so nothing had been checked yet under the old keys. Morning, evening, and filming tasks are left index-keyed on purpose: those are per-day custom content, not reused lists that get trimmed the way DAY_A/DAY_B are, so the failure mode this fixes doesn't apply to them. Filename and title bumped to keep pace, per the standing instruction from the v9 rename to not let this drift — y12-plan-v13.html → y12-plan-v14.html. No dates moved, no checkboxes lost, KEY unchanged.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v13</span><span>Aug 12, 2026, Peter's direct request, following a chat catch that v12's cross-check against the gym program didn't cover redundancy inside the mobility program itself. Two exercises cut from DAY_B for overlap with each other: Split stance adductor mobilization (a passive, static adductor stretch) is cut because Cossack squat already trains the adductors through a bigger range under load, kept as-is; Standing overhead lat stretch is cut because Quadratus lumborum side-lying reach already covers the lat as both arms reach out long, and adds the low back/QL on top, which the standing version didn't touch — DAY_B goes from 15 exercises to 13. The shared warm-up (World's Greatest Stretch, 90-90 hip switches) leading both DAY_A and DAY_B was flagged in the same review and confirmed intentional, not a duplicate — no change made there. The ~30min DAY_B estimate is left unchanged, same approximation logic as v10-v12. DAY_A and MOBILITY_FLOOR untouched. Filename and title bumped to keep pace, per the standing instruction from the v9 rename to not let this drift — y12-plan-v12.html → y12-plan-v13.html. No dates moved, no checkboxes lost, KEY unchanged.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v12</span><span>Aug 12, 2026, Peter's direct request, following a cross-check against athletic_performance_program.md (the separate gym program) to remove exercises doing the same job in both places. Seven exercises cut for direct overlap with a gym-program exercise already training the same muscle group under load: DAY_A loses Banded terminal knee extension (duplicates Poliquin Step-Up's VMO/terminal-knee-extension work) and Single-leg glute bridge hold (duplicates the hip-extension work in Bulgarian Split Squat/Single-Leg RDL) — DAY_A goes from 11 exercises to 9. DAY_B loses Banded hip flexion (duplicates Hanging Leg Raise), Side plank clamshell hip raise and Side-lying adductor leg lifts (both duplicate Hip Adduction/Abduction Machine), and Banded external rotation and Prone Y-T-W (duplicate Cable External Rotation and Face Pull respectively) — DAY_B goes from 20 exercises to 15. MOBILITY_FLOOR loses Banded terminal knee extension, same reasoning as DAY_A — goes from 4 exercises to 3. The ~25min/~30min DAY_A/DAY_B estimates are left unchanged, same approximation logic as v10 and v11. Terminal knee extension isn't dropped from the week, it moves: Poliquin Step-Up is added into Wednesday's gym leg day (3x10 each leg, rest 60 sec, same protocol Monday already uses) alongside the existing Leg Extension rather than replacing it, so Wednesday's gym session goes from 8 exercises to 9 — see athletic_performance_program.md's own edit, same date. Full reasoning and the two exercises kept deliberately despite partial overlap (Hip Airplane vs Single-Leg RDL) are in the chat that made this call, not repeated here. Filename and title bumped to keep pace, per the standing instruction from the v9 rename to not let this drift — y12-plan-v11.html → y12-plan-v12.html. No dates moved, no checkboxes lost, KEY unchanged.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v11</span><span>Aug 12, 2026, Peter's direct request. Bulgarian split squat removed from the DAY_B mobility list — no replacement added, DAY_B goes from 20 exercises to 19, the ~30min estimate for DAY_B is unchanged since it was always an approximation across the list rather than a per-exercise sum. Filename and title bumped to keep pace, per the standing instruction from the v9 rename to not let this drift — y12-plan-v10.html → y12-plan-v11.html. No dates moved, no checkboxes lost, KEY unchanged.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v10</span><span>Aug 11, 2026, Peter's direct request/catch. DAY_A was missing the shared warm-up (World's Greatest Stretch, 90-90 hip switches) that DAY_B already had at the top of its list — the v8 entry's own text described the warm-up as running "every session," but the actual DAY_A array never got those two items added, so Session A days were quietly running without it since v8. Fixed: both warm-up exercises now lead DAY_A, same as they already led DAY_B. DAY_A goes from 9 exercises to 11; the ~25min estimate v8 gave already assumed the warm-up was included, so the stated time doesn't change, the code just now actually matches it. Same fix made the same day in combined-plan-2026-v76.html (now v77, its own v77 entry, same content fix). Filename and title bumped again to keep pace, per the standing instruction from the v9 rename to not let this drift — y12-plan-v9.html → y12-plan-v10.html. Live cross-references to the archive file updated to v77 (split-note card, version-history intro blurb). No dates moved, no checkboxes lost, KEY unchanged.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v9</span><span>Aug 11, 2026, same-day follow-up to v8, per Peter's direct request to stop the filename lagging the internal tag. Filename and title renamed from y12-plan-v4.html to y12-plan-v9.html — no content change, everything v8 built stands exactly as it was. Same rename made the same day in the archive file, combined-plan-2026-v74.html → combined-plan-2026-v76.html (its own v76 entry). Live cross-references to that file updated to the new name: the split-note card's pointer to the archive, and the version-history intro blurb above this list (the "versions of the summer plan" count now reads 76, matching the archive's new internal tag, continuing the same loose convention that count has always used — tracking the other file's version tag, not a literal row count). The header's "Split from Summer 2026 Archive (v70)" line is left untouched on purpose — that's a historical record of which archive version this file was actually split from on Aug 3, not a live pointer, same rule this file has always used for finished facts. No dates moved, no checkboxes lost, KEY unchanged so nothing already checked off is affected.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v8</span><span>Aug 11, 2026. Knee rehab formally retired, per Peter's direct confirmation the injury is resolved and his physio has cleared moving off structured rehab — same confirmation, same edit made the same day in combined-plan-2026-v74.html (v75 entry there, applied only to that file's remaining Aug 11-16 span). REHAB_NEW, REHAB_LIGHT, and STRETCH_ROUTINE all retired and replaced in full with a new mobility program built by Claude, covering ankle, knee, hip, shoulder, and general spine mobility for basketball (guard), soccer (goalkeeper), and karting, researched against current sports-science literature rather than carried over from the old rehab build. Full build and citations in the chat that produced it. Structure changed from one daily list to two alternating sessions (DAY_A: ankle/knee/hamstrings, ~25min; DAY_B: hips/shoulders/spine/balance, ~30min), since the new program is too long to run every day and still be realistic — which session lands on a given date is fixed by the date itself (even/odd day count), independent of which days have cards. HEAVY_TAGS/Sunday logic kept from v7 but the effect changed: those days now get a 4-exercise MOBILITY_FLOOR and skip the general-mobility block entirely, rather than just running a shorter version of the same list — the new program is large enough that this distinction actually matters now. Nordic hamstring curl added into DAY_A, capped at once a week (Mondays only, on a Session A day) given its DOMS risk. Block labels renamed: "Afternoon — Knee rehab" → "Afternoon — Knee & ankle", "Afternoon — Stretching (general flexibility)" → "Afternoon — Mobility (hips, shoulders, spine)". Daily-habits purpose card near the top updated to describe the new program instead of the old one. FILENAME/TITLE: not changed, per the established convention here — filename/title only move on explicit request, and none was made this time, so this file stays y12-plan-v4.html/title "v4" with internal tag now at v8, continuing the same drift v4's own entry flagged rather than renumbering history. No dates moved, no checkboxes lost.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v7</span><span>Aug 6, 2026, Peter's direct request. Same rehab edit made the same day in combined-plan-2026-v74.html (see that file's own v74 entry for the shared reasoning) applied here too — this file's rehab program was carried into Y12 "unchanged" per v1's original claim, no longer accurate as of this edit, comment header above REHAB_NEW updated to match. Cut from REHAB_NEW: Standing hip extension, Standing hip abduction, Single leg Romanian deadlift (injured leg), Hip adductions, Holding-support single leg squat (injured leg). Peter's reasoning: either he's doing them in the school gym now, or they're no longer relevant. Added: Poliquin step-ups (injured leg), 3×10 — heel elevated on a low step, other leg hangs free, controlled tap-down and drive back up through the heel to full extension, short range on purpose, a terminal-knee-extension/VMO exercise covering similar ground to several of the exercises just cut. Sets/reps are a standard-practice default, not confirmed with Peter's physio. Net: 9 exercises down to 5. Hip adductions also cut from REHAB_LIGHT for the same reason, leaving TKE and 90/90 hip switches there. FILENAME/TITLE: moves from v3 to v4 per Peter's request to adjust version names on both files; internal tag here goes to v7, continuing the same offset v4's entry flagged rather than renumbering history — filename now three versions behind the internal tag (was one behind at the v4 point, drifted further as v5 and v6 landed the same day with no filename bump). CAUGHT WHILE HERE: the version-history intro blurb above the list still pointed at combined-plan-2026-v70.html even though v4's own entry claimed that pointer was fixed — it wasn't, actually, still read v70. Corrected here to v74, and the split-note intro (which was already correctly pointing at v73) updated to v74 too, both reflecting the archive's rehab-only reopening that same day. SAME-SESSION FOLLOW-UP: that same intro blurb also used to name a specific count, "70 versions of the summer plan," tracking the combined file's own version number rather than a literal count of its history entries (that file only had 68 listed rows even at v73). Left the count out on the first pass rather than guess which number was meant; Peter confirmed put a number back in, so it now reads "74 versions," matching the combined file's current version tag, the same convention the original "70" was following. No new version tag for this, it's a same-session completion of the note above, not a separate content change. No dates moved, no checkboxes lost.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v6</span><span>Follow-up same day: Peter confirmed his real Sep 12 wake time, 6:30am, closing the open question v5 flagged on Sep 11's card. Reworded from a generic reference to "the same target" into the actual number: lights out 10–10:30pm gives the real 8hr to 8hr30 window against that wake time, not a placeholder. Peter also confirmed he wants the Aug 26–Sep 5 Bedrock placement kept as built in v5, on the reasoning that each session is short (~30min) and consistency matters more than the coursework-load unknown flagged in chat — no file change needed for that part, noted here for the record since it was a direct response to a flagged caveat, not silence.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v5</span><span>Same Aug 5 thread, later in the day, three separate corrections from Peter. (1) BEDROCK 100 PLACEMENT: the remaining 70 Bedrock 100 questions plus the 7 Expert problems (the 30 mapped to confirmed gaps already ran Aug 13 in the summer archive) needed a home. First attempt at this (Dec 14) was wrong on the facts — claimed "no time" in Sep–Oct when the real issue was every open day already being claimed by RSI/SaiPrice/OHSC, which didn't apply to the Aug 17–Sep 12 taper window at all. Corrected once Peter pointed out the real gaps: Aug 24–Sep 1 and Sep 1–Sep 8 aren't claimed by anything else in this file, they were left empty by taper design (no cramming, no new material), not by being full. Peter's call, made with that tradeoff named explicitly: use them anyway. Four new cards added — Aug 26 (Functions, Algebra with Desmos, Linear Functions, 22 questions), Aug 29 (Exponential Growth, Angles & Triangles, 22), Sep 2 (Area/Surface Area/Volume, Rates & Units, 15), Sep 5 (Statistics + all 7 Expert problems, 18, closes the full set). Aug 26's card flags directly that this runs against Aug 24's own "no new topics from here" line — a known, chosen exception, not a quiet contradiction. (2) STRETCH ROUTINE SWAP: head-to-knee pose, frog stretch, and bound angle pose removed from STRETCH_ROUTINE; child's pose with side reach, cobra's pose, and World's Greatest Stretch added in their place, Peter's exact request. World's Greatest Stretch flagged before building — deep lunge plus rotation isn't far off the dynamic-knee-valgus mechanism the rehab program was rebuilt around — Peter confirmed as-is, no modification note added. Daily-habits panel's stretch list updated to match. (3) SLEEP TARGET: "9hr target" was too high per Peter — replaced with "8hr target, 8hr30 max" on Sep 1 and Sep 8. Sep 11's separate "sleep by 9:30pm" line wasn't explicitly flagged by Peter but was inconsistent with the new number against a rough test-day wake time, so it was reworded to reference the same 8/8.5hr target rather than a fixed, unverified clock time — a reasonable default given the instruction it was clearly meant to follow, not a separate open question. No dates moved outside what's listed, no checkboxes lost.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v4</span><span>Note on numbering: this file's own filename/title lagged its internal version tag by one before this edit (filename said v2, latest internal tag already said v3, from the Aug 4 Wharton session below). Peter asked for this deliverable named y12-plan-v3.html, so the filename and title move to v3; the internal tag here goes to v4 to stay unique rather than collide with the existing v3 entry — flagging the offset rather than quietly fixing it by renumbering history. Three changes, all from the same Aug 5 chat thread that also closed out the summer archive (see combined-plan-2026-v73.html's own v73 entry for the other half). (1) ARCHIVE POINTER FIXED: the intro text named the frozen summer archive as combined-plan-2026-v70.html; it's actually v73 now that file is done changing, corrected here. (2) CROSS-REFERENCE, PER PETER'S REQUEST: before combined-plan-2026 deleted its own stale Aug 17 – Oct 19 content, checked every item in that old section against this file's Aug 17 – Nov 23 span rather than assuming nothing was lost. Two real conflicts confirmed by Peter directly, not just found: the old file said Sep 12 was school-administered, this file's self-registered framing is the correct one; the old file said Wharton GHSIC was dropped alongside Investment Club, this file's tracking of the revived Wharton Global HS Investment Competition (registration, Sep 15 invite, Oct 9 roster) is correct and current. Three smaller items were genuinely missing here and restored to the Aug 17 card: Wharton Global Youth's academic summer program and NYU Stern and UPenn M&amp;TSI by name (previously flattened into a generic "NYU/Columbia summer programs" line), and Diamond Challenge's Apr 29-30 Limitless World Summit date. A one-line confirmation that basketball, like taekwondo, doesn't exist in Y12 was added to the daily-habits panel for completeness — no schedule impact, rehab already ran the same either way. (3) SAT MAINTENANCE CADENCE, PETER'S CONCRETE NUMBER: Sep 1 and Sep 8's "30min review only, weak area errors" placeholder replaced with the real rule Peter gave directly — one SATSlayer Skill Practice set a day, 22 questions if it's a math domain, 27 if R&W, both land around 30min, targeted at whatever the error log still shows. Same rule extended to fill a real gap this file had: nothing was scheduled between Sep 26's score check and Nov 7's retake. Added as a conditional daily habit on Sep 26's card, one set a day from Sep 27 through Nov 6, firing only if the Sep 12 score lands under 1500 — visible in the Y12 Autumn goal box too, not just buried in one day's card. Nov 7's card updated to reference it rather than implying last-minute cramming. No dates moved outside what's listed, no checkboxes lost.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v3</span><span>Built Aug 4, 2026, same session as v2, in response to Peter asking to add Wharton and verify the Aug 28 SAT registration date. SAT registration deadline confirmed against College Board directly: Aug 28, 2026 for the Sep 12 sitting, added to the control panel's SEP 12 entry. Wharton's real deadline researched against the official Wharton Global Youth FAQ (2026-27 cycle): advisor-led registration runs Aug 10 – Sep 11, 2026 (students cannot register their own team), competition runs Sep 28 – Dec 4, team leader invite via SurveyMonkey Apply lands Sep 15, official team roster due Oct 9. This exposed a real bug rather than just a missing panel entry: the file's existing Sep 21 card was checking whether registration "went through" ten days after the real Sep 11 deadline had already closed. Fixed at the source, not just flagged: Aug 17's task reworded to name the real Sep 11 deadline and the advisor-led mechanic explicitly; Sep 8's existing card got a firm check-in line (advisor must have actually submitted, not just agreed, by 5pm ET Sep 11, which converts to ~4am Sep 12 HCMC time, inside the protected pre-SAT rest window); Sep 21's task reworded from a now-meaningless registration check to the real post-deadline items (Sep 15 invite confirmation, Oct 9 roster deadline). Control panel gets a new SEP 11 entry, own color (soft purple, distinct from Diamond Challenge's night-soft it would otherwise have matched), inserted before SEP 12 to stay chronological; header updated to "The 5 things that matter." No dates moved outside what's listed, no v2 content removed.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v2</span><span>Built Aug 4, 2026, resolving the SaiPrice build-order flag that v1 carried forward unresolved. Consulted first, built after explicit confirmation. Changes: (1) SaiPrice Stretch Scope card's "still undecided" build-order block replaced with a resolved order — office listings first (schema and scraping pattern already ready, ties directly to the AY office rent work), price/sqm second (computed view, no new scraping), trend-chart data logging started immediately with its display deferred, map view pushed entirely to Y12 Spring as the real Y13-application centerpiece rather than a rushed fall build. (2) New BUILD tag (teal, #0d9488) and eleven new day cards added: three SaiPrice-tagged weekday check-ins Sep 15/17 (prep + data-logging setup), Sep 22/24 (review + continue), Sep 29/Oct 1 (polish + light planning) — all ~30-45min, explicitly lighter than the Saturday sessions, sitting only in the one open weekday window (Sep 15 – Oct 1) before OHSC and BIWS/M&I fill weekday evenings Oct 5-23. Six Saturday sessions added, 2hr each: Sep 19 and Oct 3 build/ship office listings, Oct 10 and Oct 17 build/ship price/sqm, Oct 24 is a buffer/RSI-ready check, not a third feature. Sep 26's existing SAT-scores card got one light SaiPrice line added, not a full session, since that day already carries the score check. (3) Standard's status addressed directly rather than assumed: as of this file's Aug 4 writing, Standard has not shipped, the Aug 10 deploy checkpoint is still six days out, so "Y12 = Stretch only" holds provisionally, not as settled fact. Added an explicit "Standard — spillover, not yet resolved" block to the Stretch Scope card and a matching flag in the Y12 Autumn section's "Still open" list, naming the real open question: whether Standard's fallback (a slice of Oct 5-23, same 45min cap as OHSC/BIWS per the archive) stacks on top of those two or competes with them for the same slot — that was written before both were sitting there at their own caps. Flagged for the Aug 10 checkpoint to resolve, not decided here. No existing v1 dates, checkboxes, or content removed — this file uses the same save key as v1, so any progress already logged carries over. Full source: chat thread building on the Aug 3 council split, four consult passes on SaiPrice cadence and Standard status before this build was authorized.</span></div>
+        <div class="vh-row vh-gap"><span class="vh-tag">v1</span><span>Split from Summer 2026 Archive v70 (Aug 3, 2026), per a 5-advisor council session run the same day (council-report-20260803-011123.html). Archive frozen exactly as it stood, full version history intact, no further edits. This file starts fresh at Aug 17 and carries forward: SaiPrice Stretch (unresolved build-order flag intact), the SAT taper through Sep 12 with Nov 7 held in reserve, knee rehab (continuing, unchanged) and general stretching (continuing — corrected here, the archive had it wrongly set to stop Aug 16), and the Diamond Challenge/SaiPrice case built Aug 2. New in this version, none of it existed in the archive: Wharton Global HS Investment Competition (team of ~4 including Peter already informally in place, advisor in mind, replaces the dead Investment Club/GHSIC route entirely), RSI application (~Dec 10 est., built from SaiPrice/Stretch, flagged as needing to be substantially done before the mid-year exam window given the deadline may fall inside it), Economics for Leaders and Notre Dame Leadership Seminars (both referenced, Notre Dame dated ~Jan 21), a mid-year exams block (4 A-levels — Maths, Further Maths, CS, Economics — 2-week placeholder window Nov 30–Dec 11, unconfirmed with school, protected the same way SAT taper protected Sep 12), USACO scaled back to light optional practice with no contest commitment this cycle (the Nov 16 real-schedule check, weekly 4hr simulations, and the Dec 4/Dec 12 contest cards from the archive are all removed, not carried over — the mid-year exam collision made this call, confirmed by Peter Aug 3), NYU/Columbia summer program research folded in as reference only given Peter's brother lives in NYC and attended NYU, and EducationUSA HCMC plus the family's need-blind-vs-merit-scholarship strategy referenced as an early, low-effort Y12 start rather than a Y13 scramble. SAT retake date corrected from an unspecified "November" placeholder to the real confirmed Nov 7, 2026 sitting once Peter clarified Sep 12 was self-registered, not school-mandatory. Full source: five chat threads (report + consult, corrections on rehab/stretch/USACO/SAT/econ comps/NYU, and this build) plus the two documents above.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="app"></div>
+  <div class="saved-flash" id="flash">Saved</div>
+</div>
+
+<script>
+const TAG_COLORS = {
+  "TAPER":"#6b7280","SAT TEST":"#ef4444","SAT FINAL":"#ef4444","REVIEW":"#6b7280",
+  "FINAL":"#ef4444","USACO":"#3b82f6","APP":"#f59e0b","COMP":"#8b5cf6","EXAM":"#b91c1c",
+  "BUILD":"#0d9488","HABIT":"#9c9585"
+};
+
+const KEY = "y12-plan-v1-2026";
+let state = { checks: {}, notes: {} };
+try { const s = localStorage.getItem(KEY); if (s) state = JSON.parse(s); } catch (e) {}
+if (!state.checks) state.checks = {};
+if (!state.notes) state.notes = {};
+
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify(state)); flash(); } catch (e) {}
+}
+
+let flashTimer;
+function flash() {
+  const f = document.getElementById("flash");
+  f.classList.add("show");
+  clearTimeout(flashTimer);
+  flashTimer = setTimeout(() => f.classList.remove("show"), 1100);
+}
+
+const todayISO = new Date().toISOString().slice(0, 10);
+
+// Stable key from an exercise's name (text before the em-dash), not its
+// position in the array. Added v14: rehab/stretch tasks used to be keyed by
+// index (`${day.id}-rh0`, `-rh1`...), so cutting or reordering an exercise
+// from the middle of DAY_A/DAY_B/MOBILITY_FLOOR silently shifted every
+// checkbox after it onto the wrong exercise for any day that had already
+// been checked off. Keying by name instead means a checked box stays
+// attached to that exercise regardless of what else in the list changes,
+// and only breaks if the exercise's own name changes.
+function slugify(text) {
+  const name = text.split(" — ")[0];
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+function taskRow(id, text, cls) {
+  const checked = state.checks[id] ? "checked" : "";
+  const taskCls = cls ? `task ${cls}` : "task";
+  return `<label class="${taskCls}">
+    <input type="checkbox" data-id="${id}" ${checked}>
+    <span class="box"><svg viewBox="0 0 16 16"><polyline points="2.5,8.5 6.5,12 13.5,4"/></svg></span>
+    <span class="task-text">${text}</span>
+  </label>`;
+}
+
+const PLAN = [
+  {
+    section: "SAT Taper — Countdown to Sep 12",
+    range: "Aug 17 – Sep 12",
+    goal: "<ul><li>Arrive at Sep 12 rested and sharp — this was never mandatory, it's chosen, because the whole taper is already built around it</li><li>No cramming. No new material</li></ul><span class=\"goal-label\">Not school-mandatory (corrected Aug 3)</span><ul><li>Sep 12 is a self-registered international sitting, not a compulsory school administration — Peter can sit any Aug/Sep/Oct/Nov/Dec date, or a different test center entirely</li><li>Keeping Sep 12 anyway: moving it doesn't close the score gap, three more weeks of the same taper-style prep isn't a meaningful jump in readiness, and moving it would compress the Nov 7 retake room already held in reserve</li><li>Real 2026-27 international SAT dates: Aug 22, Sep 12, Oct 3, Nov 7, Dec 5, 2026, then Mar 6, May 1, Jun 5, 2027 — Nov 7 is the confirmed retake date if Sep 12 lands under 1500, deadline to register for it is Oct 23</li></ul><span class=\"goal-label\">Risk flagged (carried from archive) — Cambridge IPQ</span><ul><li>The Cambridge IPQ project's start date was still unconfirmed with school as of the archive's last update — working assumption was start of Sep</li><li>If it starts around Sep 1, it lands inside the most protected stretch of this taper</li><li>IPQ is school-assigned, not optional, so it can't simply be deferred — the taper rule needs a carve-out for IPQ specifically if this holds: it proceeds, SAT review stays at 30min, nothing else new gets added on top of either</li><li>Confirm the real date with school as early in Y12 as possible</li></ul><span class=\"goal-label\">Investment Club — stays dead</span><ul><li>No co-founders, no supervising teacher, two months late on registration. Not reopening it. Diamond Challenge and the Wharton Investment Competition both replace it — see the Aug 17 card and the Y12 Autumn section below</li></ul>",
+    days: [
+      {
+        id: "d-aug17", date: "Mon · Aug 17", iso: "2026-08-17", focus: "Y12 first day — no SAT today", tag: "TAPER",
+        eveningTasks: [
+          "Y12 first day — orientation and admin only. Do not study SAT today.",
+          "Wharton Global HS Investment Competition — do this immediately, don't wait for a quiet week. Registration is advisor-led, not something you submit yourself — students can't register their own team, only the advisor can, and the window is Aug 10 – Sep 11, 2026, confirmed. You already have roughly 4 people including yourself and an advisor in mind: (1) confirm the other 3 are firmly in, not just informally interested, (2) formally ask your advisor today, don't leave it implied, and get a real commitment that they'll actually submit the registration, not just agree to eventually, (3) Sep 11 is a hard close, five days before your SAT — see Sep 8's card for the follow-up check.",
+          "Diamond Challenge, written now so week one doesn't bury it: SaiPrice is the concept, not a new idea. Team of 2-4 needed (same team as Wharton's competition works fine), one adult advisor 21+ who doesn't have to be a teacher — family real estate background or someone from the Avison Young side both fit, ideally a real sign-off from the AY side, not just a signature. Submission window opened Sep 16, deadline Jan 14 5pm EST. Limitless World Summit (the culminating event) runs Apr 29-30, well past this file's Jan 21 horizon but worth knowing it's there. See the Sep 28 card and the control panel above.",
+          "RSI (MIT) — free, the most respected credential on this list. Est. deadline ~Dec 10 for the 2027 cycle (unconfirmed, based on the prior cycle's Dec 10 close). Start the project proposal draft in September, built from SaiPrice/Stretch. See Sep 14's card.",
+          "Other Y12 pursuits, reference only, nothing here is a task for today: Economics for Leaders — rolling deadline, decide residential vs virtual (virtual avoids the visa question entirely). Notre Dame Leadership Seminars — free, tuition/room/board covered, est. deadline ~Jan 21, $75 app fee + $150 enrollment fee, English test if the school isn't English-medium. Y13 summer programs — reference only, real action isn't needed until closer to their deadlines: Wharton Global Youth Program (the academic summer program, distinct from the investment competition above), NYU Stern's pre-college program, UPenn's M&TSI, and Columbia's summer programs all worth a look (NYU's international deadline is March 15, well outside this file's Jan 21 horizon); your brother living in NYC and having gone to NYU is worth factoring in on cost and on your parents' comfort with you being there, ask him directly whether staying with him is actually workable before getting attached to the plan. Scholarships — EducationUSA HCMC is free and worth booking now, not senior year, see Sep 21's card; the family's need-blind-vs-merit-chase strategy is worth a real conversation before Y13 deadlines like Vanderbilt/USC's Dec 1 become a scramble. IEO — still a watch item, not an action item, check gesd.edu.vn for when Vietnam's national round (VEO) opens, no date published yet. Cambridge Economics and Finance Competition stock pitch — a Y13 watch item, not this file's action item. Genuinely selective, qualifying exam first, then an in-person team stock pitch at St John's College, Cambridge, but this cycle's deadline already passed. Check for the next exam-qualifying date when Y13 planning starts. USACO — scaled back (Aug 3): no contest this cycle, the Nov 16 real-schedule check and the weekly 4-hour simulations from the archive are dropped given the mid-year exam collision. Keep it as light, optional practice only, no schedule, no pressure. Revisit a real contest attempt in spring once exams are behind you. Cambridge IPQ — start date still unconfirmed, see this section's goal.",
+          "Log: how it feels starting Y12 — what are you walking into?"
+        ]
+      },
+      {
+        id: "d-aug18", date: "Tue · Aug 18", iso: "2026-08-18", focus: "IGCSE results drop 12pm noon HCMC", tag: "TAPER",
+        eveningTasks: [
+          "IGCSE results drop 12pm noon HCMC time",
+          "Process results — confirm Y12 subject choices if needed",
+          "Log: what the results mean for the path ahead",
+          "Do not study SAT today — give yourself the afternoon"
+        ]
+      },
+      {
+        id: "d-aug24", date: "Mon · Aug 24", iso: "2026-08-24", focus: "Bluebook Practice Test 7 — last full test", tag: "SAT TEST",
+        eveningTasks: [
+          "Full Bluebook practice test 7 — last full test before Sep 12. This one's rated the hardest of the 8 you and your friend deliberately saved it for last — a lower score here reflects the test being harder, not you getting worse. Check it against the trend across all 8, not in isolation.",
+          "Score: where are you vs 1500+? Check it against the trend, not just this one number.",
+          "Identify 2 remaining weak areas — these are the ONLY things you review from now on",
+          "No new topics from this point forward",
+          "Log"
+        ]
+      },
+      {
+        id: "d-aug26", date: "Wed · Aug 26", iso: "2026-08-26", focus: "Bedrock 100 catch-up — Functions, Algebra with Desmos, Linear Functions", tag: "REVIEW",
+        eveningTasks: [
+          "v5, per Peter's explicit request (Aug 5 chat): this and the next 3 cards are the leftover Bedrock 100 questions from summer, deliberately placed inside the taper window even though Aug 24's card above says no new topics from here on. Known exception, not an oversight — Peter chose this timing over waiting until after Sep 12.",
+          "Bedrock Prep 'Bedrock 100' (bedrockprep.com/bedrock-100) — Functions (7), Algebra with Desmos (7), Linear Functions (8). 22 questions, same rough size as one SATSlayer set."
+        ]
+      },
+      {
+        id: "d-aug29", date: "Sat · Aug 29", iso: "2026-08-29", focus: "Bedrock 100 catch-up — Exponential Growth, Angles & Triangles", tag: "REVIEW",
+        eveningTasks: [
+          "Bedrock Prep 'Bedrock 100' — Exponential Growth (11), Angles & Triangles (11). 22 questions."
+        ]
+      },
+      {
+        id: "d-sep1", date: "Tue · Sep 1", iso: "2026-09-01", focus: "30min review only — protect sleep", tag: "TAPER",
+        eveningTasks: [
+          "30min SAT review only — English, not a coin flip. SVA retest under time pressure one more time (confirm the Aug 7 fix actually held five weeks later), plus a quick Information and Ideas trap check. Review only, nothing new. If your tracker shows something else spiked worse by now, that overrides this default.",
+          "If IPQ has started by now: it proceeds as school requires, that's not optional. SAT review still caps at one set, nothing else gets added on top",
+          "Protect sleep from this point: 8hr target, 8hr30 max, every night until Sep 12",
+          "Log: you're in the home stretch"
+        ]
+      },
+      {
+        id: "d-sep2", date: "Wed · Sep 2", iso: "2026-09-02", focus: "Bedrock 100 catch-up — Area/Surface Area/Volume, Rates & Units", tag: "REVIEW",
+        eveningTasks: [
+          "Bedrock Prep 'Bedrock 100' — Area, Surface Area & Volume (10), Rates & Units (5). 15 questions, lighter session."
+        ]
+      },
+      {
+        id: "d-sep5", date: "Sat · Sep 5", iso: "2026-09-05", focus: "Bedrock 100 catch-up — Statistics + Expert (final session)", tag: "REVIEW",
+        eveningTasks: [
+          "Bedrock Prep 'Bedrock 100' — Statistics (11), then the 7 Expert problems to close it out. 18 questions. This finishes the full 100 + Expert set — nothing left in the queue after today."
+        ]
+      },
+      {
+        id: "d-sep8", date: "Tue · Sep 8", iso: "2026-09-08", focus: "30min review only — protect sleep", tag: "TAPER",
+        eveningTasks: [
+          "30min SAT review only — English again. Spot-check Craft and Structure (vocabulary-in-context) and whatever SEC punctuation gaps were still open on Aug 14. Same override rule as Sep 1: if the tracker says otherwise, follow the tracker.",
+          "No ECA session today — Investment Club stays dead. Wharton's Investment Competition and Diamond Challenge are the replacements, neither has anything urgent landing this specific week",
+          "Wharton registration check-in: confirm with your advisor it's actually submitted, not just planned. Deadline is Fri Sep 11, 5pm ET (~4am Sep 12 HCMC time) — that's inside your protected rest day before the SAT, not a day to be chasing this down last-minute",
+          "Protect sleep: 8hr target, 8hr30 max",
+          "Log"
+        ]
+      },
+      {
+        id: "d-sep11", date: "Fri · Sep 11", iso: "2026-09-11", focus: "Rest completely", tag: "TAPER",
+        eveningTasks: [
+          "Prepare test kit: ID, pencils, approved calculator, snacks, water",
+          "Rest completely — no SAT review today",
+          "Lights out by 10–10:30pm — with a 6:30am wake for Sep 12, that's the real 8hr to 8hr30 window, not a guess",
+          "Log: 9 full practice tests behind you. You're ready."
+        ]
+      },
+      {
+        id: "d-sep12", date: "Sat · Sep 12", iso: "2026-09-12", focus: "SAT — first sitting", tag: "SAT FINAL",
+        eveningTasks: [
+          "SAT — first real sitting, self-registered",
+          "Arrive 15 minutes early",
+          "Eat a real breakfast",
+          "9 full practice tests done. Trust the reps. If it lands under 1500, Nov 7 is already held in reserve — this isn't your only shot."
+        ]
+      }
+    ]
+  },
+  {
+    section: "Y12 Autumn — Post-SAT to Mid-Year Exams",
+    range: "Sep 13 – Nov 23",
+    goal: "<ul><li>OHSC cert complete by Oct 23 — the only certificate goal this window</li><li>RSI proposal substantially done before mid-year revision starts, not rushed in November</li><li>Diamond Challenge team and advisor formally confirmed, concept narrative underway</li><li>First month of Y12 is protected — nothing structured until late Sep</li></ul><span class=\"goal-label\">NYIF stays dropped (carried from archive)</span><ul><li>Paywalls past a free preview, real money for a credential this application doesn't need</li><li>Oct 5-23 evenings alongside OHSC run BIWS/M&amp;I YouTube review instead — same content, free, no certificate expected</li></ul><span class=\"goal-label\">USACO — scaled back Aug 3</span><ul><li>No contest this cycle. The archive's Nov 16 real-schedule check, weekly 4-hour Bronze simulations, and the Dec 4/Dec 12 contest cards are all removed, not carried forward</li><li>The mid-year exam window (4 A-levels, revision starting ~Oct 26) made this call — stacking full-length timed simulations on top of exam revision wasn't a difficulty problem, it was a real calendar conflict</li><li>Keep it as light, optional, no-pressure practice if you want to, no schedule attached. A real contest attempt is a spring decision, once exams are behind you</li></ul><span class=\"goal-label\">SaiPrice Stretch — build order resolved Aug 4</span><ul><li>Office listings, then price/sqm, then trend-chart data logging (display deferred), map view pushed to Y12 Spring — full reasoning in the SaiPrice Stretch Scope card above</li><li>Cadence: Saturdays Sep 19 – Oct 24 (2hr, real build), weekday check-ins Sep 15 – Oct 1 only (~30-45min, light)</li><li>Target: office listings shipped by Oct 3, well ahead of RSI's real need date</li></ul><span class=\"goal-label\">Still open</span><ul><li>Cambridge IPQ's real start date — confirm with school as early as possible</li><li>Mid-year exam dates — placeholder Nov 30 – Dec 11 used below, confirm the real window with school before Oct 26 so the revision-start date is accurate, not a guess</li><li>Resolved Aug 12 — SaiPrice Standard's Aug 10 checkpoint fired two days late. Deployment hadn't started, so the fallback is active: the four changes already tested and sitting local, then Render deploy, then publish, stacked on top of OHSC/BIWS/M&amp;I rather than competing with them. Full detail in the SaiPrice Stretch Scope card above and that section's own day cards below</li></ul><span class=\"goal-label\">Conditional — SAT retake maintenance (v3)</span><ul><li>Only fires if Sep 26's score lands under 1500. If it does: one SATSlayer Skill Practice set a day, ~30min, Sep 27 through Nov 6, alongside everything else below — see the Sep 26 card for the full rule</li></ul>",
+    days: [
+      {
+        id: "d-sep13", date: "Sun · Sep 13", iso: "2026-09-13", focus: "Post-SAT debrief — rest", tag: "TAPER",
+        eveningTasks: [
+          "Post-SAT debrief log: what felt hard, what felt easy, what surprised you",
+          "No structured study this week — let the first month of Y12 settle",
+          "Rest"
+        ]
+      },
+      {
+        id: "d-sep14", date: "Mon · Sep 14", iso: "2026-09-14", focus: "Start RSI project proposal", tag: "APP",
+        eveningTasks: [
+          "Start the RSI project proposal draft — build it from SaiPrice/Stretch's ML work, this is the whole point of starting now instead of November",
+          "Work through the regression/prediction sections of MIT's 6.036 (Intro to Machine Learning) and 6.S191 (Intro to Deep Learning), both free on OCW — not the full courses, just enough to name the actual technique SaiPrice's model uses. Have this done before the Sep 28 concept narrative draft, not after.",
+          "Sketch the research question: what does the ML pricing model actually let you ask about the HCMC market that raw listings can't answer",
+          "List which two math/science teachers you'll ask for recommendation letters — don't ask yet, just decide who, so there's no scramble later"
+        ]
+      },
+      {
+        id: "d-sep15", date: "Tue · Sep 15", iso: "2026-09-15", focus: "SaiPrice — trend-chart data logging setup", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 30-45min. Set up trend-chart data logging now, even though the display itself ships in Y12 Spring: a small scheduled job that snapshots current listing prices into a PriceHistory-style table on a regular cadence. By November this is real time-series depth, not two weeks of data dressed up as a trend.",
+          "Confirm it actually ran once before moving on — a job that's wired but silently failing is worse than not building it at all"
+        ]
+      },
+      {
+        id: "d-sep17", date: "Thu · Sep 17", iso: "2026-09-17", focus: "SaiPrice — office listings scoping", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 30-45min. Office listings scoping: confirm the property_type field is actually working in the schema, not just remembered as added. Sketch what office listings need beyond residential — unit types, lease vs sale terms, whatever the AY side actually tracks.",
+          "This is prep for Saturday's build session, not the build itself — leave the real scraper work for Sep 19"
+        ]
+      },
+      {
+        id: "d-sep19", date: "Sat · Sep 19", iso: "2026-09-19", focus: "SaiPrice Stretch — office listings, build session 1", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 2hr. Adapt the residential scraper for office listings, same pattern, same pipeline. Confirm listings land in the DB with property_type set correctly.",
+          "First of six Saturday sessions running through Oct 24 — full cadence and build order in the SaiPrice Stretch Scope card above",
+          "Don't let this bleed into Sunday — Sunday stays off, that's a deliberate call, not a fallback slot for whatever doesn't finish today"
+        ]
+      },
+      {
+        id: "d-sep21", date: "Mon · Sep 21", iso: "2026-09-21", focus: "Scholarships + Wharton check-in", tag: "REVIEW",
+        eveningTasks: [
+          "Book the first EducationUSA HCMC advising session — free, official, worth doing now rather than in Y13",
+          "Wharton Investment Competition follow-up: registration closed Sep 11, so this is checking the aftermath, not the registration itself. Confirm your team leader got the Sep 15 SurveyMonkey Apply invite. Flag the real next deadline: official team roster due Fri Oct 9 via SurveyMonkey Apply.",
+          "If Wharton registration didn't happen yet, this is the week to close it, not push it further"
+        ]
+      },
+      {
+        id: "d-sep22", date: "Tue · Sep 22", iso: "2026-09-22", focus: "SaiPrice — data check + review", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 30-45min. Check the Sep 15 data-logging job actually ran over the week. Fix it now if it didn't — a silent gap here is expensive by November.",
+          "Review Saturday's office listings output for obvious errors before building further on top of it"
+        ]
+      },
+      {
+        id: "d-sep24", date: "Thu · Sep 24", iso: "2026-09-24", focus: "SaiPrice — office listings, continue", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 30-45min. Continue office listings: wire the ML price estimates or dashboard display, whichever is the next real step from Saturday's scraper work.",
+          "Keep this short — Saturday is the real build time, this is just enough to not lose momentum midweek"
+        ]
+      },
+      {
+        id: "d-sep26", date: "Sat · Sep 26", iso: "2026-09-26", focus: "SAT scores arrive", tag: "REVIEW",
+        eveningTasks: [
+          "SAT scores arrive (~2 weeks post-test) — check College Board account",
+          "Score vs 1500+: if there, done, no retake needed. If not, Nov 7 is the real date — regular registration deadline is Oct 23, don't let it drift",
+          "IF RETAKING (v3, per Peter's Aug 5 request): starting Sun Sep 27 through Fri Nov 6, one SATSlayer Skill Practice set a day, ~30min — 22 questions on a math domain or 27 on an R&W domain, alternating or weighted toward whichever domain the Sep 12 error log actually shows as weakest. This isn't a new block on the calendar, it's a standing daily habit that runs underneath everything else in this section (RSI, SaiPrice, Diamond Challenge, Wharton) until Nov 6, the same protected-rest day before Nov 7 that Sep 11 was before Sep 12. If the score already hit 1500+, skip this entirely, nothing below changes.",
+          "Log: what the result means for the path ahead",
+          "SaiPrice — light touch only, this day belongs to the score check. If there's a spare 20min: confirm office listings are actually showing correctly on the live dashboard next to residential."
+        ]
+      },
+      {
+        id: "d-sep28", date: "Mon · Sep 28", iso: "2026-09-28", focus: "Diamond Challenge — confirm team + advisor", tag: "COMP",
+        eveningTasks: [
+          "Formally confirm the Diamond Challenge team — same 4 people from Wharton's competition works cleanly here too, doesn't have to be identical but can be",
+          "Formally ask your advisor if that conversation hasn't actually happened yet — 'in mind' isn't the same as confirmed",
+          "Start the concept narrative draft: the problem SaiPrice solves, who the customers are, the economics, the evidence of progress you already have (live scraper, deployed dataset, working ML model)",
+          "Concept is already decided — this is drafting, not brainstorming a new idea",
+          "First month of Y12 is behind you — light structure resumes this week"
+        ]
+      },
+      {
+        id: "d-sep29", date: "Tue · Sep 29", iso: "2026-09-29", focus: "SaiPrice — office listings polish", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 30-45min. Office listings polish and bug fixes. This needs to be genuinely stable before it goes into the RSI proposal as 'shipped since' — not just technically working."
+        ]
+      },
+      {
+        id: "d-oct1", date: "Thu · Oct 1", iso: "2026-10-01", focus: "SaiPrice — data check + light planning", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 30-45min. Confirm 2+ weeks of trend-chart data logging accumulated cleanly. Light planning only for Saturday's price/sqm start — no new building tonight.",
+          "Last weekday SaiPrice session before OHSC and BIWS/M&I take the weekday evenings starting Oct 5"
+        ]
+      },
+      {
+        id: "d-oct3", date: "Sat · Oct 3", iso: "2026-10-03", focus: "SaiPrice Stretch — office listings SHIP", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 2hr. Final polish and deploy office listings live. This is the feature RSI and Diamond Challenge point to as 'shipped since' — not the same model described again.",
+          "Shipped by Oct 3 is well ahead of RSI's real need date (substantially done before Nov 30) — real buffer, not a close call",
+          "If office listings are already solid: start scaffolding price/sqm comparisons with whatever time's left — no new scraping needed, it's a computed view on data already in hand"
+        ]
+      },
+      {
+        id: "d-oct5", date: "Mon · Oct 5", iso: "2026-10-05", focus: "OHSC start + BIWS/M&I review", tag: "REVIEW",
+        eveningTasks: [
+          "Start OHSC Hotel Management — signup at oxfordhomestudy.com (free, no card). Module 1: Hotel front office operations (~30min).",
+          "BIWS/M&I YouTube — 45min/evening, Mon–Fri: IB overview, deal types, financial statement fundamentals. Free, no certificate at the end — skill review, not a credential line.",
+          "Keep everything to 45min per track — Y12 workload takes priority",
+          "[v15, resolved Aug 12: SaiPrice Standard's fallback is active — full reasoning in the Stretch Scope card above.] Tue Oct 6 & Thu Oct 8, extra ~30-45min stacked on top of the BIWS/M&I block above, not replacing it: commit the four SaiPrice changes already tested and sitting local (price_gap anomaly rule, LDP backfill priority fix, --max-ldp-visits bump, retrained model with held-out metrics in the commit message), then start on the scheduled-task crash if time allows. Wed Oct 7 held as buffer for this pair if either evening runs long — not a third task, just slack."
+        ]
+      },
+      {
+        id: "d-oct10", date: "Sat · Oct 10", iso: "2026-10-10", focus: "SaiPrice Stretch — price/sqm comparisons, build session 1", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 2hr. Build the price-per-sqm comparison view across districts. Computed on data already in hand, no new scraping — should move faster than office listings did.",
+          "OHSC and BIWS/M&I are both running on weekday evenings this week — this Saturday block is the only real SaiPrice time now, protect it"
+        ]
+      },
+      {
+        id: "d-oct12", date: "Mon · Oct 12", iso: "2026-10-12", focus: "OHSC Week 2 + BIWS/M&I review", tag: "REVIEW",
+        eveningTasks: [
+          "BIWS/M&I YouTube — valuation, DCF, M&A process, capital markets (Mon–Fri evenings)",
+          "OHSC Modules 3–5 this week: Housekeeping, F&B operations, Hotel sales and pricing",
+          "Re-read your BIWS notes from summer alongside each module — they connect now",
+          "RSI proposal check-in: draft should be taking real shape by now, not still at the outline stage",
+          "Tue Oct 13, ~45min stacked on top of BIWS/M&I: SaiPrice Standard fallback continues — Render deploy config (render.yaml, gunicorn, health endpoint, env vars/secrets), get the public URL live. The actual remaining ship blocker; everything else in Standard's original scope already works. Wed Oct 14, ~30-45min: test the live URL on phone, fix any production-only bugs — compressed from the archive's original 3.25hr slot since the app's already tested locally, this is smoke-testing the deploy itself, not a fresh test pass. Thu Oct 15, ~30-45min: expand the README (SEA market thesis section, screenshots of the now-live dashboard) and record the 60-sec demo video — both were blocked all August on a URL that didn't exist yet, first evening they're actually possible."
+        ]
+      },
+      {
+        id: "d-oct17", date: "Sat · Oct 17", iso: "2026-10-17", focus: "SaiPrice Stretch — price/sqm comparisons SHIP", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 2hr. Finish the dashboard display for price/sqm comparisons and deploy. Second Stretch feature shipped this fall.",
+          "Both office listings and price/sqm should now be live — that's the real material for RSI's 'here's what we shipped since' line"
+        ]
+      },
+      {
+        id: "d-oct19", date: "Mon · Oct 19", iso: "2026-10-19", focus: "OHSC complete + BIWS/M&I review", tag: "REVIEW",
+        eveningTasks: [
+          "BIWS/M&I YouTube — career paths, pitching, interview prep (Mon–Thu evenings)",
+          "OHSC Modules 6–7 this week: HR management + complete course. Download certificate.",
+          "OHSC narrative note: this cert connects hotel internship → Django system → family business → hospitality real estate. Worth one sentence in the college essay.",
+          "Fri Oct 23: OHSC COMPLETE — EARN CERTIFICATE",
+          "Upload cert to LinkedIn + add to college application activities list",
+          "Tue Oct 20, ~45min stacked on top of BIWS/M&I: SaiPrice Standard fallback closes out — publish the research piece on Medium/Substack (findings are already there, this is editing time, not new analysis), then send the David Jackson email drafted back on Aug 9 (it was written to go out \"the moment the piece goes live,\" this is that moment). Wed Oct 21, ~30min: share the research piece on LinkedIn with a brief context paragraph, and identify the 3 distribution accounts (one Vietnamese PropTech account, one SEA real estate investor or fund, one researcher or journalist) to tag when the announcement posts. Thu Oct 22, ~30-45min: draft and post the actual LinkedIn project announcement — research-note framing, one specific finding, one line on methodology, link to the piece and the live tool, not a \"proud to announce\" post — then verify the link is live and correct. Closes a day ahead of OHSC's own Fri Oct 23 finish. This is the last of the three fallback weeks — after this, Standard's original locked scope (see the Stretch Scope card above) is genuinely done, the whole announcement bundle that got stuck in August for lack of a live product finally has one."
+        ]
+      },
+      {
+        id: "d-oct24", date: "Sat · Oct 24", iso: "2026-10-24", focus: "SaiPrice — buffer + RSI-ready check", tag: "BUILD",
+        eveningTasks: [
+          "SaiPrice — 2hr. Last Saturday session before mid-year exam revision takes the weekends too. Buffer, not a third feature slot.",
+          "Confirm office listings and price/sqm are both stable and correctly referenced in the RSI proposal draft — if either slipped, this is the session that catches it",
+          "If both are genuinely solid and ahead of schedule: start the trend-chart display using the data logged since Sep 15. If not, this stays a fix-it session, not a new-feature one",
+          "After today: full stop on SaiPrice like everything else, through the exam window. Dec 14 – Jan 21 is bug-fixes-only, not new build time — Map view and anything else unfinished waits for Y12 Spring"
+        ]
+      },
+      {
+        id: "d-oct26", date: "Mon · Oct 26", iso: "2026-10-26", focus: "Mid-year exam revision starts (placeholder)", tag: "EXAM",
+        eveningTasks: [
+          "Confirm the real mid-year exam dates with school if you haven't already — everything below assumes the Nov 30 – Dec 11 placeholder from the control panel above",
+          "Revision begins: Maths, Further Maths, CS, Economics — 4 A-levels, roughly 5 weeks out from the placeholder exam window",
+          "RSI proposal should be well underway, not starting from scratch — this is the week revision starts competing for the same evenings",
+          "Diamond Challenge and Wharton work continue at a lighter pace from here, not paused yet — the full pause starts when exams actually do, see below"
+        ]
+      },
+      {
+        id: "d-nov2", date: "Mon · Nov 2", iso: "2026-11-02", focus: "RSI recommendation letters", tag: "APP",
+        eveningTasks: [
+          "Ask both math/science teachers for RSI recommendation letters now if you haven't already — teachers get busy, don't leave this to late November",
+          "Diamond Challenge concept narrative — first full draft should exist by now, not just notes",
+          "Revision continues alongside this, keep it lighter than exam week itself"
+        ]
+      },
+      {
+        id: "d-nov7", date: "Sat · Nov 7", iso: "2026-11-07", focus: "SAT retake (only if Sep 12 was under 1500)", tag: "SAT TEST",
+        eveningTasks: [
+          "This card only applies if Sep 26's score came in under 1500. If Sep 12 already hit target, skip this entirely, nothing to do here.",
+          "If retaking: same routine as Sep 12 — arrive early, real breakfast, trust the prep. The Sep 27–Nov 6 daily SATSlayer cadence (one set a day, see Sep 26's card) is what fed this, not new cramming this week.",
+          "This was the reserve date agreed on Aug 3, precisely so it wouldn't need deciding under pressure"
+        ]
+      },
+      {
+        id: "d-nov16", date: "Mon · Nov 16", iso: "2026-11-16", focus: "RSI — aim to submit this week", tag: "APP",
+        eveningTasks: [
+          "Don't wait for the Dec 10 estimate. That date may fall inside your mid-year exam window (placeholder Nov 30 – Dec 11) — the real target is submitted and done before revision fully takes over, not cutting it close in December",
+          "Final proposal polish, confirm both recommendation letters have actually been submitted, not just promised",
+          "If it's genuinely not ready, that's a real decision point, not a silent slip — flag it rather than letting Dec 10 arrive as a surprise"
+        ]
+      },
+      {
+        id: "d-nov23", date: "Mon · Nov 23", iso: "2026-11-23", focus: "Last check before exam window", tag: "REVIEW",
+        eveningTasks: [
+          "RSI: submitted, or has a real reason it isn't yet",
+          "Diamond Challenge: concept narrative and the 60-second intro video should be substantially done before exams eat the next two weeks — not started, substantially done",
+          "USACO stays light-only, zero pressure, exactly as decided Aug 3",
+          "Everything on this list pauses starting the exam card below — this is the last evening before that full-stop rule kicks in"
+        ]
+      }
+    ]
+  },
+  {
+    section: "Mid-Year Exams — Full Stop",
+    range: "Nov 30 – Dec 11 (placeholder — confirm real dates with school)",
+    goal: "<ul><li>4 A-levels: Maths, Further Maths, Computer Science, Economics</li><li>Same protection rule SAT taper got — revision and rest, nothing else, no exceptions</li><li>Diamond Challenge, RSI (if not already submitted), Wharton, SaiPrice Stretch — all fully paused for these two weeks, not just deprioritized</li></ul><span class=\"goal-label\">Placeholder dates</span><ul><li>Nov 30 – Dec 11 is a best estimate from \"2 weeks, end of Nov to start of Dec\" — not confirmed with school</li><li>If the real dates land earlier or later, the Oct 26 revision-start card and this window both shift to match — the 5-week revision runway matters more than the specific calendar dates</li></ul>",
+    days: [
+      {
+        id: "d-nov30", date: "Mon · Nov 30", iso: "2026-11-30", focus: "Mid-year exams begin (placeholder)", tag: "EXAM",
+        eveningTasks: [
+          "DATE NOT CONFIRMED. Placeholder based on \"2 weeks, end of Nov to start of Dec.\" If the real window is different, this card is whenever exams actually start.",
+          "4 A-levels this window: Maths, Further Maths, Computer Science, Economics",
+          "Full stop on everything else: Diamond Challenge, RSI (if not already submitted), Wharton, SaiPrice Stretch, USACO practice — all pause completely, the same way SAT taper protected Sep 12",
+          "Protect sleep. This is the only thing that matters for two weeks."
+        ]
+      },
+      {
+        id: "d-dec11", date: "Fri · Dec 11", iso: "2026-12-11", focus: "Mid-year exams end (placeholder)", tag: "EXAM",
+        eveningTasks: [
+          "Exams done (assuming the placeholder window held)",
+          "Rest completely this weekend — no immediate return to Diamond Challenge or RSI",
+          "Debrief log: what felt hard, what you'd revise differently for the next set"
+        ]
+      }
+    ]
+  },
+  {
+    section: "Winter — Diamond Challenge Close",
+    range: "Dec 2026 – Jan 21, 2027",
+    goal: "<ul><li>RSI: submitted, ideally before the exam window, confirmed done either way</li><li>Diamond Challenge submitted by Jan 14, 5pm EST</li><li>Notre Dame Leadership Seminars submitted by ~Jan 21 if pursuing it</li></ul><span class=\"goal-label\">This file's horizon</span><ul><li>v1 closes here, at Jan 21 — the next real planning pass (Y12 Spring, or a v2 of this file) can pick up USACO's spring decision, EFL, NYU/Columbia's real application windows, and the family's scholarship strategy once they're closer</li></ul>",
+    days: [
+      {
+        id: "d-dec14", date: "Mon · Dec 14", iso: "2026-12-14", focus: "Decompress + resume", tag: "REVIEW",
+        eveningTasks: [
+          "Light week — no hard deadlines land here",
+          "RSI status check: confirm it's actually submitted. If the exam window swallowed it, this is the week to close it out, don't let it drift further",
+          "Diamond Challenge concept narrative and video resume — aim to have both essentially finished before the winter break gets fully underway"
+        ]
+      },
+      {
+        id: "d-jan4", date: "Mon · Jan 4", iso: "2027-01-04", focus: "Back from break — Diamond Challenge final push", tag: "COMP",
+        eveningTasks: [
+          "10 days out from Jan 14 — this is the final push, not the start of drafting",
+          "Concept narrative: final read-through, cut anything that isn't problem/customers/economics/evidence",
+          "60-second intro video: record if not already done, or do a final cut",
+          "Confirm with your teammates and advisor that everyone's part is actually in, not assumed"
+        ]
+      },
+      {
+        id: "d-jan14", date: "Thu · Jan 14", iso: "2027-01-14", focus: "DIAMOND CHALLENGE DEADLINE — 5pm EST", tag: "FINAL",
+        eveningTasks: [
+          "Submit before 5pm EST — build in a buffer, don't submit at 4:55",
+          "Double check: written narrative + 60-second video both attached, advisor listed correctly",
+          "This closes the arc that started when Investment Club died on Aug 2 — SaiPrice's live scraper, deployed dataset, and working ML model were the whole edge, and they were already true, not built for this deadline"
+        ]
+      },
+      {
+        id: "d-jan21", date: "Thu · Jan 21", iso: "2027-01-21", focus: "Notre Dame Leadership Seminars deadline (placeholder)", tag: "APP",
+        eveningTasks: [
+          "Est. deadline, unconfirmed for the 2027 cycle — verify the real date before this week arrives",
+          "Only relevant if you decided to pursue this one — $75 app fee, $150 enrollment fee, free tuition/room/board, English test if required",
+          "This is the last card in Y12 Plan v1 — the next planning pass picks up from here"
+        ]
+      }
+    ]
+  }
+];
+
+// ─── DAILY HABIT FILLER CARDS — added Aug 14, 2026 (v21) ────────────────────
+// Peter's direct request: rehab/mobility used to only render as checkboxes on
+// days that already had a real task card — sparse by design, since this
+// file's card format is real dates with real deadlines, not one card per day.
+// This backfills a lightweight card on every remaining day in the Aug 17 –
+// Jan 21 range so the knee/ankle + mobility checklist shows up daily,
+// regardless of what else is or isn't happening that day.
+// Section boundaries used to file each filler day into the right PLAN
+// section (kept separate from the section headers' own display-only "range"
+// text, which uses freeform/placeholder wording not meant to be parsed):
+//   Taper       2026-08-17 – 2026-09-12
+//   Autumn      2026-09-13 – 2026-11-23
+//   Exam window 2026-11-24 – 2026-12-11 (extended back 6 days from the
+//               section's stated Nov 30 start, since Nov24-29 wasn't claimed
+//               by either section's own range text — the last Autumn card
+//               (Nov 23) says the full-stop rule starts "the exam card
+//               below," so filler days in that gap are treated as already
+//               under it, not as ordinary Autumn days)
+//   Winter      2026-12-12 – 2027-01-21
+// Exam-window filler days are tagged EXAM on purpose, so the existing
+// HEAVY_TAGS check further down (unchanged) gives them the same floor-only
+// mobility the two real exam cards already get, instead of a full Session
+// A/B during revision or exams. Every other filler day is tagged HABIT (new,
+// muted, added to TAG_COLORS above) and runs the normal alternating
+// Session A/B + Monday Nordic curl rhythm untouched. This block only adds
+// day objects with no evening/morning/filming content — render() already
+// shows a card with just date, tag, focus, and whichever mobility block
+// applies, no template changes needed beyond the habit-only CSS variant and
+// the class hook on the card div. Runs once at load, before the HEAVY_TAGS
+// assignment loop below, so newly-added days get rehabTasks/stretchTasks
+// exactly like real cards do — no separate assignment logic to maintain.
+const WD_LABELS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const MO_LABELS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function dayLabel(iso) {
+  // Deliberately the same `new Date(iso)` parse the HEAVY_TAGS loop below
+  // uses for its own dow calculation — keeps the printed weekday and the
+  // Sunday-floor logic in agreement regardless of runtime timezone, even if
+  // neither is doing true UTC-safe parsing.
+  const d = new Date(iso);
+  return `${WD_LABELS[d.getDay()]} · ${MO_LABELS[d.getMonth()]} ${d.getDate()}`;
+}
+function isoRange(startIso, endIso) {
+  // Pure UTC millisecond stepping for the iteration itself, so the sequence
+  // of dates generated can't skip or repeat a day regardless of DST — only
+  // dayLabel()'s weekday reads local time, and only for display.
+  const [sy, sm, sd] = startIso.split("-").map(Number);
+  const [ey, em, ed] = endIso.split("-").map(Number);
+  let cur = Date.UTC(sy, sm - 1, sd);
+  const end = Date.UTC(ey, em - 1, ed);
+  const out = [];
+  while (cur <= end) {
+    const dt = new Date(cur);
+    const y = dt.getUTCFullYear();
+    const m = String(dt.getUTCMonth() + 1).padStart(2, "0");
+    const dd = String(dt.getUTCDate()).padStart(2, "0");
+    out.push(`${y}-${m}-${dd}`);
+    cur += 86400000;
+  }
+  return out;
+}
+const SECTION_BOUNDS = [
+  { idx: 0, start: "2026-08-17", end: "2026-09-12" },
+  { idx: 1, start: "2026-09-13", end: "2026-11-23" },
+  { idx: 2, start: "2026-11-24", end: "2026-12-11" },
+  { idx: 3, start: "2026-12-12", end: "2027-01-21" }
+];
+function sectionFor(iso) {
+  const b = SECTION_BOUNDS.find(b => iso >= b.start && iso <= b.end);
+  return b ? b.idx : null;
+}
+(function backfillDailyHabits() {
+  const existing = new Set();
+  PLAN.forEach(s => s.days.forEach(d => { if (d.iso) existing.add(d.iso); }));
+
+  isoRange("2026-08-17", "2027-01-21").forEach(iso => {
+    if (existing.has(iso)) return;
+    const idx = sectionFor(iso);
+    if (idx === null) return;
+    const inExamWindow = iso >= "2026-11-24" && iso <= "2026-12-11";
+    PLAN[idx].days.push({
+      id: "d-" + iso,
+      date: dayLabel(iso),
+      iso,
+      focus: inExamWindow
+        ? "Exam window — full stop, floor mobility only"
+        : "No other tasks today — knee/ankle & mobility only",
+      tag: inExamWindow ? "EXAM" : "HABIT",
+      habitOnly: true
+    });
+  });
+
+  PLAN.forEach(s => s.days.sort((a, b) => a.iso.localeCompare(b.iso)));
+})();
+
+function render() {
+  const app = document.getElementById("app");
+  let html = "";
+  let delay = 0;
+
+  PLAN.forEach(section => {
+    html += `<div class="section-head"><h2>${section.section}</h2><span class="range">${section.range}</span></div>`;
+    if (section.goal) {
+      html += `<div class="section-goal">${section.goal}</div>`;
+    }
+
+    section.days.forEach(day => {
+      const isToday = day.iso === todayISO;
+      const tagColor = TAG_COLORS[day.tag] || "#888";
+      html += `<div class="card ${isToday ? "today" : ""} ${day.habitOnly ? "habit-only" : ""}" id="${isToday ? "today-card" : ""}" style="animation-delay:${delay}ms">`;
+      html += `<div class="day-top">
+        <span class="day-date">${day.date}</span>
+        <span class="day-tag" style="background:${tagColor}22;color:${tagColor}">${day.tag}</span>
+        ${isToday ? '<span class="today-tag">Today</span>' : ''}
+      </div>`;
+      html += `<div class="day-focus">${day.focus}</div>`;
+
+      // Morning block (AY tasks)
+      if (day.morningTasks && day.morningTasks.length > 0) {
+        const hasPlacementRoutine = day.showRoutine;
+        if (hasPlacementRoutine) {
+          html += `<div class="block-label bl-routine">Daily routine</div><div class="routine-block">`;
+          AY_PLACEMENT_ROUTINE.forEach((r, i) => {
+            html += taskRow(`${day.id}-r${i}`, r);
+          });
+          html += `</div>`;
+          html += `<div class="block-label bl-morning">Morning — AY focus tasks</div><div class="morning-block">`;
+        } else {
+          html += `<div class="block-label bl-morning">Morning — Work experience</div><div class="morning-block">`;
+        }
+        day.morningTasks.forEach((t, i) => { html += taskRow(`${day.id}-m${i}`, t); });
+        html += `</div>`;
+      }
+
+      // Filming block
+      if (day.filmingTasks && day.filmingTasks.length > 0) {
+        html += `<div class="block-label bl-filming">Potential footage</div><div class="filming-block">`;
+        day.filmingTasks.forEach((t, i) => { html += taskRow(`${day.id}-f${i}`, t, "filming"); });
+        html += `</div>`;
+      }
+
+      // Rehab block (relabeled Knee & Ankle — active rehab retired Aug 11, v8)
+      if (day.rehabTasks && day.rehabTasks.length > 0) {
+        html += `<div class="block-label bl-rehab">Afternoon — Knee & ankle</div><div class="rehab-block">`;
+        day.rehabTasks.forEach((t) => { html += taskRow(`${day.id}-rh-${slugify(t)}`, t, "rehab"); });
+        html += `</div>`;
+      }
+
+      // Stretching block (general mobility — hips, shoulders, spine, balance)
+      if (day.stretchTasks && day.stretchTasks.length > 0) {
+        html += `<div class="block-label bl-stretch">Afternoon — Mobility (hips, shoulders, spine)</div><div class="stretch-block">`;
+        day.stretchTasks.forEach((t) => { html += taskRow(`${day.id}-st-${slugify(t)}`, t, "stretch"); });
+        html += `</div>`;
+      }
+
+      // Evening block (Summer plan tasks)
+      if (day.eveningTasks && day.eveningTasks.length > 0) {
+        const label = day.windDown ? "Wind down — log + rest only" : (day.morningTasks && day.morningTasks.length > 0) ? "Evening — Summer plan" : "Tasks";
+        html += `<div class="block-label bl-evening">${label}</div><div class="evening-block">`;
+        day.eveningTasks.forEach((t, i) => { html += taskRow(`${day.id}-e${i}`, t, "evening"); });
+        html += `</div>`;
+      }
+
+      // Nightly note (placement week days)
+      if (day.noteId) {
+        const val = state.notes[day.noteId] || "";
+        html += `<div class="note-wrap"><label>Tonight's three bullets</label>
+          <textarea data-note="${day.noteId}" placeholder="What I did&#10;What surprised me&#10;What I still don't understand">${val.replace(/</g, "<")}</textarea></div>`;
+      }
+
+      // AY capture reminder (placement week days only)
+      if (day.showRoutine) {
+        html += `<div class="ay-capture-reminder">
+          <div class="ay-capture-label">What to actually capture today</div>
+          <div class="ay-capture-intro">Hunt for one of these per day. You hear them by watching — not by asking. Write it down tonight in plain words before the day fades.</div>
+          <ul class="ay-capture-list">
+            <li><strong>Data gaps</strong> — when someone says data is hard to get, unreliable, or has to be estimated</li>
+            <li><strong>Deal signals</strong> — how they actually spot an opportunity (low photos, individual seller, long days-on-market, no agency tag)</li>
+            <li><strong>Market opacity</strong> — where the published numbers don't tell the full story</li>
+          </ul>
+          <div class="ay-capture-footer">These five days of notes become the spine of the research piece.</div>
+        </div>`;
+      }
+
+      html += `</div>`;
+      delay += 40;
+    });
+  });
+
+  app.innerHTML = html;
+  bind();
+  updateProgress();
+}
+
+function bind() {
+  document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+    cb.addEventListener("change", () => {
+      state.checks[cb.dataset.id] = cb.checked;
+      if (!cb.checked) delete state.checks[cb.dataset.id];
+      save();
+      updateProgress();
+    });
+  });
+  document.querySelectorAll("textarea[data-note]").forEach(ta => {
+    ta.addEventListener("input", () => {
+      state.notes[ta.dataset.note] = ta.value;
+      save();
+    });
+  });
+}
+
+function updateProgress() {
+  const all = document.querySelectorAll('input[type="checkbox"]');
+  const done = document.querySelectorAll('input[type="checkbox"]:checked');
+  const total = all.length;
+  const n = done.length;
+  const pct = total ? Math.round((n / total) * 100) : 0;
+  document.getElementById("doneCount").textContent = n;
+  document.getElementById("totalCount").textContent = total;
+  document.getElementById("ringPct").textContent = pct + "%";
+  const circ = 150.8;
+  document.getElementById("ringFill").style.strokeDashoffset = circ - (circ * pct / 100);
+}
+
+document.getElementById("resetBtn").addEventListener("click", () => {
+  if (confirm("Clear all checkboxes and notes? This can't be undone.")) {
+    state = { checks: {}, notes: {} };
+    save();
+    render();
+  }
+});
+
+render();
+function toggleSplitNote() {
+  const body = document.getElementById("splitCardBody");
+  const label = document.getElementById("splitToggleLabel");
+  body.classList.toggle("collapsed");
+  label.textContent = body.classList.contains("collapsed") ? "expand ▼" : "collapse ▲";
+}
+
+function toggleHabits() {
+  const body = document.getElementById("habitsCardBody");
+  const label = document.getElementById("habitsToggleLabel");
+  body.classList.toggle("collapsed");
+  label.textContent = body.classList.contains("collapsed") ? "expand ▼" : "collapse ▲";
+}
+
+function toggleStretch() {
+  const body = document.getElementById("stretchCardBody");
+  const label = document.getElementById("stretchToggleLabel");
+  body.classList.toggle("collapsed");
+  label.textContent = body.classList.contains("collapsed") ? "expand ▼" : "collapse ▲";
+}
+
+function toggleHistory() {
+  const body = document.getElementById("historyCardBody");
+  const label = document.getElementById("historyToggleLabel");
+  body.classList.toggle("collapsed");
+  label.textContent = body.classList.contains("collapsed") ? "expand ▼" : "collapse ▲";
+}
+
+function toggleDebrief() {
+  const btn = document.getElementById("debriefToggle");
+  const panel = document.getElementById("debriefPanel");
+  btn.classList.toggle("open");
+  panel.classList.toggle("open");
+}
+
+// ─── DAILY MOBILITY — rebuilt Aug 11, 2026 (v8), rehab formally retired ─────
+// The knee injury (dynamic knee valgus) is resolved and physio has cleared
+// moving off structured rehab, confirmed directly by Peter on Aug 11. Both
+// REHAB_NEW/REHAB_LIGHT (the post-Jul-6 rehab set, carried into Y12 unchanged
+// since v1, trimmed at v7) and STRETCH_ROUTINE (the five-item general stretch
+// routine) are retired and replaced in full with a new prevention-and-
+// performance mobility program, researched and built by Claude specifically
+// for basketball (guard), soccer (goalkeeper), and karting — knee and ankle
+// work stays a standing priority given the injury history. Full research and
+// citations are in the chat that built this; worth flagging here: ankle
+// dorsiflexion ROM is linked to the same dynamic-knee-valgus landing pattern
+// this rehab program was built around (Backman & Danielson 2011 on ankle ROM
+// and patellar tendinopathy in junior basketball players is one anchor),
+// Nordic hamstring curls cut hamstring injury rates ~51% in a meta-analysis
+// of 8,459 athletes (van Dyk et al. 2019), and the shoulder block is new,
+// built on goalkeeper-specific injury data (goalkeepers are ~4.6x more likely
+// than outfield players to injure the upper limb; FIFA's 11+S shoulder
+// program, tested in a 726-player RCT, is the model this section follows at
+// a smaller scale).
+// Structure: two alternating sessions instead of one daily list — the full
+// combined program was too long to run every single day and still be
+// realistic. Session A (ankle, knee, hamstrings, ~25min) runs under the
+// "rehab" block, relabeled Knee & Ankle since active rehab is done. Session B
+// (hips, shoulders, spine, balance, ~30min) runs under the "stretch" block,
+// relabeled Mobility. Which one shows up on a given day is decided by the
+// day's date (even/odd day count), not by the calendar week, so it doesn't
+// depend on which days happen to have a card. SAT test/final days and
+// Sundays get a 4-exercise floor instead (~8min) — same essentials-only
+// spirit REHAB_LIGHT used, but now the general-mobility block is skipped
+// entirely on those days rather than running unchanged; the old program was
+// small enough not to need that, this one isn't. Nordic curls are capped at
+// once a week (Mondays that land on a Session A day) on purpose — meaningful
+// injury-prevention value, but real DOMS risk if it's scaled up too fast.
+// Same honest gap as before still applies: this file's card format is sparse
+// (real dates, not one card per day), so this only renders on days that
+// already have a card — see the "Daily habits" note near the top.
+const DAY_A = [
+  "World's Greatest Stretch — 1×5 slow reps each side: lunge, drop the back knee, plant both hands inside the front foot, rotate and reach one arm to the ceiling, then straighten the front leg before stepping back.",
+  "90-90 hip switches — 1-2×8-10 transitions: both shins flat on the floor, rotate both legs through the switch, 3s each direction.",
+  "Squatted heel raise — 2×10 each side: heel rises, then drives back down, controlled, both feet planted, knee tracks over the toes.",
+  "Tibialis posterior banded inversion — 2×12 each side: band anchored low, loop around the inside of the foot, pull the foot inward and up against the band, slow, hold a beat at the top.",
+  "Banded supine hamstring stretch — 2×30s each side: on your back, band around one foot, leg straight up, knee stays extended, lower back stays flat on the floor.",
+  "Two-position wall calf stretch — 30-45s each position, each leg: hands on wall, straight back leg for the gastrocnemius, then bend the back knee for the soleus and Achilles, heel stays down throughout.",
+  "Tibialis anterior hold — 2×20-30s: seated, toes pulled up and back toward you, lean back into the stretch, work shows up on the front of the shin.",
+  "Kneeling heel-sit hold — 1×45-60s: sit back onto your heels, knees fully bent. Back off the range if the front of the knee complains."
+];
+
+const NORDIC_CURL = "Nordic hamstring curl — 2×4-6: kneeling, feet anchored under a couch or a low band, lower yourself forward slowly under control, catch yourself with your hands, push back up. Keep it low volume, this causes real soreness even at this dose for the first few weeks.";
+
+const DAY_B = [
+  "World's Greatest Stretch — 1×5 slow reps each side: lunge, drop the back knee, plant both hands inside the front foot, rotate and reach one arm to the ceiling, then straighten the front leg before stepping back.",
+  "90-90 hip switches — 1-2×8-10 transitions: both shins flat on the floor, rotate both legs through the switch, 3s each direction.",
+  "Band-resisted curtsy lunge — 2×8 each side: band anchored low, step the working leg back and across behind you, control the descent, drive back up.",
+  "Cossack squat — 2×8 each side: wide stance, sit back into one hip while the other leg stays straight, controlled through the full range.",
+  "Hip Airplane — 2×6-8 each side: single-leg balance, hinge forward at the hip, opposite leg extends and rotates behind you, hold onto something stable if needed.",
+  "Prone press-up — 2×10: face down, hands by the shoulders, press the chest up, hips stay on the floor.",
+  "Couch stretch — 1×45s each side: rear foot up against a wall or bench, knee bent, hips driving forward, torso upright.",
+  "90/90 leans — 1×30-45s each side: seated in a 90/90 position, lean the torso forward over the front shin.",
+  "Quadratus lumborum side-lying reach — 1×30s each side: lying on your side, both arms and both legs reach out long in opposite directions.",
+  "Supine spinal twist — 30-45s each side: on your back, drop both knees to one side, arms wide.",
+  "Cross-body shoulder stretch — 1×20-30s each side: pull one arm across your chest with the opposite hand or forearm, hold.",
+  "Doorway chest stretch — 1×30s: forearm on a doorframe, step through slightly, feel the stretch across the front of the shoulder and chest.",
+  "Child's pose — 45-60s: kneel and sit back onto your heels, walk your hands forward, chest toward the floor."
+];
+
+const MOBILITY_FLOOR = [
+  "Squatted heel raise — 2×10 each side: heel rises, then drives back down, controlled.",
+  "Tibialis posterior banded inversion — 2×12 each side: band anchored low, pull the foot inward and up.",
+  "Two-position wall calf stretch — 30-45s each position, each leg."
+];
+
+const HEAVY_TAGS = ["SAT TEST", "SAT FINAL", "EXAM"];
+PLAN.forEach(section => {
+  section.days.forEach(day => {
+    if (!day.iso) return;
+    const d = new Date(day.iso);
+    const dow = d.getDay();
+    const isHeavy = HEAVY_TAGS.includes(day.tag);
+    const isSunday = dow === 0;
+    if (isHeavy || isSunday) {
+      day.rehabTasks = [...MOBILITY_FLOOR];
+      day.stretchTasks = [];
+      return;
+    }
+    const dayEpoch = Math.floor(d.getTime() / 86400000);
+    if (dayEpoch % 2 === 0) {
+      const tasks = [...DAY_A];
+      if (dow === 1) tasks.push(NORDIC_CURL); // Monday only, roughly weekly
+      day.rehabTasks = tasks;
+      day.stretchTasks = [];
+    } else {
+      day.rehabTasks = [];
+      day.stretchTasks = [...DAY_B];
+    }
+  });
+});
+
+render();
+
+// Auto-scroll to today's card on every load/reopen.
+window.addEventListener("load", () => {
+  requestAnimationFrame(() => {
+    const card = document.getElementById("today-card");
+    if (card) {
+      card.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    // If today falls outside this file's Aug 17 – Jan 21 range, there's no
+    // today-card, and the page just opens at the top — no error, no jump.
+  });
+});
+</script>
+</body>
+</html>
