@@ -32,7 +32,7 @@ First: the knee. The stated problem is ACL risk. The solution applied is total w
 
 Second: additional maths. The real question underneath "I'm cooked for normal maths" isn't whether to feel bad about it, it's whether the further maths pacing this year assumes a foundation that this result says isn't fully there yet. That's answerable with one conversation with the maths teacher, not an assumption carried silently into September.
 
-On Katic and the loneliness paragraph: the actual goal there isn't "get with Katie specifically," it's addressing being lonely and wanting connection. Collapsing that into one specific, mostly-unknown person is picking a proxy for the real goal instead of the goal itself.
+On Katie and the loneliness paragraph: the actual goal there isn't "get with Katie specifically," it's addressing being lonely and wanting connection. Collapsing that into one specific, mostly-unknown person is picking a proxy for the real goal instead of the goal itself.
 
 ### The Expansionist
 Look past the econ story for a second at what actually happened today: four A*s, a possible national-top mark in coordinated science, and — hours after finding out — two more real, tested fixes shipped to a production-shaped app, including one that specifically protects a sleeping guest from being reassigned out of their room mid-stay. That's not just competence, that's judgment under pressure. Most 18-year-olds having the day he had don't ship anything that night, let alone two changes with tests and a traced root cause.
