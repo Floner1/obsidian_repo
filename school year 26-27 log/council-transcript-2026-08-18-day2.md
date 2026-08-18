@@ -23,7 +23,7 @@ The sports decision is the loudest problem here. Day 1's council said book a kne
 
 The further maths flag deserves the same treatment, not less. "Im cooked for normal a lvl maths cus i am also doing further" is dropped in the middle of a paragraph about breakfast-adjacent details and never picked back up. If that's a real risk to a subject he's already committed to, it needs a maths teacher conversation this week, not a one-line acknowledgment buried in a wall of text.
 
-And the econ math is off. Four A*s landed, one possibly the best coordinated science mark in the country, and the sentence that gets the most heat is about losing to a friend by two percentile points. That's not proportionate to what actually happened today.
+And the econ math is off. Four A* s landed, one possibly the best coordinated science mark in the country, and the sentence that gets the most heat is about losing to a friend by two percentile points. That's not proportionate to what actually happened today.
 
 ### The First Principles Thinker
 Two decisions are sitting inside this entry disguised as journal color, and both deserve to be pulled out and looked at directly rather than left to resolve themselves.
