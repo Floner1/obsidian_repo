@@ -10,7 +10,7 @@
 ## Framed Question
 Review Peter's Day 2 (18 Aug 2026) journal entry, IGCSE results day.
 
-Context: a knee-focused gym session (squats, deadlifts, Bulgarians, hamstring curls) that felt fine, followed in the same entry by a decision to drop both basketball and football for the year on ACL-risk grounds, with no knee appointment booked despite Day 1's council flagging that exact gap. IGCSE results landed: four A*s (science, geography, CS, English language), additional maths instead of the higher tier, and an econ grade 2 percentile points behind a friend who did no revision, with Peter estimating he's 2 marks off an A*. Same evening: two real, tested fixes shipped to the Django hotel app under real pressure, and an em-dash cleanup pass on the README. Peter also directly asked for two things at the end of the entry: rewritten affirmations for the week, and outside reading recommendations for econ and CS.
+Context: a knee-focused gym session (squats, deadlifts, Bulgarians, hamstring curls) that felt fine, followed in the same entry by a decision to drop both basketball and football for the year on ACL-risk grounds, with no knee appointment booked despite Day 1's council flagging that exact gap. IGCSE results landed: four A* s (science, geography, CS, English language), additional maths instead of the higher tier, and an econ grade 2 percentile points behind a friend who did no revision, with Peter estimating he's 2 marks off an A*. Same evening: two real, tested fixes shipped to the Django hotel app under real pressure, and an em-dash cleanup pass on the README. Peter also directly asked for two things at the end of the entry: rewritten affirmations for the week, and outside reading recommendations for econ and CS.
 
 Question to the council: what's working on day 2, what's a real risk, and what should change starting tomorrow.
 
@@ -21,7 +21,7 @@ Question to the council: what's working on day 2, what's a real risk, and what s
 ### The Contrarian
 The sports call is the thing to pull apart. "One wrong move and my ACL is gone" is stated as fact, then used to justify quitting both basketball and football for the year — but Day 1's council said book a knee check, and there's no mention it happened. A season-length decision made on a feeling, not a diagnosis. It might be the right call. It might also be an easy way to avoid re-testing something scary, dressed up as caution.
 
-The emotional math on results day is off. Four A*s as expected, a possible national top mark in coordinated science, and the entry's real heat goes toward 2 percentile points against a friend who "did not touch a book." One soft spot eating the oxygen from a genuinely strong day.
+The emotional math on results day is off. Four A* s as expected, a possible national top mark in coordinated science, and the entry's real heat goes toward 2 percentile points against a friend who "did not touch a book." One soft spot eating the oxygen from a genuinely strong day.
 
 Continuity miss: Day 1 flagged the six goals as unranked. Day 2 still hasn't ranked them — it outsourced the fix to "better affirmation wording," which changes the packaging, not which goal gets this week's hours.
 
