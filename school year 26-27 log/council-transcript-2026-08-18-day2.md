@@ -84,7 +84,7 @@ On Katie: no action required tonight, but stop treating "give it time" as free. 
 ## Chairman Synthesis
 
 ## Where the Council Agrees
-The knee appointment is overdue. It was flagged Day 1, ignored through a leg-day session Day 2, and now has a full-year, two-sport decision resting on top of it with zero medical input. The econ result pulled far more emotional weight than the day's actual outcome, four A*s and a possible national-best mark, justified. And the two hotel app fixes shipped the same night as results are real, tested evidence that the engineering discipline holds even on a heavy day, not a coincidence.
+The knee appointment is overdue. It was flagged Day 1, ignored through a leg-day session Day 2, and now has a full-year, two-sport decision resting on top of it with zero medical input. The econ result pulled far more emotional weight than the day's actual outcome, four A* s and a possible national-best mark, justified. And the two hotel app fixes shipped the same night as results are real, tested evidence that the engineering discipline holds even on a heavy day, not a coincidence.
 
 ## Where the Council Clashes
 Is dropping both sports for the year the right call, or a decision made ahead of the facts? The Contrarian and Outsider read it as premature, justified by certainty the log doesn't actually have. The First Principles Thinker and Executor treat it as a reasonable interim call, provided it's genuinely revisited once the knee is assessed rather than left to quietly become permanent by default. Both can be true at once, right call for now, wrong to treat as closed.
