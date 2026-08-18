@@ -42,7 +42,7 @@ The econ result, reframed, is an asset rather than a wound. "Two marks off an A*
 Same goes for Andy. Being genuinely happy for a friend's clean sweep, after helping him revise for it, while privately hurting about his own econ score, is a stronger character data point than either fact alone.
 
 ### The Outsider
-Reading cold, the stated goal from Day 1 was "talk myself up instead of down." Today's entry gives more sentences to a friend's econ percentile than to four A*s and a possible national-best science mark. Same pattern the Day 1 chairman named, showing up again on day two.
+Reading cold, the stated goal from Day 1 was "talk myself up instead of down." Today's entry gives more sentences to a friend's econ percentile than to four A* s and a possible national-best science mark. Same pattern the Day 1 chairman named, showing up again on day two.
 
 This log now tracks sleep, gym, spending, affirmations, and — new today, as a joke — bowel movements. Funny, sure. But five things being logged inside 48 hours is worth noticing as a pattern before it quietly becomes a sixth and seventh thing, especially from someone who already tends to self-monitor hard.
 
