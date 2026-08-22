@@ -78,7 +78,7 @@ And log day 4 properly if anything did happen, or leave it closed if it genuinel
 ## Chairman Synthesis
 
 ## Where the Council Agrees
-The self-talk pattern flagged Day 1 and Day 2 happened a third time today, a confirmed A*A*-range science score and the top English mark in the year group both got a sentence each while an econ paper mark got a paragraph. The affirmations habit failed because Day 2's fix addressed the wording, not the missing trigger in his routine. And the Katie resolution is real, applied stoicism under genuine disappointment, not just a stated belief.
+The self-talk pattern flagged Day 1 and Day 2 happened a third time today, a confirmed A* A*-range science score and the top English mark in the year group both got a sentence each while an econ paper mark got a paragraph. The affirmations habit failed because Day 2's fix addressed the wording, not the missing trigger in his routine. And the Katie resolution is real, applied stoicism under genuine disappointment, not just a stated belief.
 
 ## Where the Council Clashes
 Is the Wharton pivot toward a same-school team something to double check or something to simply build on? The First Principles Thinker treats it as a decision worth confirming was deliberate. The Expansionist and Executor treat the effort already put in, the full SWAG Securities working session, as proof the call is already made and working, needing follow-through rather than review. Both agree it's the right direction, they disagree on whether it still needs a gut check.
