@@ -61,4 +61,9 @@ similarities mutual funds + etfs:
 - both need sec reg
 - both pooled, so both invest in multiple securities (diversified portfolio) at the same time
 - diverse range of companies invested in
-- both high liqiui
+- both high liquidities, but different mechanisms of liquidity for both
+- low minimum investments
+
+Mutual funds:
+
+ETFS:
