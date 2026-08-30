@@ -36,4 +36,5 @@ a security of equity is: a stock
 
 shares are just the equity split amongst shareholders (owners) of company
 
-bonds are taken out of debt
+bonds are taken out of debt, an iou (i owe u) of a company
+company promises specified interest rate for bond
