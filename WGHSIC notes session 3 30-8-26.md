@@ -27,5 +27,8 @@ volume: how many shares sold/exchanged a day
 - sell lower = some issue with company, not doing to well in some sort of way
 - higher = high expectations of growth or scarce
 
-securities: anyhting that can be bought/sold that has a claim on something
+securities: anything that can be bought/sold that has a claim on value
+a security of debt is: a bond
+a security of equity is: a stock
+
 ![[WGHSIC notes session 3 30-8-26 pic1.png]]
