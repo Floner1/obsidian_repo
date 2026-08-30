@@ -57,19 +57,34 @@ bankrupt - legal proceeding where company/person cant repay obligations/debts
 chapter 7 bankruptcy - liquidation, sells business assets to creditors, business no longer operational
 chapter 11 bankruptcy - reorganization process where company continues operating but restructures it debt under court approved plan
 
-stock/shares - 
-bond - 
-etf - 
-mutual fund - 
-dividend
-assets - 
-equity - 
-liabilities - 
-market value of equity - 
-securities - 
-coupon - 
-zero coupon bond - 
-bankrupt - 
-chapter 7 bankruptcy - 
-chapter 11 bankruptcy -  
-liquidity - 
+stock/shares - buying partial ownership of a company, a share of its equity.
+
+bond - being a lender to a company, a share of its debt.
+
+etf - not defined in your notes yet.
+
+mutual fund - not defined in your notes yet.
+
+dividend - part of profit paid to shareholders, not guaranteed, can be cut anytime.
+
+assets - anything that has value and is expected to provide future benefit.
+
+equity - ownership in a company. What's left after liabilities are deducted from assets.
+
+liabilities - debt owed to creditors, lenders, suppliers.
+
+market value of equity - what the market thinks the total equity of a company is worth.
+
+securities - anything that can be bought or sold that has a claim on value.
+
+coupon - regular payment on a bond made by the company.
+
+zero coupon bond - a bond sold at a discount instead of paying a coupon.
+
+bankrupt - legal proceeding where a company or person can't repay its debts.
+
+chapter 7 bankruptcy - liquidation. Assets sold to creditors, business shuts down.
+
+chapter 11 bankruptcy - reorganization. Company keeps operating, restructures debt under court approval.
+
+liquidity - how easily an asset converts to cash without losing value.
