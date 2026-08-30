@@ -26,4 +26,6 @@ volume: how many shares sold/exchanged a day
 - u would always want to sell company shares at theoretical share price calculated abv.
 - sell lower = some issue with company, not doing to well in some sort of way
 - higher = high expectations of growth or scarce
+
+securities: anyhting that can be bought/sold that has a claim on something
 ![[WGHSIC notes session 3 30-8-26 pic1.png]]
