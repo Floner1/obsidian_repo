@@ -9,3 +9,5 @@ part lender to company
 assets: anything that has value 
 
 assets = equity + liabilities
+
+current assets = anything that can be turned into money within the next year/
