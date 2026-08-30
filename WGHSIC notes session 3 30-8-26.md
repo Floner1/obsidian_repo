@@ -23,5 +23,5 @@ share price = market value of equity (total value of all shares)/total no. share
 
 - u would always want to sell company shares at theoretical share price calculated abv.
 - sell lower = some issue with company, not doing to well in some sort of way
-- higher = high
+- higher = high expectations of growth or scarce
 ![[WGHSIC notes session 3 30-8-26 pic1.png]]
