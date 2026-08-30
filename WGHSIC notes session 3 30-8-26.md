@@ -7,3 +7,5 @@ bond:
 part lender to company
 
 assets: anything that has value 
+
+assets = equities + liabilities
