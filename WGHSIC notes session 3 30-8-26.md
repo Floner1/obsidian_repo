@@ -11,7 +11,9 @@ liabilities: debt/amounts owed to creditors lenders suppliers
 
 assets = equity + liabilities
 
-	current liabilites = anything that is owed to creditors lenders suppliers
+anything current is need to be done/can be done 
+
+current liabilites = anything that is owed to creditors lenders suppliers that needs to be payed within next year
 
 current assets = anything that can be turned into money within the next year/very quickly + easily
 ![[WGHSIC notes session 3 30-8-26 pic1.png]]
