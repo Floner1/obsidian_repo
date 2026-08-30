@@ -63,6 +63,7 @@ similarities mutual funds + etfs:
 - diverse range of companies invested in
 - both high liquidities, but different mechanisms of liquidity for both
 - low minimum investments
+- navps not always equal to market price due to market forces, usually at discount or premium
 
 Mutual funds:
 - buy shares from fund itself, or through financial intermediary (broker)
@@ -72,4 +73,5 @@ Mutual funds:
 ETFS:
 - can buy + sell like normal securities
 - do not buy/sell directly to retail investors
+
 
