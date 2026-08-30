@@ -19,5 +19,5 @@ current assets = anything that can be turned into money within the next year/ver
 
 equity = ownership in company, how much value remains after all liabilities are deducted from assets
 
-share price = total equity/number of shares
+share price = market value of equity (total value of all shares)/total no. shares
 ![[WGHSIC notes session 3 30-8-26 pic1.png]]
