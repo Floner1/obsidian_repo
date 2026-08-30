@@ -70,3 +70,5 @@ Mutual funds:
 - some mfs might have different classes of funds that differ in price and structure
 
 ETFS:
+- can buy + sell like normal securities
+- do not buy/sell directly to retail investors
