@@ -21,7 +21,7 @@ equity = ownership in company, how much value remains after all liabilities are 
 
 share price = market value of equity (what market thinks total equity of company is worth)/total no. shares
 
-volume: how much 
+volume: how many shares sold/exchanged a day
 
 - u would always want to sell company shares at theoretical share price calculated abv.
 - sell lower = some issue with company, not doing to well in some sort of way
