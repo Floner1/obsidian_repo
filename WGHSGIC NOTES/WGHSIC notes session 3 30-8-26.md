@@ -65,5 +65,8 @@ similarities mutual funds + etfs:
 - low minimum investments
 
 Mutual funds:
+- buy shares from fund itself, or through financial intermediary (broker)
+- can sell back to fund
+- some mfs might have different classes of funds that differ in price and structure
 
 ETFS:
