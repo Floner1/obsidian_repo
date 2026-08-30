@@ -1,10 +1,10 @@
 im late to this session but whatever
 
 stock/share:
-buying partial ownership of company
+buying partial ownership of company (share of company's equity)
 
 bond:
-part lender to company (borrowing from public)
+part lender to company (borrowing from public, share of the company's debt)
 
 assets: anything that has value and expected to provide future benefit
 liabilities: debt/amounts owed to creditors lenders suppliers
