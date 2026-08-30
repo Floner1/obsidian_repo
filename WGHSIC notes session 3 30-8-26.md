@@ -44,3 +44,6 @@ a dividend is part of profit paid to shareholders, not guaranteed and can be cut
 if u buy a bond for 1k usd, then company xyz will pay 1k at a future date + interest
 
 coupon: regular payment on bond made by company 
+
+zero coupon bond: basically a discounted bond, company sell bond at discount instead of normal price and don't pay coupon
+normal face value of bond might be 1k, but company might just sell for 500. 
