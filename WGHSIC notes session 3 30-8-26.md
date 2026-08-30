@@ -40,3 +40,5 @@ bonds are taken out of debt, an iou (i owe u) of a company
 company promises specified interest rate for bond, contractual if someone buys a bond, cant be cut at anytime
 
 a dividend is part of profit paid to shareholders, not guaranteed and can be cut anytime. 
+
+if u buy a bond for 1k usd, then company xyz will pay 1k at a future date + interest
