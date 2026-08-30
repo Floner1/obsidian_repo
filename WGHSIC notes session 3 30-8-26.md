@@ -35,3 +35,5 @@ a security of equity is: a stock
 ![[WGHSIC notes session 3 30-8-26 pic2.png]]
 
 shares are just the equity split amongst shareholders (owners) of company
+
+bonds are taken out of debt
