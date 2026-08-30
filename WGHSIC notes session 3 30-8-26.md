@@ -32,3 +32,4 @@ a security of debt is: a bond
 a security of equity is: a stock
 
 ![[WGHSIC notes session 3 30-8-26 pic1.png]]
+![[WGHSIC notes session 3 30-8-26 pic2.png]]
