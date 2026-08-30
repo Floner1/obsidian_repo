@@ -57,3 +57,6 @@ bankrupt - legal proceeding where company/person cant repay obligations/debts
 chapter 7 bankruptcy - liquidation, sells business assets to creditors, business no longer operational
 chapter 11 bankruptcy - reorganization process where company continues operating but restructures it debt under court approved plan
 
+similarities mutual funds + etfs:
+- both need sec reg
+- both pooled, so both invest in multiple securities at the same time
