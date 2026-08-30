@@ -49,4 +49,5 @@ zero coupon bond: basically a discounted bond, company sell bond at discount ins
 normal face value of bond might be 1k, but company might just sell for 500. 
 
 if company goes bankrupt, will not pay u ur coupon
-bankrupt - legal proceeding where pers
+bankrupt - legal proceeding where company/person cant repay obligations/debts
+chatp
