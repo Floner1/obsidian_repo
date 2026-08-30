@@ -18,4 +18,6 @@ current liabilites = anything that is owed to creditors lenders suppliers that n
 current assets = anything that can be turned into money within the next year/very quickly + easily
 
 equity = ownership in company, how much value remains after all liabilities are deducted from assets
+
+share price = total equity/number of shares
 ![[WGHSIC notes session 3 30-8-26 pic1.png]]
