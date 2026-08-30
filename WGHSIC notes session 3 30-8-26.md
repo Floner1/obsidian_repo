@@ -37,4 +37,6 @@ a security of equity is: a stock
 shares are just the equity split amongst shareholders (owners) of company
 
 bonds are taken out of debt, an iou (i owe u) of a company
-company promises specified interest rate for bond
+company promises specified interest rate for bond, contractual if someone buys a bond, cant be cut at anytime
+
+a dividend is part of profit paid to shareholders, not guaranteed and can be cut anytime. 
