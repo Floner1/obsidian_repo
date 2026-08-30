@@ -5,3 +5,5 @@ buying partial ownership of company
 
 bond:
 part lender to company
+
+assets: anything that has value 
