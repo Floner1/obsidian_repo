@@ -48,9 +48,28 @@ coupon: regular payment on bond made by company
 zero coupon bond: basically a discounted bond, company sell bond at discount instead of normal price and don't pay coupon
 normal face value of bond might be 1k, but company might just sell for 500. 
 
-liquidity - how
+liquidity - how easy/quick it is to turn asset into cash without affecting value
+high = easy
+low = hard
 
 if company goes bankrupt, will not pay u ur coupon
 bankrupt - legal proceeding where company/person cant repay obligations/debts
 chapter 7 bankruptcy - liquidation, sells business assets to creditors, business no longer operational
 chapter 11 bankruptcy - reorganization process where company continues operating but restructures it debt under court approved plan
+
+stock/shares - 
+bond - 
+etf - 
+mutual fund - 
+dividend
+assets - 
+equity - 
+liabilities - 
+market value of equity - 
+securities - 
+coupon - 
+zero coupon bond - 
+bankrupt - 
+chapter 7 bankruptcy - 
+chapter 11 bankruptcy -  
+liquidity - 
