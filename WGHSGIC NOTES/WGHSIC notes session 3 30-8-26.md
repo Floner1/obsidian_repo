@@ -48,4 +48,5 @@ coupon: regular payment on bond made by company
 zero coupon bond: basically a discounted bond, company sell bond at discount instead of normal price and don't pay coupon
 normal face value of bond might be 1k, but company might just sell for 500. 
 
-if company goes bankrupt, will not pay u ur 
+if company goes bankrupt, will not pay u ur coupon
+bankrupt - legal proceeding where pers
