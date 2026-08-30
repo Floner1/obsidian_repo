@@ -59,4 +59,6 @@ chapter 11 bankruptcy - reorganization process where company continues operating
 
 similarities mutual funds + etfs:
 - both need sec reg
-- both pooled, so both invest in multiple securities at the same time
+- both pooled, so both invest in multiple securities (diversified portfolio) at the same time
+- diverse range of companies invested in
+- both high liqiui
