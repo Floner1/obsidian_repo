@@ -19,7 +19,9 @@ current assets = anything that can be turned into money within the next year/ver
 
 equity = ownership in company, how much value remains after all liabilities are deducted from assets
 
-share price = market value of equity (total value of all shares)/total no. shares
+share price = market value of equity (what market thinks total equity of company is worth)/total no. shares
+
+volume: how much 
 
 - u would always want to sell company shares at theoretical share price calculated abv.
 - sell lower = some issue with company, not doing to well in some sort of way
