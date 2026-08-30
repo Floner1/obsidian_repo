@@ -50,4 +50,5 @@ normal face value of bond might be 1k, but company might just sell for 500.
 
 if company goes bankrupt, will not pay u ur coupon
 bankrupt - legal proceeding where company/person cant repay obligations/debts
-chatp
+chapter 7 bankruptcy - liquidation, 
+chapter 11 bankruptcy - reorganization process where company continues operating but restructures it debt under court approved plan
