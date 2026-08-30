@@ -42,3 +42,5 @@ company promises specified interest rate for bond, contractual if someone buys a
 a dividend is part of profit paid to shareholders, not guaranteed and can be cut anytime. 
 
 if u buy a bond for 1k usd, then company xyz will pay 1k at a future date + interest
+
+coupon: regular payment on bond made by company 
