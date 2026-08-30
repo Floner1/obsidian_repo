@@ -72,3 +72,4 @@ Mutual funds:
 ETFS:
 - can buy + sell like normal securities
 - do not buy/sell directly to retail investors
+
