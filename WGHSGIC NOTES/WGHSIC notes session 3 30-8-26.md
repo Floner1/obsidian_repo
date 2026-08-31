@@ -74,4 +74,38 @@ ETFS:
 - can buy + sell like normal securities
 - do not buy/sell directly to retail investors
 
+stock/shares - buying partial ownership of a company, a share of its equity.
 
+bond - being a lender to a company, a share of its debt.
+
+etf (exchange traded fund) - pooled investments that hold basket of securities that trade like normal stocks. combines diversification of mutual funds and real time trading flexibility. examples are s&p 500 and qqq
+
+mutual fund - pool of money from multiple investors to purchase diversified portfolio of securities. 
+
+dividend - part of profit paid to shareholders, not guaranteed, can be cut anytime.
+
+assets - anything that has value and is expected to provide future benefit.
+
+equity - ownership in a company. What's left after liabilities are deducted from assets.
+
+liabilities - debt owed to creditors, lenders, suppliers.
+
+market value of equity - what the market thinks the total equity of a company is worth.
+
+securities - anything that can be bought or sold that has a claim on value.
+
+coupon - regular payment on a bond made by the company.
+
+zero coupon bond - a bond sold at a discount instead of paying a coupon.
+
+bankrupt - legal proceeding where a company or person can't repay its debts.
+
+chapter 7 bankruptcy - liquidation. Assets sold to creditors, business shuts down.
+
+chapter 11 bankruptcy - reorganization. Company keeps operating, restructures debt under court approval.
+
+liquidity - how easily an asset converts to cash without losing value.
+
+SEC (securities and exchange commission) registration - fill out docs with sec to comply with regulations b4 allowed to sell securities to pub/legitimize business entity
+
+	NAVPS (net asset value per share) - true value of an etf,mf. total equity/to no. shares. 
