@@ -69,46 +69,11 @@ Practice example, 4x4 black/white image, 1-bit colour code, 3-bit count
 
 **JPEG (syllabus 1.3, bitmap image example, lossy)**
 
-- Exploits the fact that colour changes between neighbouring pixels are often invisible to the eye
-- Groups blocks of similar pixels and records one sampled colour for the block, discarding detail the eye won't process
-- Standard settings sample one colour per block of 9 pixels, around 90% file size reduction
-- On decompression, missing pixels are recreated by approximating from surrounding colours
-- Can cause compression artifacts, most visible at sharp colour changes, shows up as blurring
-- Compression level is adjustable, trade-off between file size and quality
-- Typical compression ratio around 10:1, a 36MB image becomes about 3.6MB
-- Industry standard, every piece of image software, even basic photo viewers, can open a compressed JPEG and reconstruct it to an acceptable level
+- Discards imperceptible colour detail per pixel block
 
 **MP3 (syllabus 1.3, sound file example, lossy)**
 
-- Exploits limits of human hearing, sounds masked by louder sounds, or outside the range the ear can process, get discarded entirely
-- Recreates some missing sound on playback by predicting how real sound behaves
-- Typically reduces file size to about 10% of the original, a 90% reduction
-- Example from source: 15MB uncompressed becomes roughly 1.5MB
-- Resulting sound is not identical to the original, most people won't notice, playback equipment quality also affects perceived loss
-
-**SOUND SAMPLING BACKGROUND (syllabus 1.2 Sound, needed to understand MP3 and audio file size)**
-
-- Analogue sound must be digitised before a computer can use it, this is analogue to digital conversion, ADC
-- Sampling means measuring the analogue wave at regular intervals
-- Sampling rate is the number of samples taken per second, in Hz, CD quality standard is 44,100 Hz
-- Higher sampling rate gives a more accurate reconstruction of the sound
-- Sample resolution is the number of bits used per sample, more bits gives more possible values and more accuracy
-- 8-bit resolution is lower quality, used where simple sound is enough
-- 16-bit resolution is the CD and sound card standard, 65,536 possible values
-- Stereo sound uses two channels, which doubles the number of samples generated per second compared to mono
-
-File size formula  
-sampling rate x length in seconds x sample resolution = file size in bits (mono, before compression, double it for stereo)
-
-Worked example, 180 second track, 44,100 Hz, 16-bit  
-Your source leaves this as an unanswered practice question, so here's the working, assuming mono since the question doesn't state stereo:
-
-- 44,100 x 180 x 16 = 127,008,000 bits
-- Divide by 8 for bytes: 15,876,000 bytes
-- Decimal MB (1 MB = 1,000,000 bytes): 15.876 MB
-- Binary MiB (1 MiB = 1,048,576 bytes): approx 15.14 MiB
-- If the track were stereo instead, double it: roughly 31.75 MB
-- Flag: syllabus 1.1 tests kibi vs kilo, mebi vs mega specifically, check which unit an exam question wants before committing to an answer
+- Discards inaudible frequencies
 
 **ZIP (syllabus 1.3, general file compression, lossless)**
 
