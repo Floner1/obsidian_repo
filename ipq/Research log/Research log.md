@@ -1,0 +1,26 @@
+# 5/9/26
+- Set up the obsidian vault for the ipq thing, got separate notes for data, bibliography, quotes, reflections, the research log itself, themes, and theory, so that part's done. Haven't pulled any data yet though, and haven't picked a topic either, that's still up in the air. Right now the front runner is F1 pit stops vs race outcome, but not decided. Next thing is running the correlation test on the 2024 season data, see if there's actually a signal there before committing to it, cause if there's nothing there I don't want to waste time on it.
+- found some possible resources for 2 diff possible ideas:
+	- Motorsports Economics/Financials and Regulation:
+		- [https://www.youtube.com/watch?v=1yz4tQ6u9DY](https://www.youtube.com/watch?v=1yz4tQ6u9DY)
+		- [https://www.youtube.com/watch?v=1G9nE5Q279Q](https://www.youtube.com/watch?v=1G9nE5Q279Q)
+		- [https://www.youtube.com/watch?v=CxfFKuSfQ8c](https://www.youtube.com/watch?v=CxfFKuSfQ8c)
+		- [https://www.youtube.com/watch?v=xSszwsN_lkU&t](https://www.youtube.com/watch?v=xSszwsN_lkU&t)
+		- [https://www.youtube.com/watch?v=fobN_XSOQ5s](https://www.youtube.com/watch?v=fobN_XSOQ5s)
+		- [https://www.youtube.com/watch?v=qPf3cx7dIN0](https://www.youtube.com/watch?v=qPf3cx7dIN0)
+	- Data Analytics Applied to Motorsports:
+		-  https://github.com/jolpica/jolpica-f1
+		-  [https://docs.fastf1.dev/](https://docs.fastf1.dev/)
+		- [https://github.com/IAmTomShaw/f1-race-replay](https://github.com/IAmTomShaw/f1-race-replay)
+- Filled in the actual topic choice worksheet today instead of three blank names. Built out local/national/global notes for all three subtopics with real sources instead of vague statements. Best finds: Vietnam signed a 10-year deal for an F1 race in Hanoi and never ran a single one because of COVID, and Vietnam's fintech regulatory sandbox picked credit scoring as one of only three areas to test first, which lines up with the price-prediction project I'm already building.
+
+Cleaned up the writing so it doesn't read like AI, killed a bunch of "it's not X, it's Y" sentences. Stripped my own project's name out of the doc, don't want to give away too much to my IPQ coordinator before I've picked a mentor.
+
+Checked my three topics against the actual suitability requirements from the class slides: needs contrasting views, a global issue, debatable principles, social/economic/political content. Data analytics in motorsports failed two of those as written, it was just an engineering writeup, no debate in it. Had to reframe it.
+
+Also tested the "don't invent an original idea, extend someone else's future-work section" advice from a reel and tier-list I found. Held up. Found a Shenzhen high schooler's published paper on F1 budget caps almost matching my exact topic, and a university paper using HHI and Lorenz curves that found the cost cap hasn't actually fixed competitive balance, a real disagreement I can build on instead of inventing one.
+
+Reframed subtopic 2 to "does data-driven strategy reduce how much driver skill matters in race outcomes" instead of "how does F1 do data science." Works now because F1 banned radio coaching back in 2014 and Horner and Wolff publicly disagreed about it, real opposing views for free. Picked this over a more regulatory "should F1 limit AI" framing since this one's testable with telemetry and keeps FastF1 as the actual method instead of turning it into a policy essay.
+
+Still haven't pulled subtopic 1's data myself. Subtopic 3's just sitting as backup, with a note to my coordinator that I'd rather do 2 topics.
+		
