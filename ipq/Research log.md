@@ -3,13 +3,15 @@
 - found some possible resources for 2 diff possible ideas:
 	- Motorsports Economics/Financials and Regulation:
 		-  [https://www.youtube.com/watch?v=1yz4tQ6u9DY](https://www.youtube.com/watch?v=1yz4tQ6u9DY)
+		- [https://www.youtube.com/watch?v=1G9nE5Q279Q](https://www.youtube.com/watch?v=1G9nE5Q279Q)
+		- [https://www.youtube.com/watch?v=CxfFKuSfQ8c](https://www.youtube.com/watch?v=CxfFKuSfQ8c)
+		- [https://www.youtube.com/watch?v=xSszwsN_lkU&t](https://www.youtube.com/watch?v=xSszwsN_lkU&t)
+		- [https://www.youtube.com/watch?v=fobN_XSOQ5s](https://www.youtube.com/watch?v=fobN_XSOQ5s)
+		- [https://www.youtube.com/watch?v=qPf3cx7dIN0](https://www.youtube.com/watch?v=qPf3cx7dIN0)
+	- Data Analytics Applied to Motorsports:
+		- o   https://github.com/jolpica/jolpica-f1
+		- 
 
-o   [https://www.youtube.com/watch?v=1G9nE5Q279Q](https://www.youtube.com/watch?v=1G9nE5Q279Q)
+o   [https://docs.fastf1.dev/](https://docs.fastf1.dev/)
 
-o   [https://www.youtube.com/watch?v=CxfFKuSfQ8c](https://www.youtube.com/watch?v=CxfFKuSfQ8c)
-
-o   [https://www.youtube.com/watch?v=xSszwsN_lkU&t](https://www.youtube.com/watch?v=xSszwsN_lkU&t)
-
-o   [https://www.youtube.com/watch?v=fobN_XSOQ5s](https://www.youtube.com/watch?v=fobN_XSOQ5s)
-
-o   [https://www.youtube.com/watch?v=qPf3cx7dIN0](https://www.youtube.com/watch?v=qPf3cx7dIN0)
+o   [https://github.com/IAmTomShaw/f1-race-replay](https://github.com/IAmTomShaw/f1-race-replay)
