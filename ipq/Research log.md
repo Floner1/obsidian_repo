@@ -1,2 +1,3 @@
 # 5/9/26
+- Set up the obsidian vault for the ipq thing, got separate notes for data, bibliography, quotes, reflections, the research log itself, themes, and theory, so that part's done. Haven't pulled any data yet though, and haven't picked a topic either, that's still up in the air. Right now the front runner is F1 pit stops vs race outcome, but not decided. Next thing is running the correlation test on the 2024 season data, see if there's actually a signal there before committing to it, cause if there's nothing there I don't want to waste time on it.
 - 
