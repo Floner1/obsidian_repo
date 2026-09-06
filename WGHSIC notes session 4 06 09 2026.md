@@ -45,3 +45,4 @@ fund assets in prospectus:
 	- maybe administrative fees payable to advisors
 - 12b-1 fees (distribution): 
 	- distribution + sometimes shareholder fees
+	- 
