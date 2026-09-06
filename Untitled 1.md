@@ -24,6 +24,12 @@ some funds may be no load fees, but still have other feels attached to the fund
 
 redemption fee: 
 - fee when selling shares back to mf, paid directly to fund
-- 
+- % of exit amount
+
+exchange fee:
+- fee for when exchanging shares for another in the same mf family
+mf family: group of mfs that share admin and distribution systems. 
+
+
 
 
