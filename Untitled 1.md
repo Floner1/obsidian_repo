@@ -15,5 +15,8 @@ backend/deferred sale load:
 - paid when u redeem (sell) mf shares
 - no sale charge when purchase
 - charge paid using money taken when exiting
-- calculate charge based on value of initial investment/value of investment wh
+- calculate charge based on value of initial investment/value of investment when exited
+contingent deferred sale charge:
+- % sale charge based on how long u hold shares, maybe 0 if hold shares long enough
+- 
 
