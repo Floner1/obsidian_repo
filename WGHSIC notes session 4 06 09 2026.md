@@ -17,3 +17,5 @@ what can be found in prospectus:
 
 12b-1 fees aren't applied to etfs
 fund expenses can also be found in fund shareholder reports, shared to shareholders twice a year
+
+if fund charges shareholder fees (fee for maintai)
