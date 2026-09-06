@@ -35,6 +35,6 @@ Acc fee:
 - may charge if acc less than min amount of usd
 
 mf share classes:
-- mf may have many classes that invest in same 
+- mf may have many classes that invest in same securities but have diff sale charges and 
 
 
