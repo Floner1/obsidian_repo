@@ -50,6 +50,9 @@ fee waivers:
 
 acquired fund fees and expenses
 - fees and expenses of underlying fund, paid for by fund using fund assets
-- 
+- included in prospectus fee table
+
+purchase fee:
+- sales charge but instead of to broker paid to fund. 
 
 
