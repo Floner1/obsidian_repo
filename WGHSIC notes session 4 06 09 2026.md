@@ -29,4 +29,6 @@ if fund charges shareholder fees (fee for maintaing/making transaction) then pro
 
 **Account Fee** (Paid in connection with account maintenance, sometimes for accounts below a certain dollar amount)
 
-	
+usually only mfs charge shareholder fees
+prospectus doesn't show other fees that u might have to pay, eg:
+	brokerage commision and financial intermediaries
