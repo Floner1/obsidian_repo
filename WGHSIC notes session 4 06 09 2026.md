@@ -42,3 +42,6 @@ both used by etfs and mfs
 fund assets in prospectus:
 - management fees
 	- paid to fund advisor for managing portfolio
+	- maybe administrative fees payable to advisors
+- 12b-1 fees (distribution): 
+	- distribution + sometimes shareholder fees
