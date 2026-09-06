@@ -31,6 +31,9 @@ exchange fee:
 mf family: group of mfs that share admin and distribution systems. 
 
 Acc fee:
-- pay for maintanence of acc. 
+- pay for maintanence of acc.
+- may charge if acc less than min amount of usd
+
+
 
 
