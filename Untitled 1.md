@@ -40,6 +40,10 @@ mf share classes:
 fees not shown in prospectus fee table:
 - brokerage commisions:
 	- usually a flat fee
-	- 
+- changes in discount and premiums relative to nav
+	- maybe trading at discount or premium, could be gain or loss
+
+fee waivers:
+- 
 
 
