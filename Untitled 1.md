@@ -34,6 +34,7 @@ Acc fee:
 - pay for maintanence of acc.
 - may charge if acc less than min amount of usd
 
-
+mf share classes:
+- mf may have many classes that invest in same 
 
 
