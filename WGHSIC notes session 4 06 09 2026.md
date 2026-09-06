@@ -47,4 +47,7 @@ fund assets in prospectus:
 - 12b-1 fees (distribution): 
 	- distribution + sometimes shareholder fees
 - other expenses:
-	- legal, accounting, transfer angen
+	- legal, accounting, transfer agent, custodial, shareholder services, other admin stuff
+
+some funds call themselfs no expense or zero expense, but often dont mention other costs paid by investors
+
