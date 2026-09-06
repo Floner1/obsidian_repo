@@ -37,4 +37,9 @@ Acc fee:
 mf share classes:
 - mf may have many classes that invest in same securities but have diff sale charges and operating expenses
 
+fees not shown in prospectus fee table:
+- brokerage commisions:
+	- usually a flat fee
+	- 
+
 
