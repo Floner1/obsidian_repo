@@ -22,5 +22,8 @@ contingent deferred sale charge:
 
 some funds may be no load fees, but still have other feels attached to the fund
 
+redemption fee: 
+- fee when selling shares back to mf, paid directly to fund
+- 
 
 
