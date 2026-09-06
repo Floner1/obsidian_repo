@@ -32,3 +32,7 @@ if fund charges shareholder fees (fee for maintaing/making transaction) then pro
 usually only mfs charge shareholder fees
 prospectus doesn't show other fees that u might have to pay, eg:
 	brokerage commision and financial intermediaries
+
+operating expenses:
+regular + recurring fund wide costs, marketing, management, etc.
+paid from fund assets, money share holders i
