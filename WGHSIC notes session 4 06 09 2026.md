@@ -17,8 +17,9 @@ what can be found in prospectus:
 
 12b-1 fees aren't applied to etfs
 fund expenses can also be found in fund shareholder reports, shared to shareholders twice a year
+shareholder fees: fees for running firm day to day. ppl and systems that handle investor calls, answer questions, deliver acc info. 
 
-if fund charges shareholder fees (fee for maintaing account/running firm day to day/making transaction) then prospectus will include:
+if fund charges shareholder fees then prospectus will include:
 ##### Shareholder Fees
 
 **Sales Load** (Compensates the selling broker, similar to a commission)
@@ -45,4 +46,4 @@ fund assets in prospectus:
 	- maybe administrative fees payable to advisors
 - 12b-1 fees (distribution): 
 	- distribution + sometimes shareholder fees
-	- 
+	-
