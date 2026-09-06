@@ -30,6 +30,7 @@ exchange fee:
 - fee for when exchanging shares for another in the same mf family
 mf family: group of mfs that share admin and distribution systems. 
 
-
+Acc fee:
+- 
 
 
