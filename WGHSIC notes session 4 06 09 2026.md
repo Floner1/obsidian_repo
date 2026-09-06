@@ -29,3 +29,4 @@ if fund charges shareholder fees (fee for maintaing/making transaction) then pro
 
 **Account Fee** (Paid in connection with account maintenance, sometimes for accounts below a certain dollar amount)
 
+	
