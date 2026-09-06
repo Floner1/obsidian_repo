@@ -48,4 +48,8 @@ fee waivers:
 - attract more ppl
 - maybe be recouped in future
 
+acquired fund fees and expenses
+- fees and expenses of underlying fund, paid for by fund using fund assets
+- 
+
 
