@@ -18,5 +18,5 @@ backend/deferred sale load:
 - calculate charge based on value of initial investment/value of investment when exited
 contingent deferred sale charge:
 - % sale charge based on how long u hold shares, maybe 0 if hold shares long enough
-- 
+- funds with cdsc have a 12b-1 fee
 
