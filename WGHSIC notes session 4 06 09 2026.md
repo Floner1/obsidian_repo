@@ -16,3 +16,4 @@ what can be found in prospectus:
 **Total Annual Fund Operating Expenses** (Expressed as a % of the fund’s average net assets, called the expense ratio)
 
 12b-1 fees aren't applied to etfs
+fund expenses can also be found in fund shareholder reports, shared to shareholders twice a year
