@@ -35,4 +35,10 @@ prospectus doesn't show other fees that u might have to pay, eg:
 
 operating expenses:
 regular + recurring fund wide costs, marketing, management, etc.
-paid from fund assets, money share holders i
+paid from fund assets, money share holders invested into fund
+when fund assets used, everything in fund goes down
+both used by etfs and mfs
+
+fund assets in prospectus:
+- management fees
+	- paid to fund advisor for managing portfolio
