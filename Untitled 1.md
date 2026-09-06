@@ -12,4 +12,8 @@ front end sale load:
 	- $10k to buy mf with 5% frond end sales load. $500 deducted and given to selling broker, u only got 9.5k remaining
 
 backend/deferred sale load:
+- paid when u redeem (sell) mf shares
+- no sale charge when purchase
+- charge paid using money taken when exiting
+- calculate charge based on value of initial investment/value of investment wh
 
