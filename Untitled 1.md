@@ -20,3 +20,7 @@ contingent deferred sale charge:
 - % sale charge based on how long u hold shares, maybe 0 if hold shares long enough
 - funds with cdsc have a 12b-1 fee
 
+some funds may be no load fees, but still have other feels attached to the fund
+
+
+
