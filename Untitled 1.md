@@ -44,6 +44,8 @@ fees not shown in prospectus fee table:
 	- maybe trading at discount or premium, could be gain or loss
 
 fee waivers:
-- 
+- appear in prospectus table whne firm agreed to reduce fees/expenses temp or indef
+- attract more ppl
+- maybe be recouped in future
 
 
