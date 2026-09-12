@@ -23,4 +23,5 @@ buy stop order - sit abv market price
 
 stop limit order - stop order trigger + limit order price cap, in that order
 - set stop price (trigger) and limit price (ceiling/floor). both same/diff ok
+- once trigger reached, becomes limit order at limit price
 - 
