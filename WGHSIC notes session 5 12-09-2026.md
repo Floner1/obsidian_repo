@@ -8,4 +8,5 @@ limit order - buy or sell security at specific price or better.
 - buy limit order can only be at limit or lower
 - sell limit order can only be at limit or higher
 
-stop/stop loss order - 
+stop/stop loss order - buy/sell stock when reaches stop (specified) price. 
+- once stop price reached, stop order become markt
