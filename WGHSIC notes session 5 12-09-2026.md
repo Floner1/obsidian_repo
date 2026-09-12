@@ -9,4 +9,9 @@ limit order - buy or sell security at specific price or better.
 - sell limit order can only be at limit or higher
 
 stop/stop loss order - buy/sell stock when reaches stop (specified) price. 
-- once stop price reached, stop order become markt
+- once stop price reached, stop order become market order
+
+buy stop order - entered at a stop price abv market price
+- used to protect profit from shorted stock or limit loss
+- sell stop order is entered below market price
+	- limit loss or protect profit of stock they own
