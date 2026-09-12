@@ -8,6 +8,7 @@ limit order - buy or sell security at specific price or better.
 - only at this price or better
 - only buy if at this price or lower
 - only sell if at this price or higher
+- no guaranteed fill
 
 stop/stop loss order - buy/sell stock when reaches stop (specified) price. 
 - once this price is hit, get me in or out immediately
@@ -24,4 +25,6 @@ buy stop order - sit abv market price
 stop limit order - stop order trigger + limit order price cap, in that order
 - set stop price (trigger) and limit price (ceiling/floor). both same/diff ok
 - once trigger reached, becomes limit order at limit price
-- if you get filled at all, it's at that price or better, never worse.
+- if order gets filled at all, it's at that price or better, never worse.
+
+fill = order gets executed
