@@ -5,14 +5,11 @@ market order - buy/sell security immediately
 - last traded price is not necessarily the price that market order will be executed
 
 limit order - buy or sell security at specific price or better. 
-- buy limit order can only be at limit or lower
-- sell limit order can only be at limit or higher
 - only at this price or better
 - only buy if at this price or lower
 - only sell if at this price or higher
 
 stop/stop loss order - buy/sell stock when reaches stop (specified) price. 
-- once stop price reached, stop order become market order
 - once this price is hit, get me in or out immediately
 - set trigger price, once stock touches, turns into market order immediately and does action at whatever the current market price is, not the stop price
 - trade price stability for quickness
