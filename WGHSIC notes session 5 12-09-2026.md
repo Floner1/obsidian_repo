@@ -18,3 +18,8 @@ stop/stop loss order - buy/sell stock when reaches stop (specified) price.
 - trade price stability for quickness
 
 sell stop order - sit below current market price
+- protect a stock u own from falling further
+
+buy stop order - sit abv market price
+- used to cap losses if stock was shorted
+- or to lock in short term profit. 
