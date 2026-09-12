@@ -5,3 +5,7 @@ market order - buy/sell security immediately
 - last traded price is not necessarily the price that market order will be executed
 
 limit order - buy or sell security at specific price or better. 
+- buy limit order can only be at limit or lower
+- sell limit order can only be at limit or higher
+
+stop/stop loss order - 
