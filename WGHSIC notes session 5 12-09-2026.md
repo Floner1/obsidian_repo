@@ -7,9 +7,13 @@ market order - buy/sell security immediately
 limit order - buy or sell security at specific price or better. 
 - buy limit order can only be at limit or lower
 - sell limit order can only be at limit or higher
+- only at this price or better
+- only buy if at this price or lower
+- only sell if at this price or higher
 
 stop/stop loss order - buy/sell stock when reaches stop (specified) price. 
 - once stop price reached, stop order become market order
+- 
 
 buy stop order - entered at a stop price abv market price
 - used to protect profit from shorted stock or limit loss
