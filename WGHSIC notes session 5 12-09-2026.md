@@ -20,7 +20,7 @@ sell stop order - sit below current market price
 
 buy stop order - sit abv market price
 - used to cap losses if stock was shorted
-- or to lock in short term profit. 
+- or to lock in profit at shorted state
 
 stop limit order - stop order trigger + limit order price cap, in that order
 - set stop price (trigger) and limit price (ceiling/floor). both same/diff ok
@@ -28,3 +28,4 @@ stop limit order - stop order trigger + limit order price cap, in that order
 - if order gets filled at all, it's at that price or better, never worse.
 
 fill = order gets executed
+price better = high for sell, low for buy.
