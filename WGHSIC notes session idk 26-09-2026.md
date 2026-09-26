@@ -6,3 +6,6 @@ a. define context
 - explains why program exists and how to run
 	- Investor: family office, pension fund, uni endownment, priv individual, etc.
 	- source of wealth: inheritance, business sale, salary savings, real estate portfolio,etc.
+- source of wealth important:
+	- money from business sale = tax + need to diversify
+	- endownment = permanent time horizon
