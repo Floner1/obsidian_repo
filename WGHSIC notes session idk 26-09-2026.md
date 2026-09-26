@@ -12,4 +12,4 @@ a. define context
 
 b. define who investor is, 
 - natural person or legal/corporate entity
-- 
+- specify what investor assets are governed by ips
