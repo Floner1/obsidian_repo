@@ -3,4 +3,4 @@ don't wanna just regurgitate facts, u wanna analyse synthesise implications arug
 
 essay should be skillful and persuasive
 
-higher lvl of reading and noting, research
+higher lvl of reading and noting, research, uni prep basically 
