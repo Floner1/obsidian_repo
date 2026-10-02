@@ -48,4 +48,8 @@ green flag laps only, no lap 1, no pit laps, safety car laps, wet races.
 
 comparing shifts in gaps between teammates
 
+wet races 2014-2016: 
+https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
+2 in 2014: hungary and japan
+2 in 2015: 
 
