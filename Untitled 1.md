@@ -42,3 +42,5 @@ stricter ban for first 11 races of 2016, separate group
 6 races in 2014 and 19 races in 2015 radio ban, 25
 36 total races wit radio ban compared to 23 wit no radio ban
 
+banning radio coaching would make gap between worse driver even worse and make races less exciting and competitive
+
