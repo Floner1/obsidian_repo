@@ -20,3 +20,4 @@ reflection of our own thinking
 organise work in a way where u can easily tap into them and be able to retrieve the, and produce immediate improvements
 
 dont have to read books cover to cover, just read the things u need
+relevant material
