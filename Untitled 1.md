@@ -12,3 +12,5 @@ read purposefully, skim and scan rather than word for word, important to write d
 avoid superficiality, depth is better, criticise and evaluate always, analyze 
 
 generate own ideas while reading 
+
+add own thoughts to things that u read, prevents plagirisaion? 
