@@ -46,3 +46,5 @@ banning radio coaching would make gap between worse driver even worse and make r
 
 green flag laps only, no lap 1, no pit laps, safety car laps, wet races. 
 
+comparing shifts in gaps between teamates
+
