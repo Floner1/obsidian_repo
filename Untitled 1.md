@@ -14,3 +14,5 @@ avoid superficiality, depth is better, criticise and evaluate always, analyze
 generate own ideas while reading 
 
 add own thoughts to things that u read, prevents plagirisaion? 
+
+reflection of our own thinking  
