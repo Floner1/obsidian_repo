@@ -32,3 +32,4 @@ post german gp 2016 only 9 rounds left in 2016, so we can also use that data
 
 so first 14 rounds of 2014 (rounds 1-13) and last 9 rounds of 2016: no driver ban, 20 races total
 
+This restriction was introduced to enforce the sporting regulation that "the driver must drive the car alone and unaided," 
