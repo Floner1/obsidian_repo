@@ -55,6 +55,8 @@ https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_
 3 in 2016:  monaco gb and brazil
 22 coaching races and 30 no coaching races
 
-merc line up same 2014-2016
-williams same lineup 2014-2016
+merc line up same 2014-2016 nico and hamilton
+williams same lineup 2014-2016 
+force india same 2014-2016
+ferrari same 2015-2016
 
