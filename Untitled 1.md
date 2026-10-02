@@ -60,3 +60,4 @@ williams same lineup 2014-2016 massa and bottas
 force india same 2014-2016 perez and hulk
 ferrari same 2015-2016 seb and kimi
 
+Saturday's data tells you the real standard deviation. If your shift is smaller than the thresholds above, report the result as inconclusive. That is a valid finding and the evaluation marks reward it.
