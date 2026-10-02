@@ -53,7 +53,7 @@ https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_
 2 in 2014: hungary and japan
 2 in 2015: gb and usa
 3 in 2016:  monaco gb and brazil
-22 coaching races and 30 no coaching races
+22 coaching races and 30 no coaching races when accounted for rain
 
 merc line up same 2014-2016 nico and hamilton
 williams same lineup 2014-2016 massa and bottas
