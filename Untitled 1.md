@@ -38,4 +38,7 @@ Racing lines and car set-up adjustments.
 Direct technical questions (e.g., torque map settings)
 
 dropped in 2016: no limit in race, apart from period between start and formation lap and start of race
+stricter ban for first 11 races of 2016, separate group
+6 races in 2014 and 19 races in 2015 radio ban, 25
+36 total races wit radio ban compared to 23 wit no radio ban
 
