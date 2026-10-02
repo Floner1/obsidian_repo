@@ -10,3 +10,5 @@ reading, note taking, organisation, higher cognitive abilities
 read purposefully, skim and scan rather than word for word, important to write down what questions u want research to answer, more time to process idea
 
 avoid superficiality, depth is better, criticise and evaluate always, analyze 
+
+generate own ideas while reading 
