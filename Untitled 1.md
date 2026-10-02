@@ -44,3 +44,5 @@ stricter ban for first 11 races of 2016, separate group
 
 banning radio coaching would make gap between worse driver even worse and make races less exciting and competitive
 
+green flag laps only, no lap 1, no pit laps, safety car laps, wet races. 
+
