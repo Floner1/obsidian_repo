@@ -34,3 +34,5 @@ so first 14 rounds of 2014 (rounds 1-13) and last 9 rounds of 2016: no driver ba
 
 This restriction was introduced to enforce the sporting regulation that "the driver must drive the car alone and unaided," Article 20.1 (or Article 27.1 in later versions) of fia sporting conduct
 
+dropped in 2016: no limit in race, apart from period between start and formation lap and start of race
+
