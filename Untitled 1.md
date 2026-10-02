@@ -24,3 +24,8 @@ relevant material
 dont waste time
 
 radio coaching ban from singapore 2014 - lifted at german gp 2016
+
+maybe compare during ban and after + preban? 
+but then cars are very diff
+pre ban can only rlly compare rosberg and hamilton cus only them stayed tgt from 2013-14, but then in 14 they were fighting for title so adds another factor which is hard to adjust for
+post german gp 201
