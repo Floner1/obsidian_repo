@@ -23,4 +23,4 @@ dont have to read books cover to cover, just read the things u need
 relevant material
 dont waste time
 
-radio coaching ban from round 14 of 2014 - german gp 2016
+radio coaching ban from singapore 2014 - lifted at german gp 2016
