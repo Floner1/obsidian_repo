@@ -593,15 +593,6 @@ stops returned = 34 | total = 34 | fields = ['driverId', 'duration', 'lap', 'sto
 
 pull data py:
 
-"""Pull 2014 to 2016 lap data from Jolpica for the IPQ project.
-
-Run in the same folder as smoke_test.py:  py pull_data.py
-For each dry race it saves results, pit stops and one laps file per driver to ./raw.
-It skips any file already in ./raw, so it is safe to rerun and never repeats a request.
-It stops after 450 new requests (the limit is 500 per hour) or on any error, including HTTP 429.
-When it finishes it writes pull_report.txt with a completeness check against the race results.
-Uses only the Python standard library.
-"""
 import json
 import pathlib
 import sys
