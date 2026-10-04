@@ -1,4 +1,5 @@
 
+revised ipq notes 2-10-26 and added some more stuff
 # Plan changes
 
 ### Version 1 (09-09-2026): 2013 vs 2014 with FastF1 lap and sector data
