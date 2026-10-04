@@ -17,7 +17,7 @@
 
 - Sector data: FastF1 documents full data support only from 2018. Jolpica's laps data has driverId, position and lap time, with no sectors. 2013 and 2014 have no sector data.
 - Ban date: the ban was enforced from Singapore, round 14 of 19 in 2014. Only 6 races of 2014 fall after it.
-- Power units: the V6 hybrid arrived in 2014, so 2013 vs 2014 mostly compares cars. Confirm the start date on the 2014 season page.
+- Power units: the V6 hybrid arrived in 2014, so 2013 vs 2014 mostly compares cars. 16 march 2014 start
 - Pairs: only 2 of 11 teammate pairs stayed together from 2013 to 2014 (Mercedes and Marussia). Marussia's pair broke up after Bianchi's crash at the Japanese Grand Prix.
 - Title fight: Hamilton and Rosberg fought for the 2014 title. That is another factor I cannot adjust for.
 - Link to the question: the test measures a coaching ban. The question is about data-driven strategy. I owe a defence of that link (section 3).
