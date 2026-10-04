@@ -9,7 +9,7 @@
 - Data: FastF1 lap and sector data.
 - Confound named: the V6 hybrid power unit.
 - Context: the 1994 and 2008 driver-aid bans, qualitative only.
-- Why it looked reasonable: the ban was a clear date, Horner and Wolff disagreed about it on record, and teammate gaps cancel most of the car.
+- Why it looked reasonable: the ban was a clear date, Horner and Wolff disagreed about it on record, and teammate gaps cancel most of the car. 21 09 2014
 
 ### What was wrong with version 1 (found 02-10-2026)
 
@@ -476,3 +476,6 @@ If time remains:
 - Jolpica laps endpoint: https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/laps.md
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
 - Wet-race list (weak source, verify): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
+
+[https://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix](https://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix)  
+[https://www.formula1.com/en/latest/article/fia-to-limit-radio-transmissions-on-car-performance.4cbQkTbahAJbGozBsegAs4](https://www.formula1.com/en/latest/article/fia-to-limit-radio-transmissions-on-car-performance.4cbQkTbahAJbGozBsegAs4)
