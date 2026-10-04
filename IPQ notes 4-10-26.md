@@ -1,6 +1,5 @@
 
 found a bunch of sources:
-
 ### Regulations and rules
 
 - FIA 2014 Sporting Regulations: https://www.fia.com/sites/default/files/regulation/file/1-2014%20SPORTING%20REGULATIONS%202014-02-28.pdf
@@ -25,7 +24,7 @@ found a bunch of sources:
 - Motorsport.com, full scope of the 2016 radio ban: https://www.motorsport.com/f1/news/analysis-the-full-scope-of-f1-s-2016-radio-ban-677934/677934/
 - RaceFans, radio ban lifted (28-07-2016): https://www.racefans.net/2016/07/28/radio-ban-lifted-races/
 - F1 Oversteer, the 2016 radio rule: https://www.f1oversteer.com/features/the-bizarre-f1-rule-that-was-brought-in-for-12-races-and-then-scrapped/
-- Found but not read: Autosport, radio restrictions lifted from German GP: https://www.autosport.com/f1/news/formula-1s-radio-restrictions-to-be-lifted-from-german-gp-5039652/5039652/
+- Autosport, radio restrictions lifted from German GP: https://www.autosport.com/f1/news/formula-1s-radio-restrictions-to-be-lifted-from-german-gp-5039652/5039652/
 - Found but not read: Motorsport.com, common sense prevails as F1 abandons radio ban rules: https://www.motorsport.com/f1/news/common-sense-prevails-as-f1-abandons-complex-radio-ban-rules/3222387/
 
 ### Seasons and line-ups
@@ -110,7 +109,8 @@ made a script for a smoke test that made sure that all of Jolpica's f1 data is a
 - pulled the 3 pair of drivers that stayed together from 2014-2016, hamilton + rosberg, massa + bottas, perez and hulkenberg
 - scripted so that it is under 4 requests a second to avoid hitting rate limit
 - saved every response into a folder named "raw"
-- there was 1 error for felipe massa, where the data said that he had 1 lap time recorded on lap 2 of round 1 (australian gp), but then in the real race he was involved in a lap 1 collision and retired that smae 
+- there was 1 error for felipe massa, where the data said that he had 1 lap time recorded on lap 2 of round 1 (australian gp), but then in the real race he was involved in a lap 1 collision and retired that same lap. 
+- quoted from australia 2014 race wikipedia:  Felipe Massa, Kamui Kobayashi and Kimi Räikkönen were involved in a first-lap collision, putting Kobayashi and Massa out of the race
 - the script checked that:
 	- it can filter laps of different drivers, eg 2014/1/drivers/rosberg/laps.json?limit=100, which means that 2014 round 1 driver nico rosberg lap time of driver nico rosberg and take the limit number of laptimes to be 100, because a race is never more than 100 laps, longest race is monaco with 78 laps
 	- each driver's lap count matches race result
