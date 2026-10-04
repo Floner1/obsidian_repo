@@ -35,10 +35,10 @@ Why the within-2014 split helped:
 
 #### How the 2013 baseline was meant to work
 
-- Why include 2013: it gives a yardstick for the 2014 result. Without it, I cannot tell whether a change in the teammate gap after round 14 comes from the ban or from ordinary variation.
+- Why include 2013: it gives a baseline for the 2014 result. Without it, I cannot tell whether a change in the teammate gap after round 14 comes from the ban or from ordinary variation.
 - How: apply the same split to 2013 (rounds 1 to 13 vs 14 to 19). Coaching was legal all of 2013, so this shows how much the gap normally moves between those two stretches.
 - Reading it: if the 2014 shift is clearly larger than the 2013 shift, that supports a ban effect. If the two are similar, the shift is normal variation.
-- Never compare raw 2013 numbers against raw 2014 numbers. The car changed.
+- Never compare raw 2013 numbers against raw 2014 numbers. The car changed, completely new chasis, engin.
 - Why only Mercedes: it was the only pair that raced together through both full seasons.
 
 #### Questions I asked about the baseline, and the answers
