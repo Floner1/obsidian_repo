@@ -123,4 +123,6 @@ the pull test loops over 52 dry races from 2014-2016 season and skips the 7 wet 
 - 1 pit stops file
 - 6 lap time files for each driver: hamilton , rosberg, massa , bottas, perez and hulkenberg
 the file also:
-- skips any race that already has files in the 
+- skips any race that already has files in the stored folder
+- stops on any error, eg http 429 or after 450 new requests to prevent hitting the rate limit
+- writes pull_report.txt at the end, where the lap time files of each driver is compared to the results file. 
