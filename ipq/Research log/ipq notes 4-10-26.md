@@ -8,13 +8,13 @@ revised ipq notes 2-10-26 and added some more stuff
 - Data: FastF1 lap and sector data.
 - Confound named: the V6 hybrid power unit.
 - Context: the 1994 and 2008 driver-aid bans, qualitative only.
-- Why it looked reasonable: the ban was a clear date, Horner and Wolff disagreed about it on record, and teammate gaps cancel most of the car. 21 09 2014
+- Why it looked reasonable: the ban was a clear date, Horner and Wolff disagreed about it on record, and teammate gaps cancel most of the car.
 
 ### What was wrong with version 1 (found 02-10-2026)
 
 - Sector data: FastF1 documents full data support only from 2018. Jolpica's laps data has driverId, position and lap time, with no sectors. 2013 and 2014 have no sector data.
-- Ban date: the ban was enforced from Singapore, round 14 of 19 in 2014. Only 6 races of 2014 fall after it.
-- Power units: the V6 hybrid arrived in 2014, so 2013 vs 2014 mostly compares cars. 16 march 2014 start of 2014 season
+- Ban date: the ban was enforced from Singapore (21-09-2014), round 14 of 19 in 2014. Only 6 races of 2014 fall after it.
+- Power units: the V6 hybrid arrived in 2014 (the season started 16-03-2014), so 2013 vs 2014 mostly compares cars.
 - Pairs: only 2 of 11 teammate pairs stayed together from 2013 to 2014 (Mercedes and Marussia). Marussia's pair broke up after Bianchi's crash at the Japanese GP.
 - Title fight: Hamilton and Rosberg fought for the 2014 title. That is another factor I cannot adjust for.
 - Link to the question: the test measures a coaching ban. The question is about data-driven strategy. I owe a defence of that link (see Question, hypothesis and prediction).
@@ -43,9 +43,10 @@ Why the within-2014 split helped:
 #### Questions I asked about the baseline, and the answers
 
 - On comparing only 2014 coaching with 2014 non-coaching: I can, and it is the core test. The 2013 data answers one extra question, which is whether the change after round 14 is bigger than the gap normally moves. The last 6 races of 2014 are different circuits, the cars develop through the season, and Hamilton and Rosberg were racing for the title. Any of those could change the gap without the ban.
-- On whether 2013 gives a true value for racing with coaching: partly. Coaching was legal all year, neither Mercedes drivers were heavily involved in the title fight, so it is cleaner than 2014 on that one factor. It is not a true value. The 2013 car is different, Hamilton was new in 2013 replacing Schumacher and Pirelli (the tire supplier for f1) changed tire construction in germany (round 9 7/7/13) and in hungary (round 11 28/7/13)
+- On whether 2013 gives a true value for racing with coaching: partly. Coaching was legal all year, neither Mercedes drivers were heavily involved in the title fight, so it is cleaner than 2014 on that one factor. It is not a true value. The 2013 car is different, Hamilton was new in 2013 replacing Schumacher and Pirelli (the tire supplier for f1) changed tire construction in germany (round 9 7/7/13) and in hungary (round 10 28/7/13)
 - On why the baseline is thin: it rests on one pair and one season. It sizes ordinary variation. It proves nothing alone, and it is not a control.
-- I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule. 
+- I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
+
 ### Version 3 (current, 04-10-2026): the ban on and off across 2014 to 2016
 
 I found a better idea than version 2. It uses the 2014 and 2016 races with no ban against the races with a ban from 2014 to 2016.
@@ -76,11 +77,28 @@ What it costs:
 - More data to pull and clean: 59 races across 3 seasons.
 - Probably one or two extra sessions.
 
+### Question change (04-10-2026)
+
+- Original question (09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
+- New question (04-10-2026): To what extent did the FIA's 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?
+
+Why I changed it:
+
+- The old question was bigger than my test. Data-driven strategy covers pit and tyre decisions as well as radio coaching, and my test covers only coaching.
+- Driver skill has no direct measure. The teammate lap-time gap measures it only indirectly.
+- The syllabus (2023 to 2025) asks for a question that is specific and answerable through evidence (page 8). The new question names the ban and the measure, so my data can answer it directly.
+- With the old question, my conclusion would have needed heavy qualification, because the question went further than the test.
+
+What I keep:
+
+- The original topic. In-race coaching is data-driven instruction from the pit wall, so I connect it to data-driven strategy and driver skill in the introduction and the evaluation, and I state the limits there.
+
 ## Question, hypothesis and prediction
 
-- Research question: whether data-driven strategy reduces the role of driver skill in F1.
-- Link to the test: in-race coaching is data-driven instruction from the pit wall, so it stands in for data-driven strategy.
-- 150-word definition owed (due Fri 09-10). It must say what I mean by data-driven strategy, why coaching stands in for it, and what the proxy leaves out.
+- Original research question (09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
+- Current research question (changed 04-10-2026, see Plan changes): To what extent did the FIA's 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?
+- Link to the original topic: in-race coaching is data-driven instruction from the pit wall, so it is one part of data-driven strategy. The test covers only that part.
+- 150-word definition owed (due Fri 09-10). It must define in-race coaching and the teammate gap, then add one sentence on how coaching connects to data-driven strategy and what the test leaves out.
 - Hypothesis: banning coaching removes help for the weaker driver, so the teammate gap should widen when the ban starts and narrow again after it ends.
 - Write the prediction in the log before I see any data.
 - Claim I cannot test: that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement. Keep it out of the hypothesis. It can go in context as part of the FIA's debate.
@@ -265,7 +283,7 @@ print(observed, count / 10000)
 - Title fights: as far as I know, Hamilton and Rosberg fought for the 2014 and 2016 titles but not 2015. Check on the season pages.
 - Races from the same pair and season are correlated, so the p-value looks better than it should.
 - Mercedes, Williams and Force India all use Mercedes power. The result covers those teams.
-- Coaching is a proxy for data-driven strategy. Defend the link in the 150-word definition.
+- Coaching is one part of data-driven strategy, so the finding says little about the rest. The 150-word definition covers the link.
 - Lap-time gap is an imperfect measure of skill.
 - The stricter 2016 ban is a different treatment, so it stays a separate group.
 - No sector data, so no corner-level analysis.
@@ -297,140 +315,6 @@ print(observed, count / 10000)
 - Reddit wet-race list: weak. Verify every race elsewhere.
 - f1briefing.com: discarded. It contradicts the FIA's 2016 statement and what I hear on the radio.
 
-## IPQ rules and admin
-
-### Rules from the syllabus (2023 to 2025 version)
-
-- Report: 5000 words maximum. Only the bibliography is excluded. A word count must be declared.
-- Research log: separate file, outside the word count. Contents: reflective thoughts, notes on research methods, and comments on how and why the research question changed.
-- Proposal form: reviewed internally. Cambridge no longer approves it.
-- Teacher role: brief summative comments on progress only. Teachers must not correct or edit drafts.
-- Ethics: consider research ethics alongside methods.
-- Sources: acknowledge where ideas come from. Include full details, publication date, author and page number.
-- Cover sheet confirms the report is my own work. A 10-minute interview is recommended, not assessed.
-- Marks: AO1 is 70 percent and rewards staying on the question. AO2 reflection is 15 percent.
-- Check with Ms Cubbin whether 2027 differs.
-
-### Log rules for myself
-
-- Write a dated entry at the end of every session.
-- Record methods and why the question or method changed. Dropping sector data was entry one.
-- Never backfill the log. Date entries honestly.
-
-### Report plan (5000 words maximum, planned at 4800)
-
-- Introduction, 400: the question, the 150-word definition, why coaching stands in for data-driven strategy, Horner and Wolff.
-- Context, 700: 1994 and 2008 driver-aid bans, then the 2014 ban, the 2015 dropped phase and the 2016 lifting. Two academic sources.
-- Method, 600: data source, gap measure, cleaning rules, groups, matched laps, medians, effect sizes and the permutation test.
-- Analysis, 1700: the 2014 to 2016 comparison with one chart, per pair and pooled, plus the reversal check.
-- Evaluation, 1000, and conclusion, 400: the Evaluation notes, then a qualified answer.
-- Version 2 had a 2013 Mercedes baseline in the analysis. Version 3 does not.
-
-### Timeline (provisional until Ms Cubbin answers)
-
-Constraints: 3 working days a week (Thu 11:00 to 12:30, Fri 9:40 to 10:30 plus the 11:45 lesson, Sat 10:00 to 13:00), about 6 hours a week. Term break 19-10 to 23-10. Revision starts 26-10. Exams 30-11 to 11-12. Tet 05-02 to 10-02. About 42 hours of work before the draft is done (my estimate).
-
-Phase 1, data and design (02-10 to 18-10):
-
-- Sat 03-10, 10:00 to 13:00: smoke test, then pull 2014, 2015 and 2016. First dated log entry. Planned date, tick if done.
-- Mon 05-10 11:45 or Tue 06-10 09:35: 1 on 1 with Ms Cubbin (suggested slots).
-- Thu 08-10: pairs table and cleaning rules.
-- Fri 09-10: 2014 gaps and the 150-word definition. Email Mr McGovern by this date.
-- Sat 10-10: 2015 and 2016 gaps, chart and permutation test. This may need an extra session (my estimate).
-- Thu 15-10: two academic sources.
-- Fri 16-10: Gate 1.
-- Sat 17-10: context section, 700 words maximum.
-
-Phase 2, break week and freeze (19-10 to 25-10):
-
-- Tue 20-10 and Thu 22-10, 09:00 to 10:45: buffer, used only if Gate 1 was missed.
-- Sun 25-10, 10:00 to 13:00: Gate 2.
-
-Phase 3, write the draft (26-10 to 23-11):
-
-- Thu 29-10 method. Fri 30-10 introduction. Sat 31-10 analysis A.
-- Thu 05-11 analysis B. Sat 07-11 context trim (light session).
-- Thu 12-11 evaluation A. Fri 13-11 evaluation B. Sat 14-11 conclusion and stitch.
-- Thu 19-11 cut to 5000 words. Fri 20-11 Gate 3 and a one-page re-entry note. Sat 21-11 spare.
-- Mon 23-11: send the draft to Mr McGovern and tell Ms Cubbin it is in.
-
-Phase 4, pause and feedback (24-11 to 09-01):
-
-- IPQ paused through exams (30-11 to 11-12). Add it to the full-stop list.
-- Saturdays 12-12, 19-12 and 02-01: fixes from brief comments.
-- Sat 09-01: one read-through.
-
-Phase 5, redraft and finish (15-01 to 26-02):
-
-- Gate 4 on Thu 04-02-2027: redraft complete before Tet.
-- Polish 11-02 to 26-02. Submit-ready Fri 26-02-2027.
-- March to May is spare time.
-
-### Gates and slip rules
-
-- Gate 0, Mon 05-10: I have the school's draft and final dates. If the final date is before 26-02, cut the Dec to Jan feedback loop and keep the 20-11 draft date.
-- Gate 1, Fri 16-10: clean gap data for Mercedes, Williams and Force India across 2014 to 2016, one chart, one definition paragraph. If the jolpica pull fails, try the Kaggle Ergast CSVs. If that fails too, tell Ms Cubbin and Mr McGovern the same day and use the buffer mornings.
-- Gate 2, Sun 25-10: analysis frozen. If not, move the draft date from 20-11 to 27-11 and drop the full-ban group first.
-- Gate 3, Fri 20-11: draft complete at 5000 words or under.
-- Gate 4, Thu 04-02: redraft complete before Tet.
-- Slip rule: if any gate slips more than 3 days, cut scope and keep the date. Order of cuts: the full-ban group, context to 400 words, evaluation to 700 words.
-
-### Session routine
-
-- Open the note and paste the research question at the top.
-- Start with the last deliverable. No new reading in the first 10 minutes.
-- Work in 25-minute blocks with a timer.
-- Stop 10 minutes before the end. Write the log entry and name the next session's first action.
-
-### Booking message for Ms Cubbin
-
-Hi Ms Cubbin, I would like to book a 1 on 1 for my IPQ next week. I am free Mon 5 Oct 11:45 to 12:35, or Tue 6 Oct 9:35 to 10:30. I need about 20 minutes to confirm the school's draft and final deadlines, my proposal form sign-off, and what feedback you can give on drafts. Thank you, Peter
-
-### Questions for Ms Cubbin, in order
-
-- 1. The school's internal draft deadline, internal final deadline and Cambridge's submission date for June 2027, in writing.
-- 2. Whether my proposal form is signed off and who reviews it. Tell her I dropped sector data and now use 2014 to 2016, and ask whether the form needs changing.
-- 3. What feedback she and Mr McGovern can give on a draft, how many drafts they will read and the latest hand-in date.
-- 4. How she wants the log kept and how often she checks it.
-- 5. Show her the timeline. Ask whether 26-02 and the 20-11 draft date fit the school calendar, and what to cut if the final date is earlier.
-
-If time remains:
-
-- Who handles the cover sheet, the word-count declaration and any ethics statement.
-- Whether the school runs the 10-minute interview.
-- Whether IPQ lessons run through 30-11 to 11-12.
-- She will cover the research question and referencing. Bring the 150-word definition and ask whether the link from the ban to data-driven strategy holds.
-
-### Email to Mr McGovern
-
-- Send it after the 1 on 1 with Ms Cubbin and by Fri 09-10. Her answer to question 3 tells me what review he may give.
-- Ask for 15 minutes on or just before Fri 16-10 to look at my chart and my 150-word definition.
-- It takes about 5 minutes to write.
-- I crossed "how to book Mr McGovern" off the question list because I can email him directly.
-
-### Unconfirmed
-
-- The school's dates and the draft feedback rules.
-- The syllabus code for my entry. A check of Cambridge's programme page did not confirm the claim that 9980 is replaced by 9494 after the Nov 2027 series. I enter for May and June 2027, so I ask which code applies.
-- Live data access. Documentation only so far.
-- Syllabus version used: 2023 to 2025. It limits teachers to brief summative comments on drafts. Ask whether 2027 differs.
-
-## To do from today
-
-- [ ] Send Ms Cubbin the booking message for a 1 on 1.
-- [ ] Run the smoke test (2014 round 1 laps from jolpica), then pull 2014 to 2016. Planned for Sat 03-10.
-- [ ] Write the 150-word definition and the prediction before seeing data.
-- [ ] Verify each wet race against a race report. Write the mixed-conditions rule.
-- [ ] Find dated originals for the Autosport and Motorsport.com articles.
-- [ ] Check the 2016 regulations for the article number.
-- [ ] Check the 2026 regulations for the formation-lap rule.
-- [ ] Check title fights on the 2013, 2014, 2015 and 2016 season pages.
-- [ ] Check the V6 start date on the 2014 season page.
-- [ ] Re-read the Abu Dhabi 2014 press conference for Horner and Wolff.
-- [ ] Find two academic sources by Thu 15-10.
-- [ ] Email Mr McGovern by Fri 09-10.
-- [ ] Write Ms Cubbin's answers in the log with the date.
-
 ## Links
 
 ### Regulations and rules
@@ -456,6 +340,7 @@ If time remains:
 
 - 2013 season: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
 - 2014 season: https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship
+- 2014 Singapore Grand Prix: https://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix
 - 2015 season: https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship
 - 2016 season: https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship
 
@@ -466,5 +351,4 @@ If time remains:
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
 - Wet-race list (weak source, verify): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
 
-[https://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix](https://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix)  
-[https://www.formula1.com/en/latest/article/fia-to-limit-radio-transmissions-on-car-performance.4cbQkTbahAJbGozBsegAs4](https://www.formula1.com/en/latest/article/fia-to-limit-radio-transmissions-on-car-performance.4cbQkTbahAJbGozBsegAs4)
+## Session entries
