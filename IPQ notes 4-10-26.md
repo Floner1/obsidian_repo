@@ -104,6 +104,9 @@ found a bunch of sources:
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
 - Wet-race list (weak source, verification complete): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
 
+
+
+
 made a script for a smoke test that made sure that all of Jolpica's f1 data is actually pullable and works
 - pulled rounds 1-10 of 2014 season
 - pulled the 3 pair of drivers that stayed together from 2014-2016, hamilton + rosberg, massa + bottas, perez and hulkenberg
