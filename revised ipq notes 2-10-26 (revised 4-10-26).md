@@ -1,5 +1,3 @@
-
-
 - Research question (locked 09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
 - Test: teammate lap-time gaps before, during and after the FIA radio coaching ban.
 
@@ -13,16 +11,16 @@
 - Context: the 1994 and 2008 driver-aid bans, qualitative only.
 - Why it looked reasonable: the ban was a clear date, Horner and Wolff disagreed about it on record, and teammate gaps cancel most of the car.
 
-### 2.2 What was wrong with version 1 (found 02-10-2026)
+### What was wrong with version 1 (found 02-10-2026)
 
 - Sector data: FastF1 documents full data support only from 2018. Jolpica's laps data has driverId, position and lap time, with no sectors. 2013 and 2014 have no sector data.
 - Ban date: the ban was enforced from Singapore, round 14 of 19 in 2014. Only 6 races of 2014 fall after it.
 - Power units: the V6 hybrid arrived in 2014, so 2013 vs 2014 mostly compares cars. 16 march 2014 start
 - Pairs: only 2 of 11 teammate pairs stayed together from 2013 to 2014 (Mercedes and Marussia). Marussia's pair broke up after Bianchi's crash at the Japanese Grand Prix.
 - Title fight: Hamilton and Rosberg fought for the 2014 title. That is another factor I cannot adjust for.
-- Link to the question: the test measures a coaching ban. The question is about data-driven strategy. I owe a defence of that link (section 3).
+- Link to the question: the test measures a coaching ban. The question is about data-driven strategy. I owe a defence of that link (see Question, hypothesis and prediction).
 
-### 2.3 Version 2 (02-10-2026): the within-2014 split plus a 2013 Mercedes baseline
+### Version 2 (02-10-2026): the within-2014 split plus a 2013 Mercedes baseline
 
 One-page version of the plan as I had it:
 
@@ -53,7 +51,7 @@ Why the within-2014 split helped:
 - On why the baseline is thin: it rests on one pair and one season. It sizes ordinary variation. It proves nothing alone, and it is not a control.
 - Cut rule: if Gate 2 is missed, the 2013 baseline is the first thing dropped.
 
-### 2.4 Version 3 (current, 04-10-2026): the ban on and off across 2014 to 2016
+### Version 3 (current, 04-10-2026): the ban on and off across 2014 to 2016
 
 I found a better idea than version 2. It uses the 2014 and 2016 races with no ban against the races with a ban from 2014 to 2016.
 
@@ -75,7 +73,7 @@ Why version 3 is better:
 
 What stays from version 2:
 
-- The gap measure, the cleaning rules and the permutation test (section 6).
+- The gap measure, the cleaning rules and the permutation test (see Method).
 - The V6 stays constant across 2014 to 2016, so the power unit change drops out.
 
 What it costs:
@@ -88,7 +86,7 @@ Optional extras, only if time remains after Gate 2:
 - Ferrari (Vettel and Räikkönen) raced together in 2015 and 2016 only, so it can test the 2016 reversal but not the 2014 start.
 - A within-2014 split across about 9 pairs, as a second check on the version 2 idea.
 
-## 3. Question, hypothesis and prediction
+## Question, hypothesis and prediction
 
 - Research question: whether data-driven strategy reduces the role of driver skill in F1.
 - Link to the test: in-race coaching is data-driven instruction from the pit wall, so it stands in for data-driven strategy.
@@ -98,16 +96,16 @@ Optional extras, only if time remains after Gate 2:
 - Write the prediction in the log before I see any data.
 - Claim I cannot test: that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement. Keep it out of the hypothesis. It can go in context as part of the FIA's debate.
 - FIA motive, reported by Motorsport.com (not yet read in full): make drivers "heroes again". Check the original wording before quoting.
-- Opposing views: Horner and Wolff disagreed on record (from my 05-09 notes, source in section 11). I have not re-read that source.
+- Opposing views: Horner and Wolff disagreed on record (from my 05-09 notes, see Links). I have not re-read that source.
 
-## 4. Background: the radio ban timeline
+## Background: the radio ban timeline
 
 ### 2014: announced and enforced
 
 - 11-09-2014: FIA directive. Charlie Whiting: "No radio conversation from pit to driver may include any information that is related to the performance of the car or driver."
 - Applied from Singapore, round 14 of the 2014 season.
 - Purpose: enforce Article 20.1 of the sporting regulations, "The driver must drive the car alone and unaided."
-- Article 20.1 and its wording appear in the 2014 Sporting Regulations PDF (link in section 11). Radio limits do not appear in the sections reviewed. Read the PDF before citing it.
+- Article 20.1 and its wording appear in the 2014 Sporting Regulations PDF (see Links). Radio limits do not appear in the sections reviewed. Read the PDF before citing it.
 - Whiting also reminded teams that data transmission from pit to car is prohibited by Article 8.5.2 of the Technical Regulations.
 
 ### 2014: revised to driver performance only
@@ -161,7 +159,7 @@ Result of the check:
 - Traction control returned in 2001 because the FIA could not police the ban, then was banned again in 2008 once the standard ECU could catch it.
 - This gives the radio ban a second, earlier example of the same argument.
 
-## 5. Groups, race counts and pairs
+## Groups, race counts and pairs
 
 ### The three groups
 
@@ -175,7 +173,7 @@ Result of the check:
 
 - No ban: 21. Coaching ban: 22. Full ban: 9. Total: 52.
 - Wet races removed: Hungary 2014 and Brazil 2016 (no ban), Japan 2014, Britain 2015 and USA 2015 (coaching ban), Monaco 2016 and Britain 2016 (full ban).
-- This rests on my wet-race list, which is not verified (section 6).
+- This rests on my wet-race list, which is not verified (see Method).
 
 ### Fixes to my earlier notes
 
@@ -190,7 +188,7 @@ Result of the check:
 - Ferrari: Vettel and Räikkönen, 2015 and 2016 only. In 2014 it was Räikkönen and Alonso.
 - Mercedes, Williams and Force India all run Mercedes power units. Ferrari does not. The result describes those teams, not the whole grid.
 
-## 6. Method
+## Method
 
 ### Data
 
@@ -271,7 +269,7 @@ print(observed, count / 10000)
 - The real SD is unknown until the data is pulled.
 - Rule: if my shift is smaller than these thresholds, report the result as inconclusive. That is a valid finding and the evaluation marks reward it.
 
-## 7. Evaluation notes (limits to write up)
+## Evaluation notes (limits to write up)
 
 - Two rule changes only. More races reduce noise but cannot separate the ban from other things that changed at the same time. Say so.
 - Cars differ across seasons. A teammate gap cancels most of the car within a race. It does not cancel how well a car suits each driver.
@@ -284,9 +282,9 @@ print(observed, count / 10000)
 - No sector data, so no corner-level analysis.
 - Data access is confirmed from documentation only until the smoke test runs.
 - The wet-race list is unverified.
-- Version 1 and version 2 problems (section 2) can be used here as evidence that I tested my own design.
+- Version 1 and version 2 problems (see Plan changes) can be used here as evidence that I tested my own design.
 
-## 8. Source evaluation
+## Source evaluation
 
 ### Strong
 
@@ -310,7 +308,7 @@ print(observed, count / 10000)
 - Reddit wet-race list: weak. Verify every race elsewhere.
 - f1briefing.com: discarded. It contradicts the FIA's 2016 statement and what I hear on the radio.
 
-## 9. IPQ rules and admin
+## IPQ rules and admin
 
 ### Rules from the syllabus (2023 to 2025 version)
 
@@ -336,7 +334,7 @@ print(observed, count / 10000)
 - Context, 700: 1994 and 2008 driver-aid bans, then the 2014 ban, the 2015 dropped phase and the 2016 lifting. Two academic sources.
 - Method, 600: data source, gap measure, cleaning rules, groups, matched laps, medians, effect sizes and the permutation test.
 - Analysis, 1700: the 2014 to 2016 comparison with one chart, per pair and pooled, plus the reversal check.
-- Evaluation, 1000, and conclusion, 400: section 7, then a qualified answer.
+- Evaluation, 1000, and conclusion, 400: the Evaluation notes, then a qualified answer.
 - Version 2 had a 2013 Mercedes baseline in the analysis. Version 3 does not.
 
 ### Timeline (provisional until Ms Cubbin answers)
@@ -428,7 +426,7 @@ If time remains:
 - Live data access. Documentation only so far.
 - Syllabus version used: 2023 to 2025. It limits teachers to brief summative comments on drafts. Ask whether 2027 differs.
 
-## 10. To do from today
+## To do from today
 
 - [ ] Send Ms Cubbin the booking message for a 1 on 1.
 - [ ] Run the smoke test (2014 round 1 laps from jolpica), then pull 2014 to 2016. Planned for Sat 03-10.
@@ -444,7 +442,7 @@ If time remains:
 - [ ] Email Mr McGovern by Fri 09-10.
 - [ ] Write Ms Cubbin's answers in the log with the date.
 
-## 11. Links
+## Links
 
 ### Regulations and rules
 
