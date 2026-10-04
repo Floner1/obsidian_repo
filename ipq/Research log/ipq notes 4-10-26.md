@@ -442,3 +442,155 @@ print(observed, count / 10000)
 - Jolpica laps endpoint: https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/laps.md
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
 - Wet-race list (weak source, verification complete): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
+
+
+ran smoke test: 
+"""Jolpica smoke test for the IPQ lap-time project.
+
+Run:  python3 smoke_test.py      (Windows: py smoke_test.py)
+Makes 10 requests, paced under the 4 per second burst limit.
+Saves every response to ./raw so you never request the same thing twice.
+Uses only the Python standard library.
+"""
+import json
+import pathlib
+import time
+import urllib.error
+import urllib.request
+
+BASE = "https://api.jolpi.ca/ergast/f1"
+SEASON, ROUND = 2014, 1
+DRIVERS = ["rosberg", "hamilton", "massa", "bottas", "perez", "hulkenberg"]
+OUT = pathlib.Path("raw")
+OUT.mkdir(exist_ok=True)
+calls = 0
+
+
+def get(path, name):
+    """One request. Stops the whole script on any error, including HTTP 429."""
+    global calls
+    time.sleep(0.6)
+    url = f"{BASE}/{path}"
+    req = urllib.request.Request(url, headers={"User-Agent": "ipq-smoke-test"})
+    calls += 1
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            body = resp.read().decode("utf-8")
+            status = resp.status
+            headers = dict(resp.headers.items())
+    except urllib.error.HTTPError as err:
+        print(f"STOP: HTTP {err.code} for {url}")
+        if err.code == 429:
+            print("429 means throttled. Others on the same IP share the limit. Wait a few minutes and rerun.")
+        raise SystemExit(1)
+    except urllib.error.URLError as err:
+        print(f"STOP: could not reach {url}: {err.reason}")
+        raise SystemExit(1)
+    (OUT / f"{name}.json").write_text(body, encoding="utf-8")
+    print(f"{status} {url}")
+    return json.loads(body)["MRData"], headers
+
+
+def seconds(text):
+    """Turn a lap time such as 1:30.559 into seconds."""
+    if ":" in text:
+        minutes, rest = text.split(":")
+        return int(minutes) * 60 + float(rest)
+    return float(text)
+
+
+def first_race(data):
+    races = data["RaceTable"]["Races"]
+    return races[0] if races else None
+
+
+print("== 1. Driver IDs for 2014 ==")
+data, headers = get(f"{SEASON}/drivers.json?limit=100", f"drivers_{SEASON}")
+ids = {d["driverId"] for d in data["DriverTable"]["Drivers"]}
+for driver in DRIVERS:
+    print(f"  {driver}: {'present' if driver in ids else 'MISSING'}")
+extra = {k: v for k, v in headers.items() if k.lower().startswith(("x-", "retry", "ratelimit"))}
+print("  rate limit headers:", extra if extra else "none shown")
+
+print("== 2. Laps completed per the race results ==")
+data, _ = get(f"{SEASON}/{ROUND}/results.json?limit=100", f"results_{SEASON}_{ROUND}")
+race = first_race(data)
+print("  race:", race["raceName"], "| result rows:", len(race["Results"]))
+done = {r["Driver"]["driverId"]: int(r["laps"]) for r in race["Results"]}
+
+print("== 3. Laps for each driver, one request per driver ==")
+matches = 0
+for driver in DRIVERS:
+    data, _ = get(f"{SEASON}/{ROUND}/drivers/{driver}/laps.json?limit=100", f"laps_{SEASON}_{ROUND}_{driver}")
+    race = first_race(data)
+    laps = race["Laps"] if race else []
+    numbers = [int(lap["number"]) for lap in laps]
+    timings = [t for lap in laps for t in lap["Timings"]]
+    expected = done.get(driver)
+    contiguous = numbers == list(range(1, len(numbers) + 1))
+    verdict = "MATCH" if expected == len(timings) and contiguous else "MISMATCH"
+    matches += verdict == "MATCH"
+    times = [seconds(t["time"]) for t in timings]
+    shown = f"first {timings[0]['time']}, fastest {min(times):.3f}s" if timings else "no laps"
+    print(f"  {driver}: {len(timings)} timings, results say {expected} laps, contiguous {contiguous}, {shown} -> {verdict}")
+    if verdict == "MISMATCH" and numbers:
+        missing = sorted(set(range(1, max(numbers) + 1)) - set(numbers))
+        print(f"    missing lap numbers: {missing[:15]}")
+print(f"  {matches} of {len(DRIVERS)} drivers match")
+
+print("== 4. Page cap: all drivers, limit=1000 ==")
+data, _ = get(f"{SEASON}/{ROUND}/laps.json?limit=1000", f"laps_{SEASON}_{ROUND}_all")
+laps = first_race(data)["Laps"]
+n_timings = sum(len(lap["Timings"]) for lap in laps)
+cap = int(data["limit"])
+print(f"  response limit = {cap} | total = {data['total']} | lap objects returned = {len(laps)} | timings returned = {n_timings}")
+if n_timings == cap:
+    print("  the limit counts timings (one driver's time on one lap)")
+elif len(laps) == cap:
+    print("  the limit counts laps (all drivers on one lap)")
+else:
+    print("  unit unclear: the cap did not bind. Read the numbers above.")
+
+print("== 5. Pit stops ==")
+data, _ = get(f"{SEASON}/{ROUND}/pitstops.json?limit=100", f"pitstops_{SEASON}_{ROUND}")
+stops = first_race(data)["PitStops"]
+print(f"  stops returned = {len(stops)} | total = {data['total']} | fields = {sorted(stops[0].keys()) if stops else 'none'}")
+
+print(f"== Done: {calls} requests used. Raw responses are in ./{OUT} ==")
+
+results:
+== 1. Driver IDs for 2014 ==  
+200 [https://api.jolpi.ca/ergast/f1/2014/drivers.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/drivers.json?limit=100)  
+rosberg: present  
+hamilton: present  
+massa: present  
+bottas: present  
+perez: present  
+hulkenberg: present  
+rate limit headers: {'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY'}  
+== 2. Laps completed per the race results ==  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/results.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/results.json?limit=100)  
+race: Australian Grand Prix | result rows: 22  
+== 3. Laps for each driver, one request per driver ==  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/drivers/rosberg/laps.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/drivers/rosberg/laps.json?limit=100)  
+rosberg: 57 timings, results say 57 laps, contiguous True, first 1:42.038, fastest 92.478s -> MATCH  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/drivers/hamilton/laps.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/drivers/hamilton/laps.json?limit=100)  
+hamilton: 2 timings, results say 2 laps, contiguous True, first 1:46.128, fastest 106.128s -> MATCH  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/drivers/massa/laps.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/drivers/massa/laps.json?limit=100)  
+massa: 1 timings, results say 0 laps, contiguous False, first 1:40.287, fastest 100.287s -> MISMATCH  
+missing lap numbers: [1]  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/drivers/bottas/laps.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/drivers/bottas/laps.json?limit=100)  
+bottas: 57 timings, results say 57 laps, contiguous True, first 1:49.766, fastest 92.616s -> MATCH  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/drivers/perez/laps.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/drivers/perez/laps.json?limit=100)  
+perez: 57 timings, results say 57 laps, contiguous True, first 2:36.707, fastest 92.634s -> MATCH  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/drivers/hulkenberg/laps.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/drivers/hulkenberg/laps.json?limit=100)  
+hulkenberg: 57 timings, results say 57 laps, contiguous True, first 1:46.986, fastest 92.568s -> MATCH  
+5 of 6 drivers match  
+== 4. Page cap: all drivers, limit=1000 ==  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/laps.json?limit=1000](https://api.jolpi.ca/ergast/f1/2014/1/laps.json?limit=1000)  
+response limit = 100 | total = 951 | lap objects returned = 6 | timings returned = 100  
+the limit counts timings (one driver's time on one lap)  
+== 5. Pit stops ==  
+200 [https://api.jolpi.ca/ergast/f1/2014/1/pitstops.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/pitstops.json?limit=100)  
+stops returned = 34 | total = 34 | fields = ['driverId', 'duration', 'lap', 'stop', 'time']  
+== Done: 10 requests used. Raw responses are in ./raw ==
