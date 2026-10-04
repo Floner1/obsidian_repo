@@ -38,7 +38,7 @@ Why the within-2014 split helped:
 - How: apply the same split to 2013 (rounds 1 to 13 vs 14 to 19). Coaching was legal all of 2013, so this shows how much the gap normally moves between those two stretches.
 - Reading it: if the 2014 shift is clearly larger than the 2013 shift, that supports a ban effect. If the two are similar, the shift is normal variation.
 - Never compare raw 2013 numbers against raw 2014 numbers. The car changed, completely new chassis, engine, regs, etc.
-- Mercedes was the only pair that raced together through both full seasons.
+- Why only Mercedes: it was the only pair that raced together through both full seasons.
 
 #### Questions I asked about the baseline, and the answers
 
@@ -187,7 +187,7 @@ The examples are grouped by ban type because braking points, racing lines, gear 
 
 - No ban: 21. Coaching ban: 22. Full ban: 9. Total: 52.
 - Wet races removed: Hungary 2014 and Brazil 2016 (no ban), Japan 2014, Britain 2015 and USA 2015 (coaching ban), Monaco 2016 and Britain 2016 (full ban).
-- This rests on my wet-race list, which is not verified (see Method).
+- This rests on my wet-race list, checked against race pages, and on the whole-race rule (see Wet races).
 
 ### Fixes to my earlier notes
 
@@ -224,13 +224,19 @@ The examples are grouped by ban type because braking points, racing lines, gear 
 - Drop lap 1. Reason: it depends on grid position and traffic.
 - Drop pit in-laps and out-laps. Reason: they do not show pace.
 - Drop safety-car laps. Reason: same.
-- Drop wet races. Reason: wet conditions change what lap time measures.
+- Drop wet races. Reason: wet conditions change what lap time measures, and the data has no weather for each lap, so I drop the whole race (see Wet races).
 
 ### Wet races
 
-- My list: 2014 Hungary and Japan. 2015 Britain and USA. 2016 Monaco, Britain and Brazil. That is 7.
-- Source: a Reddit list of wet-weather races. Reddit is user-compiled and weak as evidence.
-- To do: check each race against a race report (Formula1.com or Wikipedia). Write a rule for mixed-condition races and log it.
+- Wet races: 2014 Hungary and Japan. 2015 Britain and USA. 2016 Monaco, Britain and Brazil. That is 7 of 59, so 52 are dry.
+- First source: a Reddit list of wet-weather races. Reddit is user-compiled and weak as evidence.
+- Check: I checked all 59 races against their race pages (Wikipedia for 57 races, f1-fansite.com for the 2014 Australian and Malaysian races, see Links). The result matches the Reddit list on all 7 wet races.
+- What the race pages say about the 7: Japan 2014 and Brazil 2016 were wet throughout. Hungary 2014, USA 2015, Monaco 2016 and Britain 2016 started wet and dried out. Britain 2015 started dry and turned wet from about lap 33.
+- Rule (04-10-2026): I drop every wet race. A race is wet if its race page says any part of it ran on intermediate or wet tyres.
+- Reasons: the lap data gives times and positions but no weather or tyre data for each lap, so I cannot tell wet laps from dry laps inside a mixed race. Dropping the whole race also keeps the method simple.
+- Cost: 7 of 59 races, which is 12 percent. That leaves 52. Britain 2015 loses about 30 dry laps, because rain began around lap 33.
+- Labels come from the weather only. I do not change a label after seeing the gap numbers.
+- Optional check: if the result lands close to p = 0.05, rerun it with the 5 mixed-condition races kept and see whether it moves.
 
 ### Statistics: the shift
 
@@ -279,11 +285,12 @@ print(observed, count / 10000)
     - one pair, 23 vs 25 races: about 0.8
     - three pairs pooled: about 0.5
     - with 15 percent of races lost (my assumption): about 0.87 and 0.51
+- Dropping the 7 wet races loses 12 percent of races, which sits inside that 15 percent assumption.
 - These figures come from the standard two-sample approximation. No source yet. Find a statistics text to cite before using them.
 - The real SD is unknown until the data is pulled.
 - Rule: if my shift is smaller than these thresholds, report the result as inconclusive. That is a valid finding and the evaluation marks reward it.
 
-## Evaluation notes
+## Evaluation notes (limits to write up)
 
 - Two rule changes only. More races reduce noise but cannot separate the ban from other things that changed at the same time. Say so.
 - Cars differ across seasons. A teammate gap cancels most of the car within a race. It does not cancel how well a car suits each driver.
@@ -295,7 +302,7 @@ print(observed, count / 10000)
 - The stricter 2016 ban is a different treatment, so it stays a separate group.
 - No sector data, so no corner-level analysis.
 - Data access is confirmed from documentation only until the smoke test runs.
-- The wet-race list is unverified.
+- Five of the 7 races dropped as wet had mixed conditions, so they also lose their dry laps (see Wet races). The findings cover dry races only. Wet races may show larger teammate gaps. No source yet.
 - The 2014 ban was enforced through a race director directive reading Article 20.1, and no article in the 2014, 2015 or 2016 Sporting Regulations, or in the Technical Regulations searched, limits what teams may say by radio. Technical Regulations Article 8.7 covers the radio equipment only. I cannot say how strictly teams complied.
 - Version 1 and version 2 problems (see Plan changes) can be used here as evidence that I tested my own design.
 
@@ -322,11 +329,12 @@ print(observed, count / 10000)
 - FIA Technical Regulations 2014, earlier issue on argent.fia.com (cover reads 14 July 2011, 77 pages): FIA host, searched in full, but an early issue and not the 2014 version. It gives the same Article 8.5.2 and 8.7 wording as 2015. Cite the 23-01-2014 version instead.
 - FIA Technical Regulations 2016, copy on zonef1.com: third-party site, not the FIA. Its cover date (27 February 2016), page count (90) and Article 8.5 text match the 2016 file searched in full. It was not compared page by page.
 - Wikipedia season pages: good for line-ups and calendars. Cross-check once against Formula1.com results.
+- Wikipedia race pages and f1-fansite.com results pages: used to label each race wet or dry. Wikipedia is open to anyone to edit, so each label rests on one source.
 - F1 Oversteer: secondary feature, no date. Used only for the current formation-lap rule. Check the 2026 regulations.
 
 ### Weak or discarded
 
-- Reddit wet-race list: weak. Verify every race elsewhere.
+- Reddit wet-race list: weak. Used as the first list only. Every race was then checked against its race page.
 - f1briefing.com: discarded. It contradicts the FIA's 2016 statement and what I hear on the radio.
 
 ## Links
@@ -356,7 +364,7 @@ print(observed, count / 10000)
 - RaceFans, radio ban lifted (28-07-2016): https://www.racefans.net/2016/07/28/radio-ban-lifted-races/
 - F1 Oversteer, the 2016 radio rule: https://www.f1oversteer.com/features/the-bizarre-f1-rule-that-was-brought-in-for-12-races-and-then-scrapped/
 - Found but not read: Autosport, radio restrictions lifted from German GP: https://www.autosport.com/f1/news/formula-1s-radio-restrictions-to-be-lifted-from-german-gp-5039652/5039652/
-- Found but not read: Motorsport.com, common sense prevails as F1 abandons radio ban rules: https://www.motorsport.com/f1/news/common-sense-prevails-as-f1-abandons-complex-radio-ban-rules/3222387/
+- Motorsport.com, common sense prevails as F1 abandons radio ban rules: https://www.motorsport.com/f1/news/common-sense-prevails-as-f1-abandons-complex-radio-ban-rules/3222387/
 
 ### Seasons and line-ups
 
@@ -366,9 +374,73 @@ print(observed, count / 10000)
 - 2015 season: https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship
 - 2016 season: https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship
 
+### Wet and dry check, race pages
+
+- 2014 Australian GP, dry: https://www.f1-fansite.com/f1-result/race-result-2014-australian-f1-gp/
+- 2014 Malaysian GP, dry: https://www.f1-fansite.com/f1-result/race-result-2014-malaysian-f1-gp/
+- 2014 Bahrain GP, dry: https://en.wikipedia.org/wiki/2014_Bahrain_Grand_Prix
+- 2014 Chinese GP, dry: https://en.wikipedia.org/wiki/2014_Chinese_Grand_Prix
+- 2014 Spanish GP, dry: https://en.wikipedia.org/wiki/2014_Spanish_Grand_Prix
+- 2014 Monaco GP, dry: https://en.wikipedia.org/wiki/2014_Monaco_Grand_Prix
+- 2014 Canadian GP, dry: https://en.wikipedia.org/wiki/2014_Canadian_Grand_Prix
+- 2014 Austrian GP, dry: https://en.wikipedia.org/wiki/2014_Austrian_Grand_Prix
+- 2014 British GP, dry: https://en.wikipedia.org/wiki/2014_British_Grand_Prix
+- 2014 German GP, dry: https://en.wikipedia.org/wiki/2014_German_Grand_Prix
+- 2014 Hungarian GP, wet: https://en.wikipedia.org/wiki/2014_Hungarian_Grand_Prix
+- 2014 Belgian GP, dry: https://en.wikipedia.org/wiki/2014_Belgian_Grand_Prix
+- 2014 Italian GP, dry: https://en.wikipedia.org/wiki/2014_Italian_Grand_Prix
+- 2014 Singapore GP, dry: https://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix
+- 2014 Japanese GP, wet: https://en.wikipedia.org/wiki/2014_Japanese_Grand_Prix
+- 2014 Russian GP, dry: https://en.wikipedia.org/wiki/2014_Russian_Grand_Prix
+- 2014 United States GP, dry: https://en.wikipedia.org/wiki/2014_United_States_Grand_Prix
+- 2014 Brazilian GP, dry: https://en.wikipedia.org/wiki/2014_Brazilian_Grand_Prix
+- 2014 Abu Dhabi GP, dry: https://en.wikipedia.org/wiki/2014_Abu_Dhabi_Grand_Prix
+- 2015 Australian GP, dry: https://en.wikipedia.org/wiki/2015_Australian_Grand_Prix
+- 2015 Malaysian GP, dry: https://en.wikipedia.org/wiki/2015_Malaysian_Grand_Prix
+- 2015 Chinese GP, dry: https://en.wikipedia.org/wiki/2015_Chinese_Grand_Prix
+- 2015 Bahrain GP, dry: https://en.wikipedia.org/wiki/2015_Bahrain_Grand_Prix
+- 2015 Spanish GP, dry: https://en.wikipedia.org/wiki/2015_Spanish_Grand_Prix
+- 2015 Monaco GP, dry: https://en.wikipedia.org/wiki/2015_Monaco_Grand_Prix
+- 2015 Canadian GP, dry: https://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix
+- 2015 Austrian GP, dry: https://en.wikipedia.org/wiki/2015_Austrian_Grand_Prix
+- 2015 British GP, wet: https://en.wikipedia.org/wiki/2015_British_Grand_Prix
+- 2015 Hungarian GP, dry: https://en.wikipedia.org/wiki/2015_Hungarian_Grand_Prix
+- 2015 Belgian GP, dry: https://en.wikipedia.org/wiki/2015_Belgian_Grand_Prix
+- 2015 Italian GP, dry: https://en.wikipedia.org/wiki/2015_Italian_Grand_Prix
+- 2015 Singapore GP, dry: https://en.wikipedia.org/wiki/2015_Singapore_Grand_Prix
+- 2015 Japanese GP, dry: https://en.wikipedia.org/wiki/2015_Japanese_Grand_Prix
+- 2015 Russian GP, dry: https://en.wikipedia.org/wiki/2015_Russian_Grand_Prix
+- 2015 United States GP, wet: https://en.wikipedia.org/wiki/2015_United_States_Grand_Prix
+- 2015 Mexican GP, dry: https://en.wikipedia.org/wiki/2015_Mexican_Grand_Prix
+- 2015 Brazilian GP, dry: https://en.wikipedia.org/wiki/2015_Brazilian_Grand_Prix
+- 2015 Abu Dhabi GP, dry: https://en.wikipedia.org/wiki/2015_Abu_Dhabi_Grand_Prix
+- 2016 Australian GP, dry: https://en.wikipedia.org/wiki/2016_Australian_Grand_Prix
+- 2016 Bahrain GP, dry: https://en.wikipedia.org/wiki/2016_Bahrain_Grand_Prix
+- 2016 Chinese GP, dry: https://en.wikipedia.org/wiki/2016_Chinese_Grand_Prix
+- 2016 Russian GP, dry: https://en.wikipedia.org/wiki/2016_Russian_Grand_Prix
+- 2016 Spanish GP, dry: https://en.wikipedia.org/wiki/2016_Spanish_Grand_Prix
+- 2016 Monaco GP, wet: https://en.wikipedia.org/wiki/2016_Monaco_Grand_Prix
+- 2016 Canadian GP, dry: https://en.wikipedia.org/wiki/2016_Canadian_Grand_Prix
+- 2016 European GP, dry: https://en.wikipedia.org/wiki/2016_European_Grand_Prix
+- 2016 Austrian GP, dry: https://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix
+- 2016 British GP, wet: https://en.wikipedia.org/wiki/2016_British_Grand_Prix
+- 2016 Hungarian GP, dry: https://en.wikipedia.org/wiki/2016_Hungarian_Grand_Prix
+- 2016 German GP, dry: https://en.wikipedia.org/wiki/2016_German_Grand_Prix
+- 2016 Belgian GP, dry: https://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix
+- 2016 Italian GP, dry: https://en.wikipedia.org/wiki/2016_Italian_Grand_Prix
+- 2016 Singapore GP, dry: https://en.wikipedia.org/wiki/2016_Singapore_Grand_Prix
+- 2016 Malaysian GP, dry: https://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix
+- 2016 Japanese GP, dry: https://en.wikipedia.org/wiki/2016_Japanese_Grand_Prix
+- 2016 United States GP, dry: https://en.wikipedia.org/wiki/2016_United_States_Grand_Prix
+- 2016 Mexican GP, dry: https://en.wikipedia.org/wiki/2016_Mexican_Grand_Prix
+- 2016 Brazilian GP, wet: https://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix
+- 2016 Abu Dhabi GP, dry: https://en.wikipedia.org/wiki/2016_Abu_Dhabi_Grand_Prix
+
 ### Data
 
 - FastF1 documentation: https://docs.fastf1.dev/fastf1.html
 - Jolpica laps endpoint: https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/laps.md
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
 - Wet-race list (weak source, verify): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
+
+## Session entries
