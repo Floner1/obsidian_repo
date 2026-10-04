@@ -38,7 +38,7 @@ Why the within-2014 split helped:
 - How: apply the same split to 2013 (rounds 1 to 13 vs 14 to 19). Coaching was legal all of 2013, so this shows how much the gap normally moves between those two stretches.
 - Reading it: if the 2014 shift is clearly larger than the 2013 shift, that supports a ban effect. If the two are similar, the shift is normal variation.
 - Never compare raw 2013 numbers against raw 2014 numbers. The car changed, completely new chassis, engine, regs, etc.
-- Why only Mercedes: it was the only pair that raced together through both full seasons.
+- Mercedes was the only pair that raced together through both full seasons.
 
 #### Questions I asked about the baseline, and the answers
 
@@ -372,5 +372,3 @@ print(observed, count / 10000)
 - Jolpica laps endpoint: https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/laps.md
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
 - Wet-race list (weak source, verify): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
-
-## Session entries
