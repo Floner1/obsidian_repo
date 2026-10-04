@@ -75,12 +75,7 @@ What stays from version 2:
 What it costs:
 
 - More data to pull and clean: 59 races across 3 seasons.
-- Probably one extra session. This is my estimate.
-
-Optional extras, only if time remains after Gate 2:
-
-- Ferrari (Vettel and Räikkönen) raced together in 2015 and 2016 only, so it can test the 2016 reversal but not the 2014 start.
-- A within-2014 split across about 9 pairs, as a second check on the version 2 idea.
+- Probably one or two extra sessions.
 
 ## Question, hypothesis and prediction
 
