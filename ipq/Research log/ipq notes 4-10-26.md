@@ -283,7 +283,7 @@ print(observed, count / 10000)
 - The real SD is unknown until the data is pulled.
 - Rule: if my shift is smaller than these thresholds, report the result as inconclusive. That is a valid finding and the evaluation marks reward it.
 
-## Evaluation notes (limits to write up)
+## Evaluation notes
 
 - Two rule changes only. More races reduce noise but cannot separate the ban from other things that changed at the same time. Say so.
 - Cars differ across seasons. A teammate gap cancels most of the car within a race. It does not cancel how well a car suits each driver.
