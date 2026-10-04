@@ -102,15 +102,16 @@ found a bunch of sources:
 - FastF1 documentation: https://docs.fastf1.dev/fastf1.html
 - Jolpica laps endpoint: https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/laps.md
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
-- Wet-race list (weak source, verify): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
+- Wet-race list (weak source, verification complete): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
 
 made a script for a smoke test that made sure that all of Jolpica's f1 data is actually pullable and works
 - pulled rounds 1-10 of 2014 season
 - pulled the 3 pair of drivers that stayed together from 2014-2016, hamilton + rosberg, massa + bottas, perez and hulkenberg
 - scripted so that it is under 4 requests a second to avoid hitting rate limit
 - saved every response into a folder named "raw"
-- there was 1 error for felipe massa, where the data said that he had 1 lap time recorded on lap 2 of round 1 (australian gp), but then in the real race he was involved in a lap 1 collision and retired that same lap. 
-- quoted from australia 2014 race wikipedia:  Felipe Massa, Kamui Kobayashi and Kimi Räikkönen were involved in a first-lap collision, putting Kobayashi and Massa out of the race
 - the script checked that:
 	- it can filter laps of different drivers, eg 2014/1/drivers/rosberg/laps.json?limit=100, which means that 2014 round 1 driver nico rosberg lap time of driver nico rosberg and take the limit number of laptimes to be 100, because a race is never more than 100 laps, longest race is monaco with 78 laps
-	- each driver's lap count matches race result
+	- each driver's lap count matches race result 
+		- there was 1 error for felipe massa, where the data said that he had 1 lap time recorded on lap 2 of round 1 (australian gp), but then in the real race he was involved in a lap 1 collision and retired that same lap. 
+		- quoted from australia 2014 race wikipedia:  Felipe Massa, Kamui Kobayashi and Kimi Räikkönen were involved in a first-lap collision, putting Kobayashi and Massa out of the race
+	- 
