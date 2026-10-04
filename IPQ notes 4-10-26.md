@@ -114,4 +114,4 @@ made a script for a smoke test that made sure that all of Jolpica's f1 data is a
 	- each driver's lap count matches race result 
 		- there was 1 error for felipe massa, where the data said that he had 1 lap time recorded on lap 2 of round 1 (australian gp), but then in the real race he was involved in a lap 1 collision and retired that same lap. 
 		- quoted from australia 2014 race wikipedia:  Felipe Massa, Kamui Kobayashi and Kimi Räikkönen were involved in a first-lap collision, putting Kobayashi and Massa out of the race
-	- 
+	- pit stop end points 
