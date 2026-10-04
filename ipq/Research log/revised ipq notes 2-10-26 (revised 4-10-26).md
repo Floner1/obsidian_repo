@@ -1,5 +1,3 @@
-- Research question (locked 09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
-- Test: teammate lap-time gaps before, during and after the FIA radio coaching ban.
 
 # Plan changes
 
