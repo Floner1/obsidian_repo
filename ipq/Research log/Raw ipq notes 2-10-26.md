@@ -1,4 +1,4 @@
-Srecognise opposite arguments, perfuse them? 
+recognise opposite arguments, perfuse them? 
 don't wanna just regurgitate facts, u wanna analyse synthesise implications arugments evidences from diff sources, discuss, argue, criticise, evaluate, etc.
 
 essay should be skillful and persuasive

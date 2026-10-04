@@ -443,7 +443,7 @@ print(observed, count / 10000)
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
 - Wet-race list (weak source, verify): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
 
-## Session entries
+
 
 
 ran smoke test: 
