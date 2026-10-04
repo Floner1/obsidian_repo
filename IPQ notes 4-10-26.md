@@ -126,3 +126,5 @@ the file also:
 - skips any race that already has files in the stored folder
 - stops on any error, eg http 429 or after 450 new requests to prevent hitting the rate limit
 - writes pull_report.txt at the end, where the lap time files of each driver is compared to the results file. 
+
+there was an error with the chinese gp in 2014, where the lap
