@@ -44,7 +44,7 @@ Why the within-2014 split helped:
 #### Questions I asked about the baseline, and the answers
 
 - On comparing only 2014 coaching with 2014 non-coaching: I can, and it is the core test. The 2013 data answers one extra question, which is whether the change after round 14 is bigger than the gap normally moves. The last 6 races of 2014 are different circuits, the cars develop through the season, and Hamilton and Rosberg were racing for the title. Any of those could change the gap without the ban.
-- On whether 2013 gives a true value for racing with coaching: partly. Coaching was legal all year, and as far as I know neither Mercedes driver was in the 2013 title fight, so it is cleaner than 2014 on that one factor. It is not a true value. The 2013 car is different, and I have not checked what else moved the Mercedes gap that year. Confirm the title fights on the season pages.
+- On whether 2013 gives a true value for racing with coaching: partly. Coaching was legal all year, neither mercedes drivers were heavily involved in the title fight, so it is cleaner than 2014 on that one factor. It is not a true value. The 2013 car is different, and I have not checked what else moved the Mercedes gap that year. Confirm the title fights on the season pages.
 - On why the baseline is thin: it rests on one pair and one season. It sizes ordinary variation. It proves nothing alone, and it is not a control.
 - Cut rule: if Gate 2 is missed, the 2013 baseline is the first thing dropped.
 
