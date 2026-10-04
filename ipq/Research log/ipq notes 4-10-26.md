@@ -101,7 +101,7 @@ What I keep:
 - 150-word definition owed (due Fri 09-10). It must define in-race coaching and the teammate gap, then add one sentence on how coaching connects to data-driven strategy and what the test leaves out.
 - Hypothesis: banning coaching removes help for the weaker driver, so the teammate gap should widen when the ban starts and narrow again after it ends.
 - Write the prediction in the log before I see any data.
-- Claim I cannot test: that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement. Keep it out of the hypothesis. It can go in context as part of the FIA's debate.
+- I can't test that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement. Keep it out of the hypothesis. It can go in context as part of the FIA's debate.
 - FIA motive, reported by Motorsport.com (not yet read in full): make drivers "heroes again". Check the original wording before quoting.
 - Opposing views: Horner and Wolff disagreed on record (from my 05-09 notes, see Links). I have not re-read that source.
 
