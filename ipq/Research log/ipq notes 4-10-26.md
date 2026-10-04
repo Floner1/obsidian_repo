@@ -101,16 +101,16 @@ What I keep:
 - 150-word definition owed (due Fri 09-10). It must define in-race coaching and the teammate gap, then add one sentence on how coaching connects to data-driven strategy and what the test leaves out.
 - Hypothesis: banning coaching removes help for the weaker driver, so the teammate gap should widen when the ban starts and narrow again after it ends.
 - Write the prediction in the log before I see any data.
-- I can't test that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement. Keep it out of the hypothesis. It can go in context as part of the FIA's debate.
-- FIA motive, reported by Motorsport.com (not yet read in full): make drivers "heroes again". Check the original wording before quoting.
-- Opposing views: Horner and Wolff disagreed on record (from my 05-09 notes, see Links). I have not re-read that source.
+- I can't test that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement, can be part of context in FIA's debate.
+- FIA motive, reported by Motorsport.com: make drivers "heroes again". Check the original wording before quoting.
+- Opposing views: Horner and Wolff disagreed on record (from my 05-09 notes, see Links).
 
 ## Background: the radio ban timeline
 
 ### 2014: announced and enforced
 
 - 11-09-2014: FIA directive. Charlie Whiting: "No radio conversation from pit to driver may include any information that is related to the performance of the car or driver."
-- Applied from Singapore, round 14 of the 2014 season.
+- Applied from Singapore, round 14 of the 2014 season, 21 
 - Purpose: enforce Article 20.1 of the sporting regulations, "The driver must drive the car alone and unaided."
 - Article 20.1 and its wording appear in the 2014 Sporting Regulations PDF (see Links). Radio limits do not appear in the sections reviewed. Read the PDF before citing it.
 - Whiting also reminded teams that data transmission from pit to car is prohibited by Article 8.5.2 of the Technical Regulations.
