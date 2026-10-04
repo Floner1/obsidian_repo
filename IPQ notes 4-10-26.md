@@ -107,6 +107,7 @@ found a bunch of sources:
 
 made a script for a smoke test that made sure that all of Jolpica's f1 data is actually pullable and works
 - pulled rounds 1-10 of 2014 season
+- pulled the 3 pair of drivers that stayed together from 2014-2016, hamilton + rosberg, massa + 
 - scripted so that it is under 4 requests a second to avoid hitting rate limit
 - saved every response into a folder named "raw"
 - checked that:
