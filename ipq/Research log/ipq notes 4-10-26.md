@@ -1,5 +1,5 @@
-
 revised ipq notes 2-10-26 and added some more stuff
+
 # Plan changes
 
 ### Version 1 (09-09-2026): 2013 vs 2014 with FastF1 lap and sector data
@@ -45,7 +45,7 @@ Why the within-2014 split helped:
 - On comparing only 2014 coaching with 2014 non-coaching: I can, and it is the core test. The 2013 data answers one extra question, which is whether the change after round 14 is bigger than the gap normally moves. The last 6 races of 2014 are different circuits, the cars develop through the season, and Hamilton and Rosberg were racing for the title. Any of those could change the gap without the ban.
 - On whether 2013 gives a true value for racing with coaching: partly. Coaching was legal all year, neither Mercedes drivers were heavily involved in the title fight, so it is cleaner than 2014 on that one factor. It is not a true value. The 2013 car is different, Hamilton was new in 2013 replacing Schumacher and Pirelli (the tire supplier for f1) changed tire construction in germany (round 9 7/7/13) and in hungary (round 10 28/7/13)
 - On why the baseline is thin: it rests on one pair and one season. It sizes ordinary variation. It proves nothing alone, and it is not a control.
-- I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
+- I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule. 
 
 ### Version 3 (current, 04-10-2026): the ban on and off across 2014 to 2016
 
@@ -112,8 +112,9 @@ What I keep:
 - 11-09-2014: FIA directive. Charlie Whiting: "No radio conversation from pit to driver may include any information that is related to the performance of the car or driver."
 - Applied from Singapore, round 14 of the 2014 season, 21 9 2014
 - Purpose: enforce Article 20.1 of the sporting regulations, "The driver must drive the car alone and unaided."
-- Article 20.1 and its wording appear in the 2014 Sporting Regulations PDF (see Links). Radio limits do not appear in the sections reviewed. Read the PDF before citing it.
-- Whiting also reminded teams that data transmission from pit to car is prohibited by Article 8.5.2 of the Technical Regulations.
+- Article 20.1 appears word for word in the 2014 Sporting Regulations (28-02-2014 version, see Links): "The driver must drive the car alone and unaided." A text search of all 55 pages found no article on team radio. Radio appears only in Articles 12.5, 34 and 40.1 and the podium ceremony rules, and none limits messages to drivers. RaceFans (11-09-2014) and Formula1.com (16-09-2014) both give Article 20.1 as the basis for the ban. Amendments after 28-02-2014 are not covered.
+- Whiting also reminded teams that data transmission from pit to car is prohibited by Article 8.5.2 of the Technical Regulations. The article reads "Pit to car telemetry is prohibited." in the 2014 Technical Regulations (23-01-2014 version, see Links), in the 2011 issue of the 2014 regulations and in the 2015 Technical Regulations (29-06-2014 version). The 2011 and 2015 files were searched in full. The 23-01-2014 file was read at Article 8.5 only.
+- Article 8.7 of the Technical Regulations, "Driver radio", covers the radio equipment and not what teams say. A voice radio system between car and pits must be stand-alone and must not transmit or receive other data. All such communications must be open and accessible to the FIA and broadcasters. The wording is the same in the 2011 issue, the 2015 version (29-06-2014) and the 2016 version (27-02-2016).
 
 ### 2014: revised to driver performance only
 
@@ -126,6 +127,7 @@ What I keep:
 
 - The push to widen the ban to car performance for 2015 was abandoned. Only the driver-coaching phase stayed in force through 2015.
 - Sources: Autosport and Motorsport.com. Neither has been read in full and no publication dates were visible. Find the dated originals before citing.
+- A text search of all 57 pages of the 2015 Sporting Regulations (03-12-2014 version, see Links) found no team radio article. Article 20.1 is unchanged. Amendments published during 2015 are not covered.
 
 ### 2016
 
@@ -133,6 +135,7 @@ What I keep:
 - 28-07-2016: the FIA lifted the limits from the German Grand Prix (31-07-2016, round 12).
 - FIA wording, quoted by RaceFans: "With the exception of the period between the start of the formation lap and the start of the race, there will be no limitations on messages teams send to their drivers either by radio or pit board."
 - The FIA framed it as better content for fans, because teams must give the commercial rights holder unrestricted access to the messages.
+- A text search of all 56 pages of the 2016 Sporting Regulations (20-04-2016 version, see Links) found no team radio article. Amendments after 20-04-2016 are not covered.
 
 ### Today
 
@@ -142,23 +145,27 @@ What I keep:
 
 ### Article numbers
 
-- 2014 Sporting Regulations: Article 20.1.
-- RaceFans (2016) refers to Article 27.1. Motorsport.com gave 20.1. Check the 2016 regulations before citing a number for 2016.
+- 2014 and 2015 Sporting Regulations: Article 20.1, "The driver must drive the car alone and unaided."
+- 2016 Sporting Regulations (20-04-2016 version): the same sentence is Article 27.1. The regulations were renumbered, so cite 27.1 for 2016.
+- RaceFans (2016) cites 27.1, which matches. Motorsport.com cites 20.1, which matches the 2014 and 2015 numbering.
+- 2014 and 2015 Technical Regulations (23-01-2014 and 29-06-2014 versions): Article 8.5.2, "Pit to car telemetry is prohibited."
+- 2016 Technical Regulations (27-02-2016 version, see Links): the same sentence is Article 8.5.3. The 2016 text adds a new Article 8.5.1, so the old 8.5.1 and 8.5.2 became 8.5.2 and 8.5.3.
+- Article 8.7 (Driver radio) keeps its number in the 2011, 2015 and 2016 versions.
 
-### What the ban covered, checked against sources
+### What the ban stops, with examples
 
-My earlier list of what the restriction covered:
+Coaching ban (2014 and 2015), driver performance only:
 
-- Gear selection and braking points
-- Racing lines and car set-up adjustments
-- Direct technical questions (for example torque map settings)
+- Braking points. Named in the Formula1.com revision of September 2014.
+- Racing lines. The same revision names driving lines on the circuit, contact with kerbs, throttle application and driving technique.
+- Gear selection. Sources disagree. Formula1.com puts it in the postponed group, and Motorsport.com's 2016 analysis puts it in the first phase. Cite Formula1.com and say the sources differ.
 
-Result of the check:
+Full ban (2016 only), which also covered car performance:
 
-- Braking points and racing lines: banned in 2014 (Formula1.com).
-- Gear selection: sources disagree.
-- Car set-up adjustments and torque map settings: car performance. Postponed in 2014, dropped for 2015, and only covered by the stricter 2016 ban. Not part of the 2014 and 2015 coaching ban.
-- Torque map settings are not named in any source reviewed so far.
+- Car set-up adjustments. Postponed in 2014, dropped for 2015 and covered only by the stricter 2016 ban.
+- Direct technical questions, such as torque map settings. No source reviewed names torque maps, so treat this as an example of car performance advice and not as a quoted rule.
+
+The examples are grouped by ban type because braking points, racing lines, gear selection, car set-up and torque maps do not all belong to the same ban. The split matches the groups in the data. The full-ban races stay separate because the 2016 ban covered more.
 
 ### Earlier context from my 09-09 notes
 
@@ -289,15 +296,20 @@ print(observed, count / 10000)
 - No sector data, so no corner-level analysis.
 - Data access is confirmed from documentation only until the smoke test runs.
 - The wet-race list is unverified.
+- The 2014 ban was enforced through a race director directive reading Article 20.1, and no article in the 2014, 2015 or 2016 Sporting Regulations, or in the Technical Regulations searched, limits what teams may say by radio. Technical Regulations Article 8.7 covers the radio equipment only. I cannot say how strictly teams complied.
 - Version 1 and version 2 problems (see Plan changes) can be used here as evidence that I tested my own design.
 
 ## Source evaluation
 
 ### Strong
 
-- FIA 2014 Sporting Regulations PDF: primary source. Gives Article 20.1 and its wording.
+- FIA Sporting Regulations 2014 (28-02-2014), 2015 (03-12-2014) and 2016 (20-04-2016): primary sources, searched in full for radio rules. None found. Article 20.1 in 2014 and 2015, Article 27.1 in 2016.
+- FIA Technical Regulations 2015 (29-06-2014, 88 pages) and 2016 (27-02-2016, 90 pages): primary sources, searched in full. Article 8.5.2 (8.5.3 in 2016) reads "Pit to car telemetry is prohibited." Article 8.7 (Driver radio) covers the radio equipment only.
+- FIA Technical Regulations 2014 (23-01-2014): primary source. Only Article 8.5 was read. It gives Article 8.5.2 as "Pit to car telemetry is prohibited."
 - Formula1.com, 11-09-2014 directive article: official F1 site, dated. Gives the Whiting quote and the Singapore start.
 - Formula1.com, September 2014 revision: official. Lists banned and postponed examples.
+- RaceFans, 11-09-2014: dated report. Gives Article 20.1 as the basis and cites no radio article.
+- Formula1.com, 16-09-2014: official, dated. Gives Article 20.1 and the list of allowed and banned messages.
 - RaceFans, 28-07-2016: dated report quoting the FIA decision to lift limits.
 - Cambridge 9980 syllabus (2023 to 2025): official. Check the 2027 version.
 - UCAS QIP page: assessment weights, AO1 70 percent and AO2 reflection 15 percent.
@@ -307,6 +319,8 @@ print(observed, count / 10000)
 
 - Motorsport.com, 2016 radio ban analysis: reputable outlet. No date seen and not read in full. Verify against the original.
 - Autosport, FIA abandons plans to restrict radio: reputable outlet. No date seen. Same check.
+- FIA Technical Regulations 2014, earlier issue on argent.fia.com (cover reads 14 July 2011, 77 pages): FIA host, searched in full, but an early issue and not the 2014 version. It gives the same Article 8.5.2 and 8.7 wording as 2015. Cite the 23-01-2014 version instead.
+- FIA Technical Regulations 2016, copy on zonef1.com: third-party site, not the FIA. Its cover date (27 February 2016), page count (90) and Article 8.5 text match the 2016 file searched in full. It was not compared page by page.
 - Wikipedia season pages: good for line-ups and calendars. Cross-check once against Formula1.com results.
 - F1 Oversteer: secondary feature, no date. Used only for the current formation-lap rule. Check the 2026 regulations.
 
@@ -320,6 +334,12 @@ print(observed, count / 10000)
 ### Regulations and rules
 
 - FIA 2014 Sporting Regulations: https://www.fia.com/sites/default/files/regulation/file/1-2014%20SPORTING%20REGULATIONS%202014-02-28.pdf
+- FIA 2015 Sporting Regulations (03-12-2014 version): https://www.fia.com/sites/default/files/regulation/file/2015%20SPORTING%20REGULATIONS%202014-12-03.pdf
+- FIA 2016 Sporting Regulations (20-04-2016 version): https://www.fia.com/files/2016-f1-sporting-regulations-published-200416pdf
+- FIA 2014 Technical Regulations (23-01-2014 version): https://www.fia.com/sites/default/files/regulation/file/1-2014%20TECHNICAL%20REGULATIONS%202014-01-23_0.pdf
+- FIA 2014 Technical Regulations, earlier issue (cover reads 14 July 2011): https://argent.fia.com/web/fia-public.nsf/A0425C3A0A7D69C0C12578D3002EBECA/$FILE/2014_F1_TECHNICAL_REGULATIONS_-_Published_on_20.07.pdf
+- FIA 2015 Technical Regulations (29-06-2014 version): https://www.fia.com/sites/default/files/regulation/file/1-2015%20TECHNICAL%20REGULATIONS%202014-06-29.pdf
+- 2016 Technical Regulations (27-02-2016 version, copy on zonef1.com, not the FIA): https://www.zonef1.com/saisons/2016/reglement_technique16_eng.pdf
 - Cambridge 9980 syllabus 2023 to 2025: https://www.cambridgeinternational.org/Images/608552-2023-2025-syllabus.pdf
 - Cambridge samples database (submission dates): www.cambridgeinternational.org/samples
 - UCAS QIP page: https://qips.ucas.com/qip/cambridge-international-project-qualification
@@ -328,6 +348,8 @@ print(observed, count / 10000)
 
 - Directive, 11-09-2014: https://www.formula1.com/en/latest/article/fia-to-limit-radio-transmissions-on-car-performance.4cbQkTbahAJbGozBsegAs4
 - Revised to driver performance only: https://www.formula1.com/en/latest/headlines/2014/9/FIA-revises-radio-ban-to-driver-performance-only.html
+- RaceFans, FIA to restrict team radio messages (11-09-2014): https://www.racefans.net/2014/09/11/fia-restrict-team-radio-messages-next-race/
+- Formula1.com, FIA clarifies radio transmission restrictions (16-09-2014): https://www.formula1.com/en/latest/article/fia-clarifies-radio-transmission-restrictions.4uSbLsruNnnmXXDqUjh7yV
 - Abu Dhabi 2014 press conference (Horner and Wolff): https://www.fia.com/news/2014-abu-dhabi-grand-prix-thursday-press-conference
 - Autosport, FIA abandons plans to further restrict radio: https://www.autosport.com/f1/news/fia-abandons-plans-to-further-restrict-formula-1-radio-information-5009856/5009856/
 - Motorsport.com, full scope of the 2016 radio ban: https://www.motorsport.com/f1/news/analysis-the-full-scope-of-f1-s-2016-radio-ban-677934/677934/

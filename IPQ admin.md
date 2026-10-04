@@ -1,5 +1,4 @@
 
-
 ## To do from today
 
 ### Research tasks
@@ -8,7 +7,8 @@
 - [ ] Write the 150-word definition (in-race coaching, teammate gap, link to data-driven strategy) and the prediction before seeing data.
 - [ ] Verify each wet race against a race report. Write the mixed-conditions rule.
 - [ ] Find dated originals for the Autosport and Motorsport.com articles.
-- [ ] Check the 2016 regulations for the article number.
+- [x] Check the 2016 regulations for the article number.
+- [x] Check Article 8.5.2 of the 2014 Technical Regulations (the Whiting line in Background).
 - [ ] Check the 2026 regulations for the formation-lap rule.
 - [ ] Check title fights on the 2013, 2014, 2015 and 2016 season pages.
 - [ ] Check the V6 start date on the 2014 season page.
