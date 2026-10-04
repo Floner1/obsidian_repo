@@ -127,4 +127,4 @@ the file also:
 - stops on any error, eg http 429 or after 450 new requests to prevent hitting the rate limit
 - writes pull_report.txt at the end, where the lap time files of each driver is compared to the results file. 
 
-there was an error with the chinese gp in 2014, where the lap time files showed 56 laps, but the results file showed only 54 laps happened. in the real race, the chequered flag was shown early at the end of lap 54
+there was an error with the chinese gp in 2014, where the lap time files showed 56 laps, but the results file showed only 54 laps happened. in the real race, the chequered flag was shown early at the end of lap 54, but the leading positions weren't affected by this decision. quoted from the chinese gp 2014 wikipedia page: Although contested over 56 laps, the race result was declared after 54 laps, as the chequered flag was shown one lap early through a marshalling error.
