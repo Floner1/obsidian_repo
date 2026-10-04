@@ -445,13 +445,7 @@ print(observed, count / 10000)
 
 
 ran smoke test: 
-"""Jolpica smoke test for the IPQ lap-time project.
 
-Run:  python3 smoke_test.py      (Windows: py smoke_test.py)
-Makes 10 requests, paced under the 4 per second burst limit.
-Saves every response to ./raw so you never request the same thing twice.
-Uses only the Python standard library.
-"""
 import json
 import pathlib
 import time
