@@ -118,4 +118,9 @@ made a script for a smoke test that made sure that all of Jolpica's f1 data is a
 		- That row says Grosjean made his first stop on lap 1, and the stop took 17.255 seconds
 		- the time zone for time doesn't really matter.
 
-the pull test loops over 52 dry races from 2014-2016 season and skips the 7 wet ones. for each race, 8 files is saved
+the pull test loops over 52 dry races from 2014-2016 season and skips the 7 wet ones. for each race, 8 files is saved:
+- 1 results file
+- 1 pit stops file
+- 6 lap time files for each driver: hamilton , rosberg, massa , bottas, perez and hulkenberg
+the file also:
+- skips any race that already has files in the 
