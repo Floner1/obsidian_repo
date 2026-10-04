@@ -441,6 +441,4 @@ print(observed, count / 10000)
 - FastF1 documentation: https://docs.fastf1.dev/fastf1.html
 - Jolpica laps endpoint: https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/laps.md
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
-- Wet-race list (weak source, verify): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
-
-## Session entries
+- Wet-race list (weak source, verification complete): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
