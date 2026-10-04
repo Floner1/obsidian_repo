@@ -45,7 +45,7 @@ Why the within-2014 split helped:
 - On comparing only 2014 coaching with 2014 non-coaching: I can, and it is the core test. The 2013 data answers one extra question, which is whether the change after round 14 is bigger than the gap normally moves. The last 6 races of 2014 are different circuits, the cars develop through the season, and Hamilton and Rosberg were racing for the title. Any of those could change the gap without the ban.
 - On whether 2013 gives a true value for racing with coaching: partly. Coaching was legal all year, neither Mercedes drivers were heavily involved in the title fight, so it is cleaner than 2014 on that one factor. It is not a true value. The 2013 car is different, Hamilton was new in 2013 replacing Schumacher and Pirelli (the tire supplier for f1) changed tire construction in germany (round 9 7/7/13) and in hungary (round 10 28/7/13)
 - On why the baseline is thin: it rests on one pair and one season. It sizes ordinary variation. It proves nothing alone, and it is not a control.
-- I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule. 
+- I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
 
 ### Version 3 (current, 04-10-2026): the ban on and off across 2014 to 2016
 
@@ -364,7 +364,7 @@ print(observed, count / 10000)
 - RaceFans, radio ban lifted (28-07-2016): https://www.racefans.net/2016/07/28/radio-ban-lifted-races/
 - F1 Oversteer, the 2016 radio rule: https://www.f1oversteer.com/features/the-bizarre-f1-rule-that-was-brought-in-for-12-races-and-then-scrapped/
 - Found but not read: Autosport, radio restrictions lifted from German GP: https://www.autosport.com/f1/news/formula-1s-radio-restrictions-to-be-lifted-from-german-gp-5039652/5039652/
-- Motorsport.com, common sense prevails as F1 abandons radio ban rules: https://www.motorsport.com/f1/news/common-sense-prevails-as-f1-abandons-complex-radio-ban-rules/3222387/
+- Found but not read: Motorsport.com, common sense prevails as F1 abandons radio ban rules: https://www.motorsport.com/f1/news/common-sense-prevails-as-f1-abandons-complex-radio-ban-rules/3222387/
 
 ### Seasons and line-ups
 
@@ -441,7 +441,9 @@ print(observed, count / 10000)
 - FastF1 documentation: https://docs.fastf1.dev/fastf1.html
 - Jolpica laps endpoint: https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/laps.md
 - Jolpica repository: https://github.com/jolpica/jolpica-f1
-- Wet-race list (weak source, verification complete): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
+- Wet-race list (weak source, verify): https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
+
+## Session entries
 
 
 ran smoke test: 
@@ -588,3 +590,117 @@ the limit counts timings (one driver's time on one lap)
 200 [https://api.jolpi.ca/ergast/f1/2014/1/pitstops.json?limit=100](https://api.jolpi.ca/ergast/f1/2014/1/pitstops.json?limit=100)  
 stops returned = 34 | total = 34 | fields = ['driverId', 'duration', 'lap', 'stop', 'time']  
 == Done: 10 requests used. Raw responses are in ./raw ==
+
+pull data py:
+
+"""Pull 2014 to 2016 lap data from Jolpica for the IPQ project.
+
+Run in the same folder as smoke_test.py:  py pull_data.py
+For each dry race it saves results, pit stops and one laps file per driver to ./raw.
+It skips any file already in ./raw, so it is safe to rerun and never repeats a request.
+It stops after 450 new requests (the limit is 500 per hour) or on any error, including HTTP 429.
+When it finishes it writes pull_report.txt with a completeness check against the race results.
+Uses only the Python standard library.
+"""
+import json
+import pathlib
+import sys
+import time
+import urllib.error
+import urllib.request
+
+BASE = "https://api.jolpi.ca/ergast/f1"
+OUT = pathlib.Path("raw")
+OUT.mkdir(exist_ok=True)
+DRIVERS = ["rosberg", "hamilton", "massa", "bottas", "perez", "hulkenberg"]
+ROUNDS = {2014: 19, 2015: 19, 2016: 21}
+WET_THROUGHOUT = {(2014, 15), (2016, 20)}  # Japan 2014, Brazil 2016
+MIXED = {(2014, 11), (2015, 9), (2015, 16), (2016, 6), (2016, 10)}  # Hungary 2014, Britain 2015, USA 2015, Monaco 2016, Britain 2016
+INCLUDE_MIXED = False  # set to True only for the optional check that keeps the 5 mixed races
+MAX_NEW = 450
+new_requests = 0
+
+
+def stop(message):
+    print(f"\nSTOP: {message}")
+    print(f"New requests this run: {new_requests}. Files in ./raw are kept. Rerun to continue.")
+    raise SystemExit(1)
+
+
+def fetch(path, name):
+    """Return the MRData for a path. Reads ./raw/name.json if it exists, otherwise requests it."""
+    global new_requests
+    file = OUT / f"{name}.json"
+    if file.exists():
+        return json.loads(file.read_text(encoding="utf-8"))["MRData"]
+    if new_requests >= MAX_NEW:
+        stop(f"reached {MAX_NEW} new requests this run.")
+    time.sleep(0.6)  # stays under 4 requests per second
+    url = f"{BASE}/{path}"
+    req = urllib.request.Request(url, headers={"User-Agent": "ipq-pull"})
+    new_requests += 1
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            body = resp.read().decode("utf-8")
+    except urllib.error.HTTPError as err:
+        if err.code == 429:
+            stop("HTTP 429, throttled. Wait at least 10 minutes. Others on the same IP share the limit.")
+        stop(f"HTTP {err.code} for {url}")
+    except urllib.error.URLError as err:
+        stop(f"could not reach {url}: {err.reason}")
+    file.write_text(body, encoding="utf-8")
+    return json.loads(body)["MRData"]
+
+
+def first_race(data):
+    races = data["RaceTable"]["Races"]
+    return races[0] if races else None
+
+
+def pitstops(season, rnd):
+    """All pit stops for a race, following pages of 100 if there are more."""
+    stops, offset = [], 0
+    while True:
+        name = f"pitstops_{season}_{rnd}" + (f"_offset{offset}" if offset else "")
+        data = fetch(f"{season}/{rnd}/pitstops.json?limit=100&offset={offset}", name)
+        race = first_race(data)
+        stops += race["PitStops"] if race else []
+        offset += 100
+        if offset >= int(data["total"]):
+            return stops
+
+
+skipped = WET_THROUGHOUT if INCLUDE_MIXED else WET_THROUGHOUT | MIXED
+targets = [(s, r) for s in ROUNDS for r in range(1, ROUNDS[s] + 1) if (s, r) not in skipped]
+print(f"{len(targets)} races to pull. Wet races skipped: {sorted(skipped)}")
+
+report = []
+problems = 0
+for season, rnd in targets:
+    before = new_requests
+    results = first_race(fetch(f"{season}/{rnd}/results.json?limit=100", f"results_{season}_{rnd}"))
+    done = {r["Driver"]["driverId"]: int(r["laps"]) for r in results["Results"]}
+    for driver in DRIVERS:
+        data = fetch(f"{season}/{rnd}/drivers/{driver}/laps.json?limit=100", f"laps_{season}_{rnd}_{driver}")
+        if int(data["total"]) > 100:
+            stop(f"{driver} {season} round {rnd} has {data['total']} timings, more than one page. Page it before continuing.")
+        race = first_race(data)
+        laps = race["Laps"] if race else []
+        numbers = [int(lap["number"]) for lap in laps]
+        timings = sum(len(lap["Timings"]) for lap in laps)
+        expected = done.get(driver)
+        contiguous = numbers == list(range(1, len(numbers) + 1))
+        if expected is None:
+            problems += 1
+            report.append(f"{season} R{rnd} {results['raceName']}: {driver} is not in the results")
+        elif expected != timings or not contiguous:
+            problems += 1
+            missing = sorted(set(range(1, max(numbers, default=0) + 1)) - set(numbers))
+            report.append(f"{season} R{rnd} {results['raceName']}: {driver} has {timings} timings, results say {expected} laps, missing lap numbers {missing[:10]}")
+    stops = pitstops(season, rnd)
+    print(f"{season} R{rnd} {results['raceName']}: {len(stops)} pit stops, {new_requests - before} new requests (run total {new_requests})")
+
+summary = f"{len(targets)} races checked, {problems} problems, {new_requests} new requests this run."
+(pathlib.Path("pull_report.txt")).write_text("\n".join(report + [summary]) + "\n", encoding="utf-8")
+print("\n" + "\n".join(report))
+print(f"\nDone: {summary} Details in pull_report.txt")
