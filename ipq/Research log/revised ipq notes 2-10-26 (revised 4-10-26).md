@@ -80,7 +80,6 @@ What it costs:
 - Research question: whether data-driven strategy reduces the role of driver skill in F1.
 - Link to the test: in-race coaching is data-driven instruction from the pit wall, so it stands in for data-driven strategy.
 - 150-word definition owed (due Fri 09-10). It must say what I mean by data-driven strategy, why coaching stands in for it, and what the proxy leaves out.
-- If I cannot defend the link in one paragraph, reword the question at Gate 1.
 - Hypothesis: banning coaching removes help for the weaker driver, so the teammate gap should widen when the ban starts and narrow again after it ends.
 - Write the prediction in the log before I see any data.
 - Claim I cannot test: that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement. Keep it out of the hypothesis. It can go in context as part of the FIA's debate.
