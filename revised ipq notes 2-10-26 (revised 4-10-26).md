@@ -1,16 +1,11 @@
 
-## 1. Where the project stands
 
 - Research question (locked 09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
 - Test: teammate lap-time gaps before, during and after the FIA radio coaching ban.
-- Note structure set up on 05-09-2026 (data, bibliography, quotes, reflections, the research log, themes and theory). No data pulled. About 2 weeks behind my own schedule.
 
+# Plan changes
 
-## 2. How the design changed, version by version
-
-The syllabus asks the log to record how and why the research question or method changed (Cambridge 9980 syllabus, "Research log"). This section is that record.
-
-### 2.1 Version 1 (09-09-2026): 2013 vs 2014 with FastF1 lap and sector data
+### Version 1 (09-09-2026): 2013 vs 2014 with FastF1 lap and sector data
 
 - Plan: compare 2013 and 2014 teammates around the 2014 radio coaching ban.
 - Data: FastF1 lap and sector data.
