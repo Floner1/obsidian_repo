@@ -46,8 +46,7 @@ Why the within-2014 split helped:
 - On comparing only 2014 coaching with 2014 non-coaching: I can, and it is the core test. The 2013 data answers one extra question, which is whether the change after round 14 is bigger than the gap normally moves. The last 6 races of 2014 are different circuits, the cars develop through the season, and Hamilton and Rosberg were racing for the title. Any of those could change the gap without the ban.
 - On whether 2013 gives a true value for racing with coaching: partly. Coaching was legal all year, neither Mercedes drivers were heavily involved in the title fight, so it is cleaner than 2014 on that one factor. It is not a true value. The 2013 car is different, Hamilton was new in 2013 replacing Schumacher and Pirelli (the tire supplier for f1) changed tire construction in germany (round 9 7/7/13) and in hungary (round 11 28/7/13)
 - On why the baseline is thin: it rests on one pair and one season. It sizes ordinary variation. It proves nothing alone, and it is not a control.
-- Cut rule: if Gate 2 is missed, the 2013 baseline is the first thing dropped.
-
+- I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule. 
 ### Version 3 (current, 04-10-2026): the ban on and off across 2014 to 2016
 
 I found a better idea than version 2. It uses the 2014 and 2016 races with no ban against the races with a ban from 2014 to 2016.
