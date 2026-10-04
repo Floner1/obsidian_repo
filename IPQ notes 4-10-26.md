@@ -117,3 +117,5 @@ made a script for a smoke test that made sure that all of Jolpica's f1 data is a
 		- pit stop end points (an address in the jolpica api that returns data for pitstops) returns lap numbers. it did, it gave 34 rows with driverId, duration, lap, stop and time , eg: driverId: grosjean, lap: 1, stop: 1, time: 17:09:56, duration: 17.255
 		- That row says Grosjean made his first stop on lap 1, and the stop took 17.255 seconds
 		- the time zone for time doesn't really matter.
+
+the pull test loops over 
