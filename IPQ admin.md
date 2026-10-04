@@ -11,7 +11,7 @@
 - [x] Check Article 8.5.2 of the 2014 Technical Regulations (the Whiting line in Background).
 - [ ] Check the 2026 regulations for the formation-lap rule.
 - [ ] Check title fights on the 2013, 2014, 2015 and 2016 season pages.
-- [ ] Check the V6 start date on the 2014 season page.
+- [x] Check the V6 start date on the 2014 season page.
 - [ ] Re-read the Abu Dhabi 2014 press conference for Horner and Wolff.
 - [ ] Find two academic sources by Thu 15-10.
 
