@@ -110,4 +110,4 @@ made a script for a smoke test that made sure that all of Jolpica's f1 data is a
 - scripted so that it is under 4 requests a second to avoid hitting rate limit
 - saved every response into a folder named "raw"
 - checked that:
-	- it can filter laps of different drivers, eg 2014/1/drivers/rosberg/laps.json?limit=100, which means that 2014 round 1 driver nico rosberg 
+	- it can filter laps of different drivers, eg 2014/1/drivers/rosberg/laps.json?limit=100, which means that 2014 round 1 driver nico rosberg lap time of driver nico rosberg and take the limit number of laptimes to be 100, because a race is never more than 100 laps, longest race is 
