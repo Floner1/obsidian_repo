@@ -10,4 +10,8 @@ changed the plan from 2-10-26 to v2:
 	- Toro Rosso (Jean-Éric Vergne and Daniil Kvyat)
 	- Williams (Felipe Massa and Valtteri Bottas)
 	- Sauber (Esteban Gutiérrez and Adrian Sutil)
-- 
+- the same engine and regulations ran throughout the season, so less variables and factors to account for
+
+
+- the mercedes 2013 baseline allows me to tell whether a change in the teammate gap after round 14 comes from the ban or from ordinary variation.
+- i would apply the same split to th
