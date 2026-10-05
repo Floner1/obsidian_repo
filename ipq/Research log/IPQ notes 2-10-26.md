@@ -64,4 +64,5 @@ Saturday's data tells you the real standard deviation. If your shift is smaller 
 
 problems with the plan that was synthesized on 09-09-2026
 - huge regulation change from 2013-2014, chassis, engine, etc. one of the largest regulation changes in f1 history. change in gap could have occured from cars, not from driver coaching
-- 2014 ban started
+- 2014 ban started in singapore gp, round 14/19, so only 6 races of sample data, which is not a large enough sample size to get reliable data
+- only 2 pair of drivers stayed together from 2013-2014, hamilton and rosberg in mercedes, 
