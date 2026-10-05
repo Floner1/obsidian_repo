@@ -60,4 +60,8 @@ williams same lineup 2014-2016 massa and bottas
 force india same 2014-2016 perez and hulk
 ferrari same 2015-2016 seb and kimi
 
-Saturday's data tells you the real standard deviation. If your shift is smaller than the thresholds above, report the result as inconclusive. That is a valid finding and the evaluation marks reward it.
+Saturday's data tells you the real standard deviation. If your shift is smaller than the thresholds above, report the result as inconclusive. 
+
+problems with the plan that was synthesized on 09-09-2026
+- huge regulation change from 2013-2014, chassis, engine, etc. one of the largest regulation changes in f1 history. change in gap could have occured from cars, not from driver coaching
+- 2014 ban started
