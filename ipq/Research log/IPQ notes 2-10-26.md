@@ -70,6 +70,7 @@ problems with the plan that was synthesized on 09-09-2026
 
 i would pull data from jolpica and fastf1api about driver lap times and the gap between the lap times between drivers, as well as run a permutations test, which is where i check whether the difference that i measured between the shift in lap times is bigger than random shuffling would be
 
-
+how permutations test would run:
+- 
 
 if the lap time gap numbers, the shift in the gap and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
