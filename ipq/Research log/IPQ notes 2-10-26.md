@@ -52,7 +52,7 @@ wet races 2014-2016:
 https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
 2 in 2014: hungary and japan
 2 in 2015: gb and usa
-3 in 2016:  monaco gb and brazil
+3 in 2016:  monaco, gb and brazil
 22 coaching races and 30 no coaching races when accounted for rain
 
 merc line up same 2014-2016 nico and hamilton
@@ -60,7 +60,7 @@ williams same lineup 2014-2016 massa and bottas
 force india same 2014-2016 perez and hulk
 ferrari same 2015-2016 seb and kimi
 
-Saturday's data tells you the real standard deviation. If your shift is smaller than the thresholds above, report the result as inconclusive. 
+Saturday's data = real standard deviation. If  shift is smaller than the thresholds above, report the result as inconclusive. 
 
 problems with the plan that was synthesized on 09-09-2026
 - huge regulation change from 2013-2014, chassis, engine, etc. one of the largest regulation changes in f1 history. change in gap could have occured from cars, not from driver coaching
