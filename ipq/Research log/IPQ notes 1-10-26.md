@@ -1,4 +1,4 @@
-changed the plan from 2-10-26 to v2:
+changed the plan from 29-09-26 to v2:
 - only compare lap times of rounds 1-13 and rounds 14-19 of 2014, with mercedes 2013 as a baseline for the comparison
 - there are more driver pairs, 7 driver pairs stayed together throughout the entirety of the 2014 season. 
 	- Mercedes (Lewis Hamilton and Nico Rosberg)
@@ -19,4 +19,4 @@ changed the plan from 2-10-26 to v2:
 - coaching was legal in 2013, so this shows me how much the gap in lap time normally shifts between these 2 stretches
 - i would not compare the data for the 2013 and 2014 season directly, as regulation changes are a huge factor
 
-i also established a rule that if the gap numbers, the shift in gaps and the permutation test (see 2-10-26 notes for explanation) are not final by Sun 25-10-2026, drop the 2013 baseline, as it would put me behind schedule.
+i also established a rule that if the gap numbers, the shift in gaps and the permutation test (see 29-09-26 notes for explanation) are not final by Sun 25-10-2026, drop the 2013 baseline, as it would put me behind schedule.
