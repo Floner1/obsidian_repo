@@ -68,4 +68,6 @@ problems with the plan that was synthesized on 09-09-2026
 - only 2 pair of drivers stayed together from 2013-2014, hamilton and rosberg in mercedes, bianchi and chilton in marussia. the pair of marussia split in 2014, so only really 1 pair of drivers. 
 - hamilton and rosberg were also heavily involved in the title fight in 2014. this could have caused drivers to push considerably harder and take more risks than normal, or the races could have been influenced by team orders more often than without a title fight involved.
 
-![[Pasted image 20261005173626.png]]
+i would pull data from jolpica and fastf1api about driver lap times and the gap between the lap times 
+
+if the lap time gap numbers, the shift in the gap and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
