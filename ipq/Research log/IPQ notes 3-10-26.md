@@ -14,4 +14,5 @@ changed the plan from 2-10-26 to v2:
 
 
 - the mercedes 2013 baseline allows me to tell whether a change in the teammate gap after round 14 comes from the ban or from ordinary variation.
-- i would apply the same split to th
+- i would apply the same split to the 2013 season (split data from rounds 1-13 and rounds 14-19)
+- coaching was legal in 2013, so this shows me how much the gap in lap time normally shif
