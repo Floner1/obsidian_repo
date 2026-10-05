@@ -75,7 +75,6 @@ how permutations test would run:
 - then we pool these values and assign them randomly to the 2 groups
 - recalculate the difference in median lap times
 - repeat a few thousand times
-- the p value is the % of the shuffles that produced a difference at least  as large as my real comparison
-- e
+- the p value is the % of the shuffles that produced a difference at least as large as my real comparison
+- eg. a p value of 0.01 means that only 1% of the shuffles produced a difference atleast as large as my real comparison
 
-if the lap time gap numbers, the shift in the gap and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
