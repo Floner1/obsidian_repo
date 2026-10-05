@@ -19,13 +19,14 @@ found a bunch of sources:
 - Revised to driver performance only: https://www.formula1.com/en/latest/headlines/2014/9/FIA-revises-radio-ban-to-driver-performance-only.html
 - RaceFans, FIA to restrict team radio messages (11-09-2014): https://www.racefans.net/2014/09/11/fia-restrict-team-radio-messages-next-race/
 - Formula1.com, FIA clarifies radio transmission restrictions (16-09-2014): https://www.formula1.com/en/latest/article/fia-clarifies-radio-transmission-restrictions.4uSbLsruNnnmXXDqUjh7yV
-- Horner backing FIA's radio ban: https://www.f1-fansite.com/f1-news/horner-prost-back-fia-radio-clampdown/
+- Horner backing FIA's radio ban (2014): https://www.f1-fansite.com/f1-news/horner-prost-back-fia-radio-clampdown/
+- Horner thinks that the radio ban has gone too far (2016): https://www.racefans.net/2016/03/18/f1-gone-too-far-radio-ban-horner/
 - Autosport, FIA abandons plans to further restrict radio: https://www.autosport.com/f1/news/fia-abandons-plans-to-further-restrict-formula-1-radio-information-5009856/5009856/
 - Motorsport.com, full scope of the 2016 radio ban: https://www.motorsport.com/f1/news/analysis-the-full-scope-of-f1-s-2016-radio-ban-677934/677934/
 - RaceFans, radio ban lifted (28-07-2016): https://www.racefans.net/2016/07/28/radio-ban-lifted-races/
 - F1 Oversteer, the 2016 radio rule: https://www.f1oversteer.com/features/the-bizarre-f1-rule-that-was-brought-in-for-12-races-and-then-scrapped/
 - Autosport, radio restrictions lifted from German GP: https://www.autosport.com/f1/news/formula-1s-radio-restrictions-to-be-lifted-from-german-gp-5039652/5039652/
-- Found but not read: Motorsport.com, common sense prevails as F1 abandons radio ban rules: https://www.motorsport.com/f1/news/common-sense-prevails-as-f1-abandons-complex-radio-ban-rules/3222387/
+- Motorsport.com, common sense prevails as F1 abandons radio ban rules: https://www.motorsport.com/f1/news/common-sense-prevails-as-f1-abandons-complex-radio-ban-rules/3222387/
 
 ### Seasons and line-ups
 
