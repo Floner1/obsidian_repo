@@ -19,7 +19,7 @@ revised ipq notes 2-10-26 and added some more stuff
 - Title fight: Hamilton and Rosberg fought for the 2014 title. That is another factor I cannot adjust for.
 - Link to the question: the test measures a coaching ban. The question is about data-driven strategy. I owe a defence of that link (see Question, hypothesis and prediction).
 
-### Version 2 (02-10-2026): the within-2014 split plus a 2013 Mercedes baseline
+### Version 2 (03-10-2026): the within-2014 split plus a 2013 Mercedes baseline
 
 - Test: compare teammate lap-time gaps in 2014 rounds 1 to 13 against rounds 14 to 19, around the FIA coaching ban. 2013 Mercedes is a thin baseline.
 - Data: lap times, positions and driver IDs from jolpica. No sector data exists for 2013 or 2014.
