@@ -19,7 +19,7 @@ found a bunch of sources:
 - Revised to driver performance only: https://www.formula1.com/en/latest/headlines/2014/9/FIA-revises-radio-ban-to-driver-performance-only.html
 - RaceFans, FIA to restrict team radio messages (11-09-2014): https://www.racefans.net/2014/09/11/fia-restrict-team-radio-messages-next-race/
 - Formula1.com, FIA clarifies radio transmission restrictions (16-09-2014): https://www.formula1.com/en/latest/article/fia-clarifies-radio-transmission-restrictions.4uSbLsruNnnmXXDqUjh7yV
-- Abu Dhabi 2014 press conference (Horner and Wolff): https://www.fia.com/news/2014-abu-dhabi-grand-prix-thursday-press-conference
+- Horner backing FIA's radio ban: https://www.f1-fansite.com/f1-news/horner-prost-back-fia-radio-clampdown/
 - Autosport, FIA abandons plans to further restrict radio: https://www.autosport.com/f1/news/fia-abandons-plans-to-further-restrict-formula-1-radio-information-5009856/5009856/
 - Motorsport.com, full scope of the 2016 radio ban: https://www.motorsport.com/f1/news/analysis-the-full-scope-of-f1-s-2016-radio-ban-677934/677934/
 - RaceFans, radio ban lifted (28-07-2016): https://www.racefans.net/2016/07/28/radio-ban-lifted-races/
