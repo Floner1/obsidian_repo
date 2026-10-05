@@ -1,80 +1,22 @@
-recognise opposite arguments, perfuse them? 
-don't wanna just regurgitate facts, u wanna analyse synthesise implications arugments evidences from diff sources, discuss, argue, criticise, evaluate, etc.
+changed the plan from 2-10-26 to v2:
+- only compare lap times of rounds 1-13 and rounds 14-19 of 2014, with mercedes 2013 as a baseline for the comparison
+- there are more driver pairs, 7 driver pairs stayed together throughout the entirety of the 2014 season. 
+	- Mercedes (Lewis Hamilton and Nico Rosberg)
+	- Red Bull (Sebastian Vettel and Daniel Ricciardo)
+	- Ferrari (Fernando Alonso and Kimi Räikkönen)
+	- Lotus (Romain Grosjean and Pastor Maldonado)
+	- McLaren (Jenson Button and Kevin Magnussen)
+	- Force India (Sergio Pérez and Nico Hülkenberg)
+	- Toro Rosso (Jean-Éric Vergne and Daniil Kvyat)
+	- Williams (Felipe Massa and Valtteri Bottas)
+	- Sauber (Esteban Gutiérrez and Adrian Sutil)
+- the same engine and regulations ran throughout the season, so less variables and factors to account for
 
-essay should be skillful and persuasive
 
-higher lvl of reading and noting, research, uni prep basically 
+- mercedes was the only team that had the same pair of drivers for 2013 and 2014, which removes a variable
+- the mercedes 2013 baseline allows me to tell whether a change in the teammate gap after round 14 comes from the ban or from ordinary variation.
+- i would apply the same split to the 2013 season (split data from rounds 1-13 and rounds 14-19)
+- coaching was legal in 2013, so this shows me how much the gap in lap time normally shifts between these 2 stretches
+- i would not compare the data for the 2013 and 2014 season directly, as regulation changes are a huge factor
 
-reading, note taking, organisation, higher cognitive abilities 
-
-read purposefully, skim and scan rather than word for word, important to write down what questions u want research to answer, more time to process idea
-
-avoid superficiality, depth is better, criticise and evaluate always, analyze 
-
-generate own ideas while reading 
-
-add own thoughts to things that u read, prevents plagirisaion? 
-
-reflection of our own thinking  
-
-organise work in a way where u can easily tap into them and be able to retrieve the, and produce immediate improvements
-
-dont have to read books cover to cover, just read the things u need
-relevant material
-dont waste time
-
-radio coaching ban from singapore 2014 - lifted at german gp 2016
-
-maybe compare during ban and after + preban? 
-but then cars are very diff
-pre ban can only rlly compare rosberg and hamilton cus only them stayed tgt from 2013-14, but then in 14 they were fighting for title so adds another factor which is hard to adjust for
-post german gp 2016 only 9 rounds left in 2016, so we can also use that data
-
-so first 14 rounds of 2014 (rounds 1-13) and last 9 rounds of 2016: no driver ban, 23 races total
-
-This restriction was introduced to enforce the sporting regulation that "the driver must drive the car alone and unaided," Article 20.1 (or Article 27.1 in later versions) of fia sporting conduct
-Gear selection and braking points.
-Racing lines and car set-up adjustments.
-Direct technical questions (e.g., torque map settings)
-
-dropped in 2016: no limit in race, apart from period between start and formation lap and start of race
-stricter ban for first 11 races of 2016, separate group
-6 races in 2014 and 19 races in 2015 radio ban, 25
-36 total races wit radio ban compared to 23 wit no radio ban
-
-banning radio coaching would make gap between worse driver even worse and make races less exciting and competitive
-
-green flag laps only, no lap 1, no pit laps, safety car laps, wet races. 
-
-comparing shifts in gaps between teammates
-
-wet races 2014-2016: 
-https://www.reddit.com/r/formula1/comments/g0plkr/list_of_wet_weather_races_and_wins_by_driver/
-2 in 2014: hungary and japan
-2 in 2015: gb and usa
-3 in 2016:  monaco, gb and brazil
-22 coaching races and 30 no coaching races when accounted for rain
-
-merc line up same 2014-2016 nico and hamilton
-williams same lineup 2014-2016 massa and bottas
-force india same 2014-2016 perez and hulk
-ferrari same 2015-2016 seb and kimi
-
-Saturday's data = real standard deviation. If  shift is smaller than the thresholds above, report the result as inconclusive. 
-
-problems with the plan that was synthesized on 09-09-2026
-- huge regulation change from 2013-2014, chassis, engine, etc. one of the largest regulation changes in f1 history. change in gap could have occured from cars, not from driver coaching
-- 2014 ban started in singapore gp, round 14/19, so only 6 races of sample data, which is not a large enough sample size to get reliable data
-- only 2 pair of drivers stayed together from 2013-2014, hamilton and rosberg in mercedes, bianchi and chilton in marussia. the pair of marussia split in 2014, so only really 1 pair of drivers. 
-- hamilton and rosberg were also heavily involved in the title fight in 2014. this could have caused drivers to push considerably harder and take more risks than normal, or the races could have been influenced by team orders more often than without a title fight involved.
-
-i would pull data from jolpica and fastf1api about driver lap times and the gap between the lap times between drivers, as well as run a permutations test, which is where i check whether the difference that i measured between the shift in lap times is bigger than random shuffling would be
-
-how permutations test would run:
-- take the 2013 merc and marussia drivers, compare and calculate difference in median lap times to 2014 merc and marussia drivers. 
-- then we pool these values and assign them randomly to the 2 groups
-- recalculate the difference in median lap times
-- repeat a few thousand times
-- the p value is the % of the shuffles that produced a difference at least as large as my real comparison
-- eg. a p value of 0.01 means that only 1% of the shuffles produced a difference atleast as large as my real comparison
-
+i also established a rule that if the gap numbers, the shift in gaps and the permutation test (see 2-10-26 notes for explanation) are not final by Sun 25-10-2026, drop the 2013 baseline, as it would put me behind schedule.

@@ -47,7 +47,7 @@ Why the within-2014 split helped:
 - On why the baseline is thin: it rests on one pair and one season. It sizes ordinary variation. It proves nothing alone, and it is not a control.
 - I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
 
-### Version 3 (current, 04-10-2026): the ban on and off across 2014 to 2016
+### Version 3 (current, 03-10-2026): the ban on and off across 2014 to 2016
 
 I found a better idea than version 2. It uses the 2014 and 2016 races with no ban against the races with a ban from 2014 to 2016.
 
@@ -77,10 +77,10 @@ What it costs:
 - More data to pull and clean: 59 races across 3 seasons.
 - Probably one or two extra sessions.
 
-### Question change (04-10-2026)
+### Question change (03-10-2026)
 
 - Original question (09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
-- New question (04-10-2026): To what extent did the FIA's 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?
+- New question (03-10-2026): To what extent did the FIA's 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?
 
 Why I changed it:
 
