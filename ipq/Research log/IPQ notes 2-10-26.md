@@ -73,5 +73,7 @@ i would pull data from jolpica and fastf1api about driver lap times and the gap 
 how permutations test would run:
 - take the 2013 merc and marussia drivers, compare and calculate difference in median lap times to 2014 merc and marussia drivers. 
 - then we pool these values and assign them randomly to the 2 groups
+- recalculate the difference in median lap times
+- repeat a few thousand times
 
 if the lap time gap numbers, the shift in the gap and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
