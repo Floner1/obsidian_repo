@@ -18,4 +18,5 @@ changed the plan from 2-10-26 to v2:
 - i would apply the same split to the 2013 season (split data from rounds 1-13 and rounds 14-19)
 - coaching was legal in 2013, so this shows me how much the gap in lap time normally shifts between these 2 stretches
 - i would not compare the data for the 2013 and 2014 season directly, as regulation changes are a huge factor
--
+
+i also established a rule that if the gap numbers, the shift in gaps and the permutation test (see 2-10-26 notes for explanation) are not final by Sun 25-10-2026, drop the 2013 baseline, as it would put me behind schedule.
