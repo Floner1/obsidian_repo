@@ -1,4 +1,4 @@
-revised ipq notes 2-10-26 and added some more stuff
+	revised ipq notes 2-10-26 and added some more stuff
 
 # Plan changes
 
