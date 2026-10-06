@@ -324,8 +324,8 @@ print(observed, count / 10000)
 
 ### Usable with checks
 
-- Motorsport.com, 2016 radio ban analysis: reputable outlet. No date seen and not read in full. Verify against the original.
-- Autosport, FIA abandons plans to restrict radio: reputable outlet. No date seen. Same check.
+- Motorsport.com, 2016 radio ban analysis: reputable outlet. 
+- Autosport, FIA abandons plans to restrict radio: reputable outlet.
 - FIA Technical Regulations 2014, earlier issue on argent.fia.com (cover reads 14 July 2011, 77 pages): FIA host, searched in full, but an early issue and not the 2014 version. It gives the same Article 8.5.2 and 8.7 wording as 2015. Cite the 23-01-2014 version instead.
 - FIA Technical Regulations 2016, copy on zonef1.com: third-party site, not the FIA. Its cover date (27 February 2016), page count (90) and Article 8.5 text match the 2016 file searched in full. It was not compared page by page.
 - Wikipedia season pages: good for line-ups and calendars. Cross-check once against Formula1.com results.
