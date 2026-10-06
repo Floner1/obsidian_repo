@@ -47,7 +47,7 @@ Why the within-2014 split helped:
 - On why the baseline is thin: it rests on one pair and one season. It sizes ordinary variation. It proves nothing alone, and it is not a control.
 - I had established a rule in v2 of the plan: if the gap numbers, the shift and the permutation test are not final by Sun 25-10-2026, drop the 2013 baseline first, as it would put me behind schedule.
 
-### Version 3 (current, 03-10-2026): the ban on and off across 2014 to 2016
+### Version 3 (current, 05-10-2026): the ban on and off across 2014 to 2016
 
 I found a better idea than version 2. It uses the 2014 and 2016 races with no ban against the races with a ban from 2014 to 2016.
 
@@ -77,7 +77,7 @@ What it costs:
 - More data to pull and clean: 59 races across 3 seasons.
 - Probably one or two extra sessions.
 
-### Question change (03-10-2026)
+### Question change (05-10-2026)
 
 - Original question (09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
 - New question (03-10-2026): To what extent did the FIA's 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?
@@ -96,7 +96,7 @@ What I keep:
 ## Question, hypothesis and prediction
 
 - Original research question (09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
-- Current research question (changed 04-10-2026, see Plan changes): To what extent did the FIA's 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?
+- Current research question (changed 05-10-2026, see Plan changes): To what extent did the FIA's 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?
 - Link to the original topic: in-race coaching is data-driven instruction from the pit wall, so it is one part of data-driven strategy. The test covers only that part.
 - 150-word definition owed (due Fri 09-10). It must define in-race coaching and the teammate gap, then add one sentence on how coaching connects to data-driven strategy and what the test leaves out.
 - Hypothesis: banning coaching removes help for the weaker driver, so the teammate gap should widen when the ban starts and narrow again after it ends.
