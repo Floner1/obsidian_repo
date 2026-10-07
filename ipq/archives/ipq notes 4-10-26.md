@@ -125,8 +125,7 @@ What I keep:
 ### 2015
 
 - The push to widen the ban to car performance for 2015 was abandoned. Only the driver-coaching phase stayed in force through 2015.
-- Sources: Autosport and Motorsport.com. Neither has been read in full and no publication dates were visible. Find the dated originals before citing.
-- A text search of all 57 pages of the 2015 Sporting Regulations (03-12-2014 version, see Links) found no team radio article. Article 20.1 is unchanged. Amendments published during 2015 are not covered.
+- Sources: Autosport and Motorsport.com. 
 
 ### 2016
 
