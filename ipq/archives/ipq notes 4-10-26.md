@@ -98,7 +98,7 @@ What I keep:
 - Original research question (09-09-2026): whether data-driven strategy reduces the role of driver skill in F1.
 - Current research question (changed 05-10-2026, see Plan changes): To what extent did the FIA's 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?
 - Link to the original topic: in-race coaching is data-driven instruction from the pit wall, so it is one part of data-driven strategy. The test covers only that part.
-- 150-word definition owed (due Fri 09-10). It must define in-race coaching and the teammate gap, then add one sentence on how coaching connects to data-driven strategy and what the test leaves out.
+	- 150-word definition owed (due Fri 09-10). It must define in-race coaching and the teammate gap, then add one sentence on how coaching connects to data-driven strategy and what the test leaves out.
 - Hypothesis: banning coaching removes help for the weaker driver, so the teammate gap should widen when the ban starts and narrow again after it ends.
 - Write the prediction in the log before I see any data.
 - I can't test that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement, can be part of context in FIA's debate.
