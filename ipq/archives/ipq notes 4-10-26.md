@@ -102,8 +102,7 @@ What I keep:
 - Hypothesis: banning coaching removes help for the weaker driver, so the teammate gap should widen when the ban starts and narrow again after it ends.
 - Write the prediction in the log before I see any data.
 - I can't test that the ban makes races "less exciting and competitive". Lap gaps do not measure excitement, can be part of context in FIA's debate.
-- FIA motive, reported by Motorsport.com: make drivers "heroes again". Check the original wording before quoting.
-- Opposing views: Horner and Wolff disagreed on record (from my 05-09 notes, see Links).
+- FIA motive, reported by Motorsport.com: make drivers "heroes again". 
 
 ## Background: the radio ban timeline
 
