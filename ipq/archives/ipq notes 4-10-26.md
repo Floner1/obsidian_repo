@@ -120,7 +120,7 @@ What I keep:
 - Banned immediately (examples named by Formula1.com): driving lines on the circuit, contact with kerbs, braking points, throttle application in general, driving technique in general.
 - Postponed to 2015 (car performance): car set-up parameters for specific corners, and comparative data between drivers' speeds and gear selections.
 - Reason given: "the complexity of introducing such a ban at short notice".
-- Sources disagree on gear selection. Formula1.com puts it in the postponed group. Motorsport.com's 2016 analysis puts it in the first phase. Cite Formula1.com and say the sources differ.
+- Sources disagree on gear selection. Formula1.com puts it in the postponed group. Motorsport.com's 2016 analysis puts it in the first phase. 
 
 ### 2015
 
