@@ -212,10 +212,14 @@ The examples are grouped by ban type because braking points, racing lines, gear 
 
 ### Gap measure
 
-- Per race and per pair: median lap time for each driver on clean laps, using matched lap numbers.
-- Gap = the difference as a percent of lap time. Use the absolute value, so it does not matter who is faster.
-- One number per race and pair.
-- Example with made-up numbers: if one driver's median lap is 90.00 seconds and the other's is 90.18, the gap is 0.20 percent.
+Take one race and one team. Find each driver's median race lap time, using clean laps only.
+
+Driver A: 90.0 seconds
+Driver B: 90.6 seconds
+
+Subtract to get the difference: 0.6 seconds.
+Divide by one driver's time: 0.6 / 90.0 = 0.0067.
+Multiply by 100: 0.67 percent.
 
 ### Cleaning rules
 
