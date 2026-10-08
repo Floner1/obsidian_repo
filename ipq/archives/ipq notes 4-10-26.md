@@ -186,6 +186,7 @@ The examples are grouped by ban type because braking points, racing lines, gear 
 - No ban: 21. Coaching ban: 22. Full ban: 9. Total: 52.
 - Wet races removed: Hungary 2014 and Brazil 2016 (no ban), Japan 2014, Britain 2015 and USA 2015 (coaching ban), Monaco 2016 and Britain 2016 (full ban).
 - This rests on my wet-race list, checked against race pages, and on the whole-race rule (see Wet races).
+
 ### Pairs (line-ups from the 2014, 2015 and 2016 season pages)
 
 - Mercedes: Rosberg and Hamilton, 2014 to 2016.
