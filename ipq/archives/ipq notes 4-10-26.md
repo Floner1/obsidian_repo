@@ -216,7 +216,7 @@ Divide by one driver's time: 0.6 / 90.0 = 0.0067.
 Multiply by 100: 0.67 percent.
 
 ### Cleaning rules
-
+	
 - Green-flag laps only. Reason (mine): the lap should show racing pace.
 - Drop lap 1. Reason: it depends on grid position and traffic.
 - Drop pit in-laps and out-laps. Reason: they do not show pace.
