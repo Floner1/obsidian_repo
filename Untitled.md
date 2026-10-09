@@ -1,0 +1,4 @@
+1. What are the internal draft deadline, the internal final deadline and Cambridge’s June 2027 submission date? Ask her to email them to you.
+2. Can you do a lighter version? Ask if one driver pair with a simple comparison is allowed, and what she would cut first. Ask if a later exam series is possible and which syllabus code applies.
+3. What is the last date you can withdraw, and what does withdrawing cost?
+4. How and when do you submit the proposal form, and does she accept the new question? “To what extent did the FIA’s 2014 to 2016 ban on in-race driver coaching change the lap-time gap between teammates in F1?”
