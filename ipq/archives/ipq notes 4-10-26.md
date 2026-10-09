@@ -294,7 +294,7 @@ print(observed, count / 10000)
 - Title fights: as far as I know, Hamilton and Rosberg fought for the 2014 and 2016 titles but not 2015. Check on the season pages.
 - Races from the same pair and season are correlated, so the p-value looks better than it should.
 - Mercedes, Williams and Force India all use Mercedes power. The result covers those teams.
-- Coaching is one part of data-driven strategy, so the finding says little about the rest. The 150-word definition covers the link.
+- Coaching is one part of data-driven strategy, so the finding says little about the rest. 
 - Lap-time gap is an imperfect measure of skill.
 - The stricter 2016 ban is a different treatment, so it stays a separate group.
 - No sector data, so no corner-level analysis.
