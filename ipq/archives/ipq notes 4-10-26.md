@@ -298,7 +298,7 @@ print(observed, count / 10000)
 - Lap-time gap is an imperfect measure of skill.
 - The stricter 2016 ban is a different treatment, so it stays a separate group.
 - No sector data, so no corner-level analysis.
-- Data access is confirmed from documentation only until the smoke test runs.
+- Data access is confirmed
 - Five of the 7 races dropped as wet had mixed conditions, so they also lose their dry laps (see Wet races). The findings cover dry races only. Wet races may show larger teammate gaps. No source yet.
 - The 2014 ban was enforced through a race director directive reading Article 20.1, and no article in the 2014, 2015 or 2016 Sporting Regulations, or in the Technical Regulations searched, limits what teams may say by radio. Technical Regulations Article 8.7 covers the radio equipment only. I cannot say how strictly teams complied.
 - Version 1 and version 2 problems (see Plan changes) can be used here as evidence that I tested my own design.
